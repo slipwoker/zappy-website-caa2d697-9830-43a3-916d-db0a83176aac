@@ -1,0 +1,101 @@
+# פרוטאין סטוק - PROTEIN STOCK — Generative Engine Optimization Map
+
+> Protein Stock is an Israeli online store specializing in imported sports nutrition and fitness supplements from globally recognized brands such as MnM, Snickers, Warrior, and Mars. The store carries a wide range of products including protein powders, protein bars, pump products, magnesium, and other training supplements. The brand aims for a bold, fitness-inspired aesthetic that reflects the energy and identity of the products it sells — powerful yet clean and user-friendly, drawing inspiration from leading supplement e-commerce sites like Ninja Vitamin, Teva Bari, and iHerb.
+
+---
+
+## Pages
+
+### דף הבית
+https://protein-stock-caa2d697.zappy5.app
+גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!
+
+### למה פרוטין סטוק
+https://protein-stock-caa2d697.zappy5.app/why-protein-stock
+רוצה להבין למה מתאמנים בוחרים בנו? אצלנו תמצא אבקות חלבון איכותיות, מגנזיום חיוני ושירות אישי שידחוף אותך קדימה. הצטרף למהפכת הכושר עכשיו!
+
+### מותגים מיובאים
+https://protein-stock-caa2d697.zappy5.app/imported-brands
+חטיפי חלבון מיובאים ישראל ממעצמות הטעם MnM, Warrior ועוד כבר כאן. דפדף בין המותגים הבינלאומיים והתפנק על איכות שאין שנייה לה. קנה עוד היום!
+
+### צור קשר
+https://protein-stock-caa2d697.zappy5.app/contact
+יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
+
+### Products
+https://protein-stock-caa2d697.zappy5.app/products
+המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
+
+### Cart
+https://protein-stock-caa2d697.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://protein-stock-caa2d697.zappy5.app/checkout
+תשלום
+
+### Login
+https://protein-stock-caa2d697.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://protein-stock-caa2d697.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://protein-stock-caa2d697.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://protein-stock-caa2d697.zappy5.app/product/:slug
+פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
+
+### Category
+https://protein-stock-caa2d697.zappy5.app/category/:slug
+מוצרים - פרוטאין סטוק - PROTEIN STOCK
+
+## Legal & Policy
+
+### Privacy Policy
+https://protein-stock-caa2d697.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://protein-stock-caa2d697.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://protein-stock-caa2d697.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About פרוטאין סטוק - PROTEIN STOCK
+Protein Stock is an Israeli online store specializing in imported sports nutrition and fitness supplements from globally recognized brands such as MnM, Snickers, Warrior, and Mars. The store carries a wide range of products including protein powders, protein bars, pump products, magnesium, and other training supplements. The brand aims for a bold, fitness-inspired aesthetic that reflects the energy and identity of the products it sells — powerful yet clean and user-friendly, drawing inspiration from leading supplement e-commerce sites like Ninja Vitamin, Teva Bari, and iHerb.
+
+## Target Audience
+- ספורטאים, מתאמנים ואנשים המחפשים מוצרי תזונת ספורט
+- ספורטאים ומתאמנים
+- שוחרי בריאות
+- חברי חדר כושר
+
+## Industry
+Sports Nutrition E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://protein-stock-caa2d697.zappy5.app/sitemap.xml
+- Robots: https://protein-stock-caa2d697.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://protein-stock-caa2d697.zappy5.app/llms-full.txt
+- Products (JSON): https://protein-stock-caa2d697.zappy5.app/products.json
+- Products (Google Merchant RSS): https://protein-stock-caa2d697.zappy5.app/product-feed.xml
