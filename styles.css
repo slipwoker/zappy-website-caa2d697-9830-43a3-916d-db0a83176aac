@@ -10765,6 +10765,26 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 html body .imported-brands-comparison-section .matrix-row { grid-template-columns: 1fr 1fr !important; }
 html body .imported-brands-comparison-section .matrix-cell { line-height: 1.5 !important; }
 
+
+@media (min-width: 769px) {
+html body .imported-brands-comparison-section .matrix-row {
+  grid-template-columns: 1fr 1.2fr 1fr !important;
+}
+
+html body .imported-brands-comparison-section .matrix-cell:nth-child(3) {
+  display: flex !important;
+}
+
+html body .imported-brands-comparison-section .matrix-row.matrix-header .matrix-cell:nth-child(3) {
+  display: flex !important;
+}
+}
+/* zappy-self-heal */
+html body .imported-brands-comparison-section .matrix-row { grid-template-columns: 1fr 1.2fr 1fr !important; }
+
+/* zappy-self-heal */
+html body html body .imported-brands-comparison-section .matrix-row { grid-template-columns: 1fr 1.2fr 1fr !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
