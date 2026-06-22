@@ -4190,7 +4190,7 @@ main { flex: 1 0 auto; }
 }
 
     .imported-brands-comparison-section .matrix-row {
-  grid-template-columns: minmax(100px, auto) 1fr;
+  grid-template-columns: 1fr 1fr 1fr !important;
   min-width: unset;
 }
 
