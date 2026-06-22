@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://protein-stock.zappy5.app</loc>
+    <loc>https://proteinstock.co.il</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/why-protein-stock</loc>
+    <loc>https://proteinstock.co.il/why-protein-stock</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/global-brands</loc>
+    <loc>https://proteinstock.co.il/global-brands</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/contact</loc>
+    <loc>https://proteinstock.co.il/contact</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/products</loc>
+    <loc>https://proteinstock.co.il/products</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/cart</loc>
+    <loc>https://proteinstock.co.il/cart</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/checkout</loc>
+    <loc>https://proteinstock.co.il/checkout</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/login</loc>
+    <loc>https://proteinstock.co.il/login</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/account</loc>
+    <loc>https://proteinstock.co.il/account</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/order-success</loc>
+    <loc>https://proteinstock.co.il/order-success</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/product/:slug</loc>
+    <loc>https://proteinstock.co.il/product/:slug</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/category/:slug</loc>
+    <loc>https://proteinstock.co.il/category/:slug</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/privacy</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://protein-stock.zappy5.app/terms</loc>
+    <loc>https://proteinstock.co.il/privacy</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://protein-stock.zappy5.app/accessibility</loc>
+    <loc>https://proteinstock.co.il/terms</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://proteinstock.co.il/accessibility</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

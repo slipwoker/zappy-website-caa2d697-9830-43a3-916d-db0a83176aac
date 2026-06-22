@@ -7,65 +7,65 @@
 ## Pages
 
 ### דף הבית
-https://protein-stock.zappy5.app
+https://proteinstock.co.il
 גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!
 
 ### למה פרוטין סטוק
-https://protein-stock.zappy5.app/why-protein-stock
+https://proteinstock.co.il/why-protein-stock
 רוצה להבין למה מתאמנים בוחרים בנו? אצלנו תמצא אבקות חלבון איכותיות, מגנזיום חיוני ושירות אישי שידחוף אותך קדימה. הצטרף למהפכת הכושר עכשיו!
 
 ### מותגים מכל העולם
-https://protein-stock.zappy5.app/global-brands
+https://proteinstock.co.il/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
 ### צור קשר
-https://protein-stock.zappy5.app/contact
+https://proteinstock.co.il/contact
 יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
 ### Products
-https://protein-stock.zappy5.app/products
+https://proteinstock.co.il/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
 ### Cart
-https://protein-stock.zappy5.app/cart
+https://proteinstock.co.il/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://protein-stock.zappy5.app/checkout
+https://proteinstock.co.il/checkout
 תשלום
 
 ### Login
-https://protein-stock.zappy5.app/login
+https://proteinstock.co.il/login
 התחברות לקוחות
 
 ### Account
-https://protein-stock.zappy5.app/account
+https://proteinstock.co.il/account
 החשבון שלי
 
 ### Order Success
-https://protein-stock.zappy5.app/order-success
+https://proteinstock.co.il/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://protein-stock.zappy5.app/product/:slug
+https://proteinstock.co.il/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
 ### Category
-https://protein-stock.zappy5.app/category/:slug
+https://proteinstock.co.il/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://protein-stock.zappy5.app/privacy
+https://proteinstock.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://protein-stock.zappy5.app/terms
+https://proteinstock.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://protein-stock.zappy5.app/accessibility
+https://proteinstock.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -94,8 +94,8 @@ Sports Nutrition E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://protein-stock.zappy5.app/sitemap.xml
-- Robots: https://protein-stock.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://protein-stock.zappy5.app/llms-full.txt
-- Products (JSON): https://protein-stock.zappy5.app/products.json
-- Products (Google Merchant RSS): https://protein-stock.zappy5.app/product-feed.xml
+- Sitemap (XML): https://proteinstock.co.il/sitemap.xml
+- Robots: https://proteinstock.co.il/robots.txt
+- Flattened page text (for LLMs): https://proteinstock.co.il/llms-full.txt
+- Products (JSON): https://proteinstock.co.il/products.json
+- Products (Google Merchant RSS): https://proteinstock.co.il/product-feed.xml
