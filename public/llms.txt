@@ -7,65 +7,65 @@
 ## Pages
 
 ### דף הבית
-https://example.com
+https://protein-stock.zappy5.app
 גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!
 
 ### למה פרוטין סטוק
-https://example.com/why-protein-stock
+https://protein-stock.zappy5.app/why-protein-stock
 רוצה להבין למה מתאמנים בוחרים בנו? אצלנו תמצא אבקות חלבון איכותיות, מגנזיום חיוני ושירות אישי שידחוף אותך קדימה. הצטרף למהפכת הכושר עכשיו!
 
 ### מותגים מכל העולם
-https://example.com/global-brands
+https://protein-stock.zappy5.app/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
 ### צור קשר
-https://example.com/contact
+https://protein-stock.zappy5.app/contact
 יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
 ### Products
-https://example.com/products
+https://protein-stock.zappy5.app/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
 ### Cart
-https://example.com/cart
+https://protein-stock.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://protein-stock.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://protein-stock.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://protein-stock.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://protein-stock.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://protein-stock.zappy5.app/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
 ### Category
-https://example.com/category/:slug
+https://protein-stock.zappy5.app/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://protein-stock.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://protein-stock.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://protein-stock.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -94,8 +94,8 @@ Sports Nutrition E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://protein-stock.zappy5.app/sitemap.xml
+- Robots: https://protein-stock.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://protein-stock.zappy5.app/llms-full.txt
+- Products (JSON): https://protein-stock.zappy5.app/products.json
+- Products (Google Merchant RSS): https://protein-stock.zappy5.app/product-feed.xml
