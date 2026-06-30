@@ -3887,7 +3887,6 @@ main { flex: 1 0 auto; }
   height: 0;
   overflow: hidden;
   background-color: #f0f2f5;
-  border-radius: 12px;
 }
 
 .imported-brands-showcase-section__tile--tall .imported-brands-showcase-section__tile-image-wrapper {
@@ -11018,10 +11017,6 @@ nav.navbar .sub-menu li a:hover { color: #175FEA !important; background-color: r
   }
 }
 /* === NAVBAR STYLE OVERRIDES END === */
-
-.imported-brands-showcase-section [data-zappy-zoom-wrapper] {
-  border-radius: 12px !important;
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
