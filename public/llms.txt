@@ -75,13 +75,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
-https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ye286d
-- Price: 9.90 ILS (sale, was 11.90 ILS)
+https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-m9dbgd
+- Price: 119.00 ILS (sale, was 143.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999301
 - Brand: M&Ms
-- Description: מארז 12 חטיפי M&amp;Ms האהוב בטעם שוקולד עם 15 גרם חלבון בכל חטיף
+- Description: מארז של 12 חטיפי חלבון M&M's בטעם שוקולד, המשלב את הטעם האייקוני של M&M's עם תוספת חלבון איכותית. כל חטיף מכיל 15 גרם חלבון, מה שהופך אותו לבחירה מצוינת לנשנוש במהלך היום, לאחר אימון או כשמתחשק משהו מתוק עם ערך תזונתי גבוה יותר. החטיפים מציעים שילוב של שוקולד עשיר, סוכריות M&M's צבעוניות ומרקם מפנק, כך שתוכלו ליהנות מהטעם המוכר והאהוב לצד תוספת חלבון. יתרונות המוצר: 🍫 מארז של 12 חטיפי חלבון. 💪 15 גרם חלבון בכל חטיף. 🌈 בטעם השוקולד האייקוני של M&M's. ⚡ מתאים לנשנוש בין הארוחות או לאחר אימון
+- Image: https://proteinstock.co.il/assets/product-1782991025415-wp819.webp
 
 ---
 
