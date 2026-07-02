@@ -1,8 +1,31 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-02T10:41:58.849Z",
+  "generated_at": "2026-07-02T11:06:34.150Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "1957a94e-129e-4ab7-9fe2-12a7b1c406f5",
+      "slug": "marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ye286d",
+      "name": "מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות ",
+      "name_translations": {},
+      "description": "<p>מארז 12 חטיפי M&amp;Ms האהוב בטעם שוקולד עם 15 גרם חלבון בכל חטיף </p>",
+      "short_description": null,
+      "sku": "5056357999301",
+      "brand": "M&Ms",
+      "price": 9.9,
+      "base_price": 11.9,
+      "sale_price": 9.9,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ye286d",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-07-02T11:06:02.079Z"
+    }
+  ]
 }

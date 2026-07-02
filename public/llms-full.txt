@@ -5197,3 +5197,16 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ---
 
+## Product Catalog
+
+### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
+URL: https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ye286d
+Price: 9.90 ILS (sale, was 11.90 ILS)
+Availability: In stock
+SKU: 5056357999301
+Brand: M&Ms
+
+מארז 12 חטיפי M&amp;Ms האהוב בטעם שוקולד עם 15 גרם חלבון בכל חטיף
+
+---
+
