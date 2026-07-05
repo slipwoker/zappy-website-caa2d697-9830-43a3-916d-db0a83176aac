@@ -5200,8 +5200,8 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ## Product Catalog
 
 ### מארז 6 יחידות דייסות החלבון Critical Oats בטעם שוקולד במשקל 60 גרם מכיל 23 גרם חלבון למנה
-URL: https://proteinstock.co.il/product/marz-6-ychydvt-dyysvt-hchlbvn-critical-oats-btam-shvkvld-bmshkl-60-grm-mkyl-23-grm-chlbvn-lmnh-ar9gaf
-Price: 15.90 ILS (sale, was 18.00 ILS)
+URL: https://proteinstock.co.il/product/marz-6-ychydvt-dyysvt-hchlbvn-critical-oats-btam-shvkvld-bmshkl-60-grm-mkyl-23-grm-chlbvn-lmnh-h493x0
+Price: 95.40 ILS (sale, was 108.00 ILS)
 Availability: In stock
 SKU: 634158711732
 Brand: Applied Nutrition 
