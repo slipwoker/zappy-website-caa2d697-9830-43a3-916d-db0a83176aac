@@ -75,8 +75,8 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
-https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-pe4omu
-- Price: 0.00 ILS (sale, was 168.00 ILS)
+https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-7nn4o1
+- Price: 168.00 ILS (sale, was 179.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999301
