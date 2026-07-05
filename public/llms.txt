@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
+**Total active products: 2**
+
+### מארז 6 יחידות דייסות החלבון Critical Oats בטעם שוקולד במשקל 60 גרם מכיל 23 גרם חלבון למנה
+https://proteinstock.co.il/product/marz-6-ychydvt-dyysvt-hchlbvn-critical-oats-btam-shvkvld-bmshkl-60-grm-mkyl-23-grm-chlbvn-lmnh-ar9gaf
+- Price: 15.90 ILS (sale, was 18.00 ILS)
+- Availability: In stock
+- Category: שיבולת שועל בתוספת חלבון
+- SKU: 634158711732
+- Brand: Applied Nutrition 
+- Description: סדרת דייסות החלבון Critical Oats מבית Applied Nutrition משלבת שיבולת שועל מלאה ואורגנית עם 23 גרם חלבון איכותי במנה אחת. זהו הפתרון האידיאלי לארוחה מזינה, משביעה ומהירה, התומכת בבניית השריר ובאנרגיה מתמשכת לאורך כל היום.23g חלבון למנה – לתמיכה בשרירים ובהתאוששות.שיבולת שועל מלאה – לפחמימות מורכבות ושובע ממושך.מוכן ב-3 דקות – פשוט מוסיפים מים חמים או חלב ונהנים.טעמים מנצחים – קרם עוגיות, שוקולד, סירופ זהב ועוד.בחרו את הטעם האהוב עליכם ושדרגו את הבוקר שלכם!
+- Image: https://proteinstock.co.il/assets/product-1783242637530-tqaol8.webp
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
 https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-4wbyms
