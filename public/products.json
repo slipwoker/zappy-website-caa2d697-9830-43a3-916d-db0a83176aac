@@ -1,22 +1,22 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-02T11:21:45.600Z",
+  "generated_at": "2026-07-05T08:38:18.111Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 1,
   "products": [
     {
       "id": "1957a94e-129e-4ab7-9fe2-12a7b1c406f5",
-      "slug": "marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ltreay",
+      "slug": "marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-pe4omu",
       "name": "מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות ",
       "name_translations": {},
       "description": "<p>מארז 12 חטיפי חלבון M&amp;M's Hi Protein בטעם שוקולד | 15 גרם חלבון בכל חטיף</p><p>אוהבים את הטעם הקלאסי של <strong>M&amp;M's</strong>? עכשיו אפשר ליהנות ממנו גם בגרסת חלבון מפנקת. מארז <strong>12 חטיפי M&amp;M's Hi Protein</strong> משלב את השוקולד האייקוני עם סוכריות M&amp;M's הצבעוניות, לצד <strong>15 גרם חלבון איכותי בכל חטיף</strong> – שילוב מושלם בין פינוק לערכים תזונתיים.</p><p>כל חטיף שוקל <strong>51 גרם</strong> ומספק <strong>192 קלוריות</strong>, מה שהופך אותו לאופציה מצוינת לנשנוש בין הארוחות, לאחר אימון או בכל פעם שמתחשק משהו מתוק ועשיר בחלבון. תערובת החלבונים מבוססת על חלבוני חלב וחלבון מי גבינה (Whey), המסייעים בהגדלת צריכת החלבון היומית כחלק מתזונה מאוזנת.</p><p>המארז כולל <strong>12 חטיפים אישיים</strong>, כך שתמיד יהיה לכם חטיף זמין בתיק, במשרד, ברכב או לאחר האימון.</p><p>יתרונות המוצר</p><ul><li>💪 <strong>15 גרם חלבון איכותי</strong> בכל חטיף.</li><li>🍫 הטעם האייקוני של <strong>M&amp;M's</strong> עם שוקולד וסוכריות צבעוניות.</li><li>📦 <strong>מארז חסכוני של 12 יחידות</strong>.</li><li>⚡ מתאים כנשנוש במהלך היום או לאחר אימון.</li><li>🎒 אריזה אישית נוחה לנשיאה לכל מקום.</li></ul><p>ערכים תזונתיים (לכל חטיף – 51 גרם)</p><ul><li><strong>אנרגיה:</strong> 192 קלוריות</li><li><strong>חלבון:</strong> 15 גרם</li><li><strong>פחמימות:</strong> 23 גרם</li><li><strong>מתוכן סוכרים:</strong> 15 גרם</li><li><strong>שומן:</strong> 5.5 גרם</li><li><strong>מלח:</strong> 0.3 גרם</li></ul><p>ב-<strong>Protein Stock</strong> תוכלו למצוא את חטיפי החלבון המקוריים של המותגים המובילים בעולם, במחירים משתלמים, עם משלוח מהיר עד הבית ושירות מקצועי. אם אתם מחפשים חטיף שמשלב טעם מוכר ואהוב עם תוספת חלבון איכותית – <strong>M&amp;M's Hi Protein</strong> הוא הבחירה המושלמת.</p>",
       "short_description": "מארז של 12 חטיפי חלבון M&M's בטעם שוקולד, המשלב את הטעם האייקוני של M&M's עם תוספת חלבון איכותית. כל חטיף מכיל 15 גרם חלבון, מה שהופך אותו לבחירה מצוינת לנשנוש במהלך היום, לאחר אימון או כשמתחשק משהו מתוק עם ערך תזונתי גבוה יותר.\n\nהחטיפים מציעים שילוב של שוקולד עשיר, סוכריות M&M's צבעוניות ומרקם מפנק, כך שתוכלו ליהנות מהטעם המוכר והאהוב לצד תוספת חלבון.\n\nיתרונות המוצר:\n\n🍫 מארז של 12 חטיפי חלבון.\n💪 15 גרם חלבון בכל חטיף.\n🌈 בטעם השוקולד האייקוני של M&M's.\n⚡ מתאים לנשנוש בין הארוחות או לאחר אימון",
       "sku": "5056357999301",
       "brand": "M&Ms",
-      "price": 119,
-      "base_price": 143,
-      "sale_price": 119,
+      "price": 0,
+      "base_price": 168,
+      "sale_price": 0,
       "currency": "ILS",
       "images": [
         "https://proteinstock.co.il/assets/product-1782991025415-wp819.webp",
@@ -25,11 +25,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-ltreay",
+      "url": "https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-pe4omu",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-07-02T11:21:13.786Z"
+      "updated_at": "2026-07-05T08:37:46.755Z"
     }
   ]
 }
