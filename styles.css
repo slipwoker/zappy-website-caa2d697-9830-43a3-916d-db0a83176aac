@@ -11926,6 +11926,12 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
 }
 /* Batch: Change all Add to Cart buttons background to WhatsApp green (#25D366) across the entire site */
 .zappy-add-to-cart-btn, button.zappy-add-to-cart, .add-to-cart-btn, [data-action="add-to-cart"], .product-card .add-to-cart, .zappy-product-card button, a[href*="cart"].button, button:has(.fa-cart-plus), button:has(.fa-shopping-cart), .shop-now-btn, button.buy-now { background-color: #25D366 !important; border-color: #25D366 !important; } .zappy-add-to-cart-btn:hover, button.zappy-add-to-cart:hover, .add-to-cart-btn:hover, [data-action="add-to-cart"]:hover, .product-card .add-to-cart:hover, .zappy-product-card button:hover { background-color: #1ea952 !important; border-color: #1ea952 !important; }
+/* Batch: Change Add to Cart buttons (card-cart-btn) to WhatsApp green #25D366 */
+.card-cart-btn { background-color: #25D366 !important; border-color: #25D366 !important; color: #fff !important; }
+.card-cart-btn:hover { background-color: #1ea952 !important; border-color: #1ea952 !important; }
+.card-cart-btn svg { color: #fff !important; }
+.product-detail-section .add-to-cart-btn, .product-detail-section button.add-to-cart { background-color: #25D366 !important; border-color: #25D366 !important; color: #fff !important; }
+.category-page-section .card-cart-btn { background-color: #25D366 !important; border-color: #25D366 !important; color: #fff !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
