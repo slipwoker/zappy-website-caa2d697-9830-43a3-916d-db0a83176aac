@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 5**
+**Total active products: 6**
+
+### ‏חטיף חלבון קראנץ' Protein Crunch בטעם שוקולד לבן וקרמל - מארז של 12 חטיפים (62 גרם) עם 21 גרם חלבון | Applied Nutrition
+https://proteinstock.co.il/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-nl3mfq
+- Price: 160.00 ILS (sale, was 170.00 ILS)
+- Availability: In stock
+- Description: ‏חטיף חלבון משולש שכבות בציפוי שוקולד לבן בלגי עם ליבת קרמל רכה ובסיס פריך. כל חטיף מספק 21 גרם חלבון עם 1.8 גרם סוכר בלבד וכ-194 קלוריות - החטיף המושלם לפני או אחרי אימון, או בכל רגע ביום.
+- Image: https://proteinstock.co.il/assets/product-1783599062996-fxnvg.webp
 
 ### חטיף חלבון דל סוכר בטעם שוקולד קרמל מלוח - מארז 12 יחידות חטיף של 45 גרם עם 12 גרם חלבון וגרם סוכר בלבד Diet Protein Bar | Applied Nutrition
 https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-ly8866
