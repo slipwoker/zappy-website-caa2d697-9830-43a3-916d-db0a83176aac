@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-12T10:15:42.605Z",
+  "generated_at": "2026-07-12T10:37:40.535Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 7,
+  "count": 8,
   "products": [
+    {
+      "id": "be0d7106-4e10-4d28-9b50-782328a683e2",
+      "slug": "chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-u6m7mt",
+      "name": "‏חטיף חלבון קראנץ' Protein Crunch בטעם שוקולד חלב וקרמל – מארז 12 חטיפים שכבת קרמל רכה, בסיס פריך וציפוי שוקולד בלגי | 62 גרם | 21 גרם חלבון | Applied Nutrition",
+      "name_translations": {},
+      "description": "<p>‏חטיף Protein Crunch של Applied Nutrition בטעם שוקולד חלב וקרמל הוא חטיף חלבון משולש שכבות שמרגיש כמו חטיף שוקולד לכל דבר: בסיס פריך, שכבת קרמל רכה בסגנון דל סוכר וציפוי שוקולד חלב בלגי משובח. עם 21 גרם חלבון ורק 1.8 גרם סוכר בחטיף, זו הדרך המושלמת לשלב פינוק מתוק ביום עמוס – אחרי אימון, במשרד או בדרכים.</p><p><br></p><p>‏✔ 21 גרם חלבון בחטיף אחד (62 גרם)</p><p>‏✔ רק 1.8 גרם סוכר – מתיקות מלאה בלי עומס סוכרים</p><p>‏✔ מרקם משולש שכבות: בסיס פריך, קרמל רך וציפוי שוקולד בלגי</p><p>‏✔ 196 קלוריות בלבד לחטיף</p><p>‏✔ מתאים לצמחונים ובעל תעודת כשרות חלאל</p><p>‏✔ נבדק בתוכנית Informed-Sport – מאושר לספורטאים מקצועיים</p><p><br></p><p>‏ערכים תזונתיים (לחטיף 62 גרם):</p><p>‏אנרגיה: 196 קלוריות</p><p>‏חלבון: 21 גרם</p><p>‏פחמימות: 21.1 גרם, מתוכן סוכרים: 1.8 גרם</p><p>‏שומן: 5 גרם</p><p>‏מלח: 0.3 גרם</p><p><br></p><p>‏אופן השימוש:</p><p>‏ליהנות מהחטיף כחטיף עשיר בחלבון בכל שעה ביום – לפני או אחרי אימון, כארוחת ביניים או כתחליף מתוק ומזין לחטיף רגיל.</p><p><br></p><p>‏רכיבים:</p><p>‏תערובת חלבונים (חלבון חלב איזולט, חלבון חיטה מפורק, חלבון סויה איזולט, חלבון מי גבינה איזולט (מתחלב: לציטין חמניות) (חלב)), שוקולד חלב עם ממתיק (ממתיק (מלטיטול), חמאת קקאו, אבקת חלב מלא, עיסת קקאו, מתחלב (לציטין סויה), תמצית וניל טבעית), חומר לחות (גליצרין), קרמל דל סוכר (חומר לחות (גליצרול), מלטודקסטרין, אוליגופרוקטוז, מים, חומר ממלא (אבקת מלטיטול), שמן קוקוס, אבקת חלב רזה, עמילן מותמר, צבע מאכל (קרמל), חומר מייצב (פקטין), מווסת חומציות (סידן לקטט), מתחלב (לציטין סויה), מלח, תמציות טעם טבעיות, מסמיך (קסנטן גאם)), סיבי טפיוקה מסיסים, ממתיק (סירופ מלטיטול, סוכרלוז), מים, תמצית טעם טבעית.</p><p><br></p><p>‏אלרגנים:</p><p>‏מכיל חלב, גלוטן (חיטה) וסויה. עלול להכיל עקבות של גלוטן, חלב, סויה, בוטנים, אגוזים, דו-תחמוצת הגופרית וסולפיטים. צריכה מוגזמת עלולה לגרום להשפעה משלשלת.</p>",
+      "short_description": "‏חטיף חלבון משולש שכבות של Applied Nutrition בטעם שוקולד חלב וקרמל: בסיס פריך, שכבת קרמל רכה וציפוי שוקולד חלב בלגי עשיר. 21 גרם חלבון ורק 1.8 גרם סוכר בחטיף – טעם של חטיף שוקולד אמיתי בלי רגשות אשם.",
+      "sku": "5056555201237",
+      "brand": "Applied Nutrition ",
+      "price": 160,
+      "base_price": 170,
+      "sale_price": 160,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1783852197536-i74q2r.webp",
+        "https://proteinstock.co.il/assets/product-1783852221912-x81are.webp",
+        "https://proteinstock.co.il/assets/product-1783852287536-vk6n7m.webp",
+        "https://proteinstock.co.il/assets/product-1783852303537-bf6e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-u6m7mt",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-07-12T10:37:08.459Z"
+    },
     {
       "id": "07a24750-8f96-48d6-ad8e-1f185a7bec1b",
       "slug": "chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-zsgqc7",
