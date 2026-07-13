@@ -9900,10 +9900,26 @@ function scheduleStorefrontIdleWork(fn) {
   }
 }
 
+function zappyClearBakedPreviewEmptyStoreCta() {
+  var nodes = document.querySelectorAll('.zappy-preview-empty-store-cta');
+  if (!nodes.length) return;
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var grid = el.closest('#zappy-featured-products, #zappy-product-grid, #zappy-category-products, .featured-grid, .product-grid');
+    if (grid) {
+      grid.innerHTML = '<div class="loading-products"></div>';
+    } else if (el.parentNode) {
+      el.parentNode.removeChild(el);
+    }
+  }
+}
 function scheduleHomeDynamicSectionLoad(elementId, loader) {
   if (typeof loader !== 'function') return;
   var target = document.getElementById(elementId);
   if (!target) return;
+  if (elementId === 'zappy-featured-products' || elementId === 'zappy-product-grid') {
+    zappyClearBakedPreviewEmptyStoreCta();
+  }
   var loaded = false;
   function run() {
     if (loaded) return;
@@ -16167,6 +16183,114 @@ function fixContrast(){
 })();
 
 
+/* ZAPPY_CARD_OOS_TAG_V1 */
+;(function(){
+  try {
+    if (window.__zappyCardOosTagInit) return;
+    window.__zappyCardOosTagInit = true;
+
+    if (!document.getElementById('zappy-card-oos-tag-css')) {
+      var st = document.createElement('style');
+      st.id = 'zappy-card-oos-tag-css';
+      st.textContent =
+        '.product-tag.tag-out-of-stock{background:rgba(17,24,39,0.88)!important;color:#fff!important;letter-spacing:0.04em;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);box-shadow:0 1px 3px rgba(0,0,0,0.22)}' +
+        '.product-card.is-out-of-stock .product-card-media img{filter:grayscale(0.18) brightness(0.97)}';
+      document.head.appendChild(st);
+    }
+
+    function isFullyOos(p) {
+      if (typeof window.isProductOutOfStockForListing === 'function') {
+        return window.isProductOutOfStockForListing(p);
+      }
+      if (!p) return true;
+      if (p.is_active === false) return true;
+      var cv = p.card_variants;
+      if (cv && Array.isArray(cv.matrix) && cv.matrix.length > 0) {
+        return cv.matrix.every(function(m) { return !m || m.available === false; });
+      }
+      var variants = p.variants;
+      if (Array.isArray(variants) && variants.length > 0) {
+        return variants.every(function(v) {
+          if (window.zappyVariantMatrix && typeof window.zappyVariantMatrix.isUnavailable === 'function') {
+            return window.zappyVariantMatrix.isUnavailable(v);
+          }
+          return v && v.stock_status === 'out_of_stock';
+        });
+      }
+      if (window.zappyVariantMatrix && typeof window.zappyVariantMatrix.isUnavailable === 'function') {
+        return window.zappyVariantMatrix.isUnavailable(p);
+      }
+      if (p.stock_status === 'out_of_stock') return true;
+      var iq = p.inventory_quantity != null ? p.inventory_quantity : p.inventoryQuantity;
+      if (iq !== null && iq !== undefined && iq !== '') {
+        var n = parseFloat(iq);
+        if (!isNaN(n) && isFinite(n)) return n <= 0;
+      }
+      return false;
+    }
+
+    function productFor(pid) {
+      return (window.__zappyCardProducts && window.__zappyCardProducts[pid])
+        || (typeof window.zappyGetCardProduct === 'function' && window.zappyGetCardProduct(pid))
+        || null;
+    }
+
+    function oosLabel() {
+      if (typeof getEcomText === 'function') {
+        try { return getEcomText('outOfStock', 'Out of Stock'); } catch (e) {}
+      }
+      var rtl = document.documentElement.getAttribute('dir') === 'rtl'
+        || (document.body && document.body.getAttribute('dir') === 'rtl');
+      return rtl ? '\u05D0\u05D6\u05DC \u05DE\u05D4\u05DE\u05DC\u05D0\u05D9' : 'Out of Stock';
+    }
+
+    function applyTag(card) {
+      if (!card) return;
+      var pid = card.getAttribute('data-product-id');
+      var p = productFor(pid);
+      var existing = card.querySelector('.tag-out-of-stock');
+      if (!p || !isFullyOos(p)) {
+        card.classList.remove('is-out-of-stock');
+        if (existing && existing.parentNode) existing.parentNode.removeChild(existing);
+        return;
+      }
+      card.classList.add('is-out-of-stock');
+      if (existing) return;
+      var tags = card.querySelector('.product-tags');
+      var media = card.querySelector('.product-card-media');
+      if (!tags && media) {
+        tags = document.createElement('div');
+        tags.className = 'product-tags';
+        media.insertBefore(tags, media.firstChild);
+      }
+      if (!tags) return;
+      var span = document.createElement('span');
+      span.className = 'product-tag tag-out-of-stock';
+      span.textContent = oosLabel();
+      tags.insertBefore(span, tags.firstChild);
+    }
+
+    function applyAll(scope) {
+      try {
+        var root = scope && scope.querySelectorAll ? scope : document;
+        root.querySelectorAll('.product-card[data-product-id]').forEach(applyTag);
+      } catch (e) {}
+    }
+
+    var _origAfter = window.zappyAfterCardsRendered;
+    window.zappyAfterCardsRendered = function(scope) {
+      if (typeof _origAfter === 'function') { try { _origAfter(scope); } catch (e) {} }
+      applyAll(scope);
+    };
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function() { applyAll(); });
+    else applyAll();
+    setTimeout(function() { applyAll(); }, 500);
+    setTimeout(function() { applyAll(); }, 1500);
+  } catch (e) {}
+})();
+
+
 /* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD */
 (function(){
   var RTL_RE = /[\u0590-\u05FF\u0600-\u06FF]/;
@@ -19985,6 +20109,8 @@ function fixContrast(){
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
 
 /* ZAPPY_CATALOG_CATEGORIES_EAGER_V1 */
+
+/* ZAPPY_PREVIEW_EMPTY_STORE_CTA_STRIP_V1 */
 
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V4 */
 
