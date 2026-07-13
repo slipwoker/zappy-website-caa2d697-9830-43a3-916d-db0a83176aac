@@ -11931,6 +11931,30 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
 .card-cart-btn svg { color: #fff !important; }
 .product-detail-section .add-to-cart-btn, .product-detail-section button.add-to-cart { background-color: #25D366 !important; border-color: #25D366 !important; color: #fff !important; }
 .category-page-section .card-cart-btn { background-color: #25D366 !important; border-color: #25D366 !important; color: #fff !important; }
+
+.category-page-section .category-info h1 {
+  color: #1a1a1a !important;
+}
+
+.category-page-section .category-info p {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .breadcrumb-current {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .product-breadcrumb a {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .breadcrumb-separator {
+  color: var(--text-secondary-color, var(--text-secondary, var(--text-muted, #707070))) !important;
+}
+
+.category-page-section #category-products-count {
+  color: #2d2d2d !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
