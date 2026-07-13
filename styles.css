@@ -11991,6 +11991,46 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
 #product-detail .product-details-toggle {
   color: #1a1a1a !important;
 }
+
+.category-page-section .no-products {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .no-products h2 {
+  color: #1a1a1a !important;
+}
+
+.category-page-section .no-products p {
+  color: var(--text-color, var(--text, var(--text-dark, #4a4a4a))) !important;
+}
+
+.category-page-section .card-cart-btn {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info h1 {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info p {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .breadcrumb-current {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .product-breadcrumb a {
+  color: #2d2d2d !important;
+}
+
+.category-page-section .category-info .breadcrumb-separator {
+  color: #2d2d2d !important;
+}
+
+.category-page-section #category-products-count {
+  color: #2d2d2d !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
