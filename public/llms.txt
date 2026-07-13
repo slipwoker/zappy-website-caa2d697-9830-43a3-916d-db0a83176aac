@@ -72,12 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 10**
-
-### טסט של זאפי 
-https://proteinstock.co.il/product/tst-shl-zapy-zyisfc
-- Price: 0.00 ILS
-- Availability: In stock
+**Total active products: 9**
 
 ### חטיף חלבון דל סוכר של המותג מרס בטעם שוקולד חלב, קרמל ונוגט, מארז 12 יחידות של 57 גרם, 18 גרם חלבון בחטיף | Mars Hi Protein Low Sugar
 https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-azk5mf
