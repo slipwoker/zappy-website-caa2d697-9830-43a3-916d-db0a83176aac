@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T09:44:02.346Z",
+  "generated_at": "2026-07-14T09:46:51.474Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 11,
+  "count": 10,
   "products": [
-    {
-      "id": "97d2a1e7-8d22-4b56-a13f-7cadc029b79c",
-      "slug": "tst-shl-zapy-o2vqpq",
-      "name": "טסט של זאפי",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/tst-shl-zapy-o2vqpq",
-      "categories": [],
-      "updated_at": "2026-07-14T09:43:28.896Z"
-    },
     {
       "id": "021fd3ba-3cc2-4678-bb2e-4b0a2581c82b",
       "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-f2txfb",
