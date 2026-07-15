@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T09:55:46.514Z",
+  "generated_at": "2026-07-15T08:48:50.212Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 10,
+  "count": 11,
   "products": [
+    {
+      "id": "d65d90e0-a80b-4f64-8732-a3d6c68b9577",
+      "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-7e1g6b",
+      "name": "חטיף חלבון דל סוכר של המותג במוכר סניקרס SNICKERS Hi Protein Low Sugar בטעם שוקולד לבן, בוטנים וקרמל | מארז 12 יחידות של 57 גרם | 20 גרם חלבון | Mars",
+      "name_translations": {},
+      "description": "<p>מכירים את הטעם של SNICKERS? עכשיו תקבלו אותו בגרסה שמתאימה גם ליעדים התזונתיים שלכם. חטיף SNICKERS Hi Protein Low Sugar בטעם שוקולד לבן משלב בוטנים קלויים פריכים, שכבת קרמל רכה וציפוי שוקולד לבן קרמי — עם 20 גרם חלבון איכותי ורק 2 גרם סוכר בחטיף שלם. במקום להתפשר בין פינוק לתזונה נכונה, פשוט תקבלו את שניהם.</p><p><br></p><p>למה תאהבו את החטיף הזה?</p><p>✔ 20 גרם חלבון בכל חטיף — 40% מהצריכה היומית המומלצת</p><p>✔ רק 2 גרם סוכר — לעומת חטיפי שוקולד רגילים עם פי 10 ויותר</p><p>✔ כ-218 קלוריות בלבד לחטיף שלם של 57 גרם</p><p>✔ ציפוי שוקולד לבן עם בוטנים קלויים ושכבת קרמל — חוויית SNICKERS אמיתית</p><p>✔ ארוז אישית — נוח לתיק האימון, לעבודה או לדרך</p><p>✔ מארז חסכוני של 12 יחידות</p><p><br></p><p>ערכים תזונתיים (לחטיף 57 גרם):</p><p>אנרגיה: 218 קק\"ל | חלבון: 20 גרם | פחמימות: 15 גרם (מתוכן סוכרים: 2 גרם) | שומן: 10 גרם (מתוכו רווי: 4.3 גרם) | מלח: 0.58 גרם</p><p><br></p><p>אופן השימוש:</p><p>מומלץ לצרוך חטיף אחד ביום — אחרי אימון להשלמת חלבון, או כנשנוש משביע בין הארוחות.</p><p><br></p><p>רכיבים עיקריים:</p><p>ציפוי שוקולד לבן עם ממתיק (מלטיטול, חמאת קקאו, אבקת חלב מלא, לציטין סויה), חלבון חלב, קולגן הידרוליזט, בוטנים קלויים (11%), שכבה בטעם קרמל (מלטיטול, חלב מרוכז, חמאת קקאו, סורביטול), גליצרול, אוליגופרוקטוז, ממרח בוטנים, חלבון מי גבינה (חלב), שומן דקלים, מלח ים, תוספי טעם.</p><p><br></p><p>אלרגנים: מכיל חלב, בוטנים וסויה. עלול להכיל דגנים המכילים גלוטן, ביצים ואגוזים. אינו מתאים לצמחונים (מכיל קולגן).</p><p><br></p><p>לתשומת לבכם: המוצר מכיל רבי-כהליים (מלטיטול, סורביטול) — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p>",
+      "short_description": "הטעם האגדי של SNICKERS בגרסה חלבונית עם ציפוי שוקולד לבן מפנק — בוטנים קלויים, שכבת קרמל רכה ו-20 גרם חלבון בכל חטיף, עם 2 גרם סוכר בלבד וכ-218 קלוריות. מארז 12 יחידות של 57 גרם — החטיף המושלם אחרי אימון או בין הארוחות.",
+      "sku": "5056357916438",
+      "brand": "SNICKERS",
+      "price": 170,
+      "base_price": 170,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1784104213701-3p0j9d.webp",
+        "https://proteinstock.co.il/assets/product-1784104225870-g8xrmt.webp",
+        "https://proteinstock.co.il/assets/product-1784105222726-7tp3o.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-7e1g6b",
+      "categories": [],
+      "updated_at": "2026-07-15T08:48:18.412Z"
+    },
     {
       "id": "021fd3ba-3cc2-4678-bb2e-4b0a2581c82b",
       "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-f2txfb",
