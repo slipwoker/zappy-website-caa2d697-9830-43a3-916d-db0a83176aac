@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T16:55:38.435Z",
+  "generated_at": "2026-07-16T17:28:03.822Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 12,
+  "count": 13,
   "products": [
+    {
+      "id": "1d26b4ea-6090-48f7-a698-3caec85a19d1",
+      "slug": "chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm",
+      "name": "חטיף חלבון מרס דל סוכר Mars HiProtein Low Sugar שוקולד לבן קרמי – 18 גרם חלבון | 12 יחידות במארז",
+      "name_translations": {},
+      "description": "<p><strong>Mars HiProtein Low Sugar White Chocolate</strong> הוא חטיף חלבון איכותי המשלב את הטעם האייקוני של Mars עם ערכים תזונתיים המתאימים לאורח חיים ספורטיבי ומאוזן. אם תמיד אהבתם את חטיף ה-Mars הקלאסי, עכשיו תוכלו ליהנות מגרסה עשירה בחלבון, מופחתת סוכר ובטעם שוקולד לבן קרמי, מבלי להתפשר על חוויית הטעם.</p><p>כל חטיף מכיל <strong>18 גרם חלבון איכותי</strong>, המסייעים בבנייה, בשימור ובהתאוששות של מסת השריר לאחר אימון, לצד <strong>2 גרם סוכר בלבד</strong>. השילוב בין שכבת שוקולד לבן עדינה, מרכז רך ומרקם עשיר הופך אותו לנשנוש מספק במיוחד, שמתאים גם לימים עמוסים וגם לאחר פעילות גופנית.</p><p>החטיף מיועד לספורטאים, מתאמני חדר כושר, אנשים השומרים על תפריט עשיר בחלבון, או לכל מי שמחפש דרך טעימה ונוחה להגדיל את צריכת החלבון היומית. בזכות האריזה האישית, ניתן לקחת אותו לכל מקום – לעבודה, ללימודים, לרכב או לחדר הכושר – וליהנות ממנו בכל זמן במהלך היום.</p><p>בנוסף לערך החלבון הגבוה, Mars HiProtein Low Sugar מספק תחושת שובע טובה יותר בהשוואה לחטיף שוקולד רגיל, ולכן הוא מהווה פתרון מצוין בין הארוחות או לאחר אימון, כאשר הגוף זקוק למנת חלבון זמינה.</p><p>המוצר משווק במארז חסכוני של <strong>12 יחידות</strong>, כך שתמיד יהיה לכם חטיף חלבון זמין בבית, במשרד או בתיק האימון. מדובר בבחירה מצוינת עבור מי שמחפש לשלב בין טעם מפנק לבין ערכים תזונתיים איכותיים, מבלי לוותר על הנוחות.</p><p>יתרונות המוצר</p><ul><li>18 גרם חלבון בכל חטיף.</li><li>2 גרם סוכר בלבד ליחידה.</li><li>ציפוי בטעם שוקולד לבן ומרקם קרמי עשיר.</li><li>מתאים לפני או אחרי אימון וגם כנשנוש במהלך היום.</li><li>מסייע בהשלמת צריכת החלבון היומית.</li><li>אריזה אישית נוחה לנשיאה.</li><li>מארז משתלם הכולל 12 חטיפים.</li></ul><p><br></p>",
+      "short_description": "חטיף החלבון Mars HiProtein Low Sugar בטעם שוקולד לבן משלב את הטעם המוכר של Mars עם 18 גרם חלבון, כמות סוכר נמוכה ומרקם קרמי עשיר. פתרון מצוין לפני או אחרי אימון או כנשנוש עתיר חלבון במהלך היום.",
+      "sku": "5056357916438",
+      "brand": "MARS",
+      "price": 170,
+      "base_price": 170,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1784222535534-3vb86.webp",
+        "https://proteinstock.co.il/assets/product-1784222611946-764u3q.webp",
+        "https://proteinstock.co.il/assets/product-1784222804476-rbe2b5.webp",
+        "https://proteinstock.co.il/assets/product-1784222818109-bf7scue.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-07-16T17:27:31.780Z"
+    },
     {
       "id": "0981a16e-3146-44fc-b140-111e32fdb513",
       "slug": "chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz",
