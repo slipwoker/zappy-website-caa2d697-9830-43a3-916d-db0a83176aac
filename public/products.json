@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T17:44:24.116Z",
+  "generated_at": "2026-07-16T17:46:48.185Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 13,
@@ -83,7 +83,7 @@
     },
     {
       "id": "021fd3ba-3cc2-4678-bb2e-4b0a2581c82b",
-      "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-x6rrud",
+      "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-b2d6a4",
       "name": "חטיף חלבון דל סוכר של המותג מרס בטעם קרמל מלוח - שילוב מתוק-מלוח עם ציפוי שוקולד חלב, מארז 12 יחידות של 57 גרם, 18 גרם חלבון בחטיף | Mars Hi Protein Low Sugar",
       "name_translations": {},
       "description": "<p>קרמל מלוח הוא אחד משילובי הטעמים האהובים בעולם, ועכשיו הוא מגיע בגרסת החלבון של Mars. חטיף Mars Hi Protein Low Sugar בטעם Salted Caramel משלב שכבת קרמל מלוח רכה ועשירה עם ציפוי שוקולד חלב ומרקם נוגט נימוח - בדיוק המשחק המושלם בין מתוק למלוח. וכל זה עם ערכים שמתאימים לאורח חיים ספורטיבי: 18 גרם חלבון, רק כ-2 גרם סוכר ו-196 קלוריות בלבד בכל חטיף. הבחירה המושלמת לאחרי אימון, להפסקת צהריים או לכל רגע שבו מתחשק פינוק אמיתי בלי לפרוץ את המסגרת התזונתית.</p><p><br></p><p>✔ 18 גרם חלבון בכל חטיף - לתמיכה בבניית שריר והתאוששות</p><p>✔ דל סוכר - רק כ-2 גרם סוכר בחטיף</p><p>✔ 196 קלוריות בלבד ליחידה</p><p>✔ טעם קרמל מלוח - השילוב המכור של מתוק ומלוח בגרסת חלבון</p><p>✔ ציפוי שוקולד חלב אמיתי של Mars</p><p>✔ מארז 12 יחידות של 57 גרם - נוח לתיק האימון, לרכב או למשרד</p><p><br></p><p>ערכים תזונתיים (לחטיף 57 גרם):</p><p>אנרגיה: 196 קק\"ל (819 קילו-ג'אול)</p><p>שומנים: 7.7 גרם, מתוכם חומצות שומן רוויות: 4.6 גרם</p><p>פחמימות: 18 גרם, מתוכן סוכרים: 1.7 גרם</p><p>חלבון: 18 גרם</p><p>מלח: 0.39 גרם</p><p><br></p><p>רכיבים: שוקולד חלב עם ממתיק (23%) (ממתיק (מלטיטול), חמאת קקאו, אבקת חלב מלא, עיסת קקאו, מתחלב (לציטין סויה), תמצית וניל), חלבון חלב, שכבה בטעם קרמל מלוח (16%) (ממתיק (מלטיטול), חלב מרוכז, חמאת קקאו, מלח, חומר לחות (סורביטול), מתחלב (מונו ודו-גליצרידים של חומצות שומן), תמצית טעם טבעית, צבע (קרמל)), קולגן הידרוליזט, חומר לחות (גליצרול), אוליגופרוקטוז, שומן דקלים, תמצית לתת שעורה, אבקת קקאו מופחתת שומן, תמצית טעם טבעית.</p><p><br></p><p>אלרגנים: מכיל חלב, סויה ושעורה (גלוטן). עשוי להכיל אגוזים, ביצים ובוטנים. לא מתאים לצמחונים. צריכה מופרזת עלולה לגרום להשפעה משלשלת (מכיל רב-כהלים).</p>",
@@ -100,11 +100,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-x6rrud",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-b2d6a4",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-07-16T17:43:52.291Z"
+      "updated_at": "2026-07-16T17:46:16.729Z"
     },
     {
       "id": "e382537b-242d-4440-8997-fb827c369a9a",
