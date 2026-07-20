@@ -11418,7 +11418,7 @@ main,
 }
 
 
-/* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V2 */
+/* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
 }
@@ -11427,15 +11427,7 @@ body:has(.zappy-announcement-bar) header.navbar,
 body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-search-panel) {
   top: var(--zappy-announcement-height, 40px) !important;
 }
-/* First-paint: pull fullscreen heroes behind the fixed announcement+nav so a
-   transparent --nav-bg does not flash the cream body strip (live FOUC that
-   preview never showed because preview injects the same underlap eagerly). */
-body:has(.zappy-announcement-bar) section[data-hero-type^="fullscreen"],
-body:has(.zappy-announcement-bar) .index-hero-section,
-body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
-  margin-top: calc(-1 * var(--zappy-header-stack-height)) !important;
-  padding-top: calc(var(--zappy-header-stack-height)) !important;
-}
+
 
 
 /* ZAPPY_MOBILE_CATEGORIES_SUBMENU_CSS_V1 */
@@ -11809,7 +11801,9 @@ nav .sub-menu.zappy-empty-submenu,
   
   /* AI-generated section grids with common naming patterns */
   /* These often have fixed pixel column widths that don't adapt to mobile */
-  [class*="-grid"]:not([data-zappy-auto-grid]):not(.zappy-preserve-css-grid):not([data-zappy-explicit-columns="true"]) {
+  /* Exclude .zappy-qv-book-cal-grid — the booking date picker must stay 7-col
+     on mobile (Quick View + PDP). Class name matches [class*="-grid"]. */
+  [class*="-grid"]:not([data-zappy-auto-grid]):not(.zappy-preserve-css-grid):not([data-zappy-explicit-columns="true"]):not(.zappy-qv-book-cal-grid) {
     grid-template-columns: 1fr !important;
   }
   
