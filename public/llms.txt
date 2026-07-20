@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 15**
+**Total active products: 16**
+
+### חטיף חלבון סניקרס פריך SNICKERS HI PROTEIN CRISP בטעם שוקולד, קרמל ובוטנים (Crisp) | 55 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
+https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7
+- Price: 170.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5056357904428
+- Brand: SNICKERS
+- Description: חטיף החלבון SNICKERS HI PROTEIN CRISP מביא את הטעם הקלאסי של סניקרס — שוקולד חלב, קרמל ובוטנים — בתוספת פצפוצים פריכים ו-20 גרם חלבון, עם 217 קלוריות בלבד ורמת סוכר נמוכה. הפינוק המושלם לפני או אחרי האימון, בלי להתפשר על הטעם.
+- Image: https://proteinstock.co.il/assets/product-1784574112607-m7zkh7.webp
 
 ### חטיף חלבון סניקרס דל סוכר SNICKERS HI PROTEIN LOW SUGAR בטעם אגוזי לוז (Hazelnut) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
 https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq
