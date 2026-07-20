@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T19:25:00.384Z",
+  "generated_at": "2026-07-20T19:44:49.273Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 16,
+  "count": 17,
   "products": [
+    {
+      "id": "b4b786d4-ef1d-4276-95da-3ebde0771768",
+      "slug": "chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid",
+      "name": "חטיף חלבון סניקרס SNICKERS HI PROTEIN PEANUT BUTTER בטעם חמאת בוטנים (Peanut Butter) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers",
+      "name_translations": {},
+      "description": "<p>SNICKERS HI PROTEIN PEANUT BUTTER מבית Mars הוא גרסת חמאת הבוטנים של חטיף החלבון האהוב. הוא משלב שכבות של שוקולד חלב, קרמל רך, בוטנים קלויים ומרכז קרמי של חמאת בוטנים, ומספק 20 גרם חלבון איכותי בחטיף אחד. אידיאלי כחטיף לפני או אחרי אימון, או כפינוק עשיר וממלא באמצע היום. המארז כולל 12 חטיפים ארוזים בנפרד.</p><p><br></p><p>יתרונות עיקריים</p><ul><li>✔ 20 גרם חלבון בחטיף אחד — לתמיכה בבניית שריר ובהתאוששות</li><li>✔ שילוב עשיר של שוקולד חלב, קרמל, בוטנים קלויים וחמאת בוטנים</li><li>✔ 230 קלוריות בלבד לחטיף</li><li>✔ מקורות חלבון מגוונים — חלבון חלב, מי גבינה וקולגן</li><li>✔ מארז של 12 חטיפים ארוזים בנפרד — נוח לקחת לתיק, לחדר הכושר או לעבודה</li></ul><p>ערכים תזונתיים (לחטיף — 57 גרם)</p><p>אנרגיה: 230 קק\"ל</p><p>שומן: 9.2 גרם</p><p>מתוכו רווי: 3 גרם</p><p>פחמימות: 21 גרם</p><p>מתוכן סוכרים: 10 גרם</p><p>חלבון: 20 גרם</p><p>מלח: 0.18 גרם</p><p>אופן השימוש</p><p>מוכן לאכילה, ללא צורך בהכנה. מומלץ לצרוך כחטיף ביניים, לפני אימון לאנרגיה זמינה או אחרי אימון לתמיכה בהתאוששות השריר.</p><p><br></p><p>רכיבים עיקריים</p><p>תערובת חלבון חלב (חלבון חלב מרוכז, חלבון חלב, חלבון מי גבינה מרוכז [חלב]), שוקולד חלב (15%) (סוכר, חמאת קקאו, אבקת חלב רזה, מסת קקאו, לקטוז וחלבון ממי גבינה [חלב], שומן דקלים, אבקת מי גבינה [חלב], שומן חלב, מתחלבים (לציטין סויה, פוליגליצרול פוליריצינולאט), תמצית וניל), קולגן הידרוליזט, בוטנים קלויים (12%), קרמל (11%) (חלב רזה מרוכז ממותק, סירופ גלוקוז, סירופ סוכר הפוך, שמן דקלים, חמאה [חלב], סוכר, מתחלב (מונו ודי-גליצרידים של חומצות שומן), מייצב (פקטין), מלח, טעם טבעי), לחלוחיות (מלטיטול, גליצרול), קמח בוטנים, פרוקטו-אוליגוסכרידים, שמן חמניות, מלח, צבע מאכל (קרמל פשוט), נוגד חמצון (תמצית עשירה בטוקופרולים).</p><p><br></p><p>אלרגנים</p><p>מכיל חלב, בוטנים וסויה. עלול להכיל אגוזי פקאן, אגוזי לוז, שקדים וביצים.</p>",
+      "short_description": "חטיף החלבון SNICKERS HI PROTEIN PEANUT BUTTER מביא את השילוב המנצח של שוקולד חלב, קרמל, בוטנים קלויים ומנה נדיבה של חמאת בוטנים — עם 20 גרם חלבון ו-230 קלוריות בלבד לחטיף. פינוק עשיר וממכר, מושלם לפני או אחרי האימון.",
+      "sku": "5056357900925",
+      "brand": "SNICKERS",
+      "price": 170,
+      "base_price": 170,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1784575987391-0wggrb.webp",
+        "https://proteinstock.co.il/assets/product-enhanced-1784576416562-tf0be4.webp",
+        "https://proteinstock.co.il/assets/product-1784576635910-u7k8fk.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-07-20T19:44:17.056Z"
+    },
     {
       "id": "30582dd2-7434-41a1-a781-8f4ba3367e9b",
       "slug": "chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7",

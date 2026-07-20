@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 16**
+**Total active products: 17**
+
+### חטיף חלבון סניקרס SNICKERS HI PROTEIN PEANUT BUTTER בטעם חמאת בוטנים (Peanut Butter) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
+https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid
+- Price: 170.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5056357900925
+- Brand: SNICKERS
+- Description: חטיף החלבון SNICKERS HI PROTEIN PEANUT BUTTER מביא את השילוב המנצח של שוקולד חלב, קרמל, בוטנים קלויים ומנה נדיבה של חמאת בוטנים — עם 20 גרם חלבון ו-230 קלוריות בלבד לחטיף. פינוק עשיר וממכר, מושלם לפני או אחרי האימון.
+- Image: https://proteinstock.co.il/assets/product-1784575987391-0wggrb.webp
 
 ### חטיף חלבון סניקרס פריך SNICKERS HI PROTEIN CRISP בטעם שוקולד, קרמל ובוטנים (Crisp) | 55 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
 https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7
