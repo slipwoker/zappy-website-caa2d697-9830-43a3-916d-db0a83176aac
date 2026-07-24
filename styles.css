@@ -11419,6 +11419,11 @@ main,
 }
 /* Batch: הסרת רקע אפור מתמונות מוצרים - שינוי ללבן */
 .featured-products-section .product-card-media, .products-section .product-card-media, .product-detail-section .product-card-media, .related-products-section .product-card-media { background-color: #ffffff !important; background: #ffffff !important; }
+
+#zappy-featured-products .no-featured-products,
+#zappy-featured-products .zappy-preview-empty-store-cta {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
