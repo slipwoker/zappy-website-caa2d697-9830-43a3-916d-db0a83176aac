@@ -11424,6 +11424,10 @@ main,
 #zappy-featured-products .zappy-preview-empty-store-cta {
   display: none !important;
 }
+
+.featured-products-section #zappy-featured-products {
+  min-height: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
