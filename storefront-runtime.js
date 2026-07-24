@@ -13804,6 +13804,131 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* ZAPPY_CUSTOM_JS_START:7cc114501e08 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  // Check if popup was already shown this session
+  if (sessionStorage.getItem('zappy_coming_soon_popup_shown')) return;
+  
+  // Create overlay
+  const overlay = document.createElement('div');
+  overlay.id = 'zappy-coming-soon-overlay';
+  overlay.style.cssText = `
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.65); z-index: 99999;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Assistant', 'Rubik', sans-serif;
+    direction: rtl;
+  `;
+  
+  // Create popup
+  const popup = document.createElement('div');
+  popup.id = 'zappy-coming-soon-popup';
+  popup.style.cssText = `
+    background: #ffffff; border-radius: 16px; padding: 40px 32px 32px;
+    max-width: 480px; width: 90%; text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    position: relative; animation: zappy-popup-in 0.4s ease;
+  `;
+  
+  // Close button
+  const closeBtn = document.createElement('button');
+  closeBtn.innerHTML = '✕';
+  closeBtn.style.cssText = `
+    position: absolute; top: 12px; left: 16px;
+    background: none; border: none; font-size: 22px;
+    cursor: pointer; color: #999; padding: 4px 8px;
+    line-height: 1;
+  `;
+  
+  // Icon
+  const icon = document.createElement('div');
+  icon.innerHTML = '🚀';
+  icon.style.cssText = 'font-size: 52px; margin-bottom: 16px;';
+  
+  // Title
+  const title = document.createElement('h2');
+  title.textContent = 'החנות בהקמה!';
+  title.style.cssText = `
+    font-size: 28px; font-weight: 800; color: #14181F;
+    margin: 0 0 12px 0; line-height: 1.3;
+  `;
+  
+  // Text
+  const text = document.createElement('p');
+  text.textContent = 'אנחנו עובדים במרץ להביא לכם את מיטב המותגים והמוצרים. בקרוב תמצאו אצלנו מבצעים חמים, מוצרים מיוחדים ואבקות חלבון מהמותגים המובילים בעולם – במחירים שווים במיוחד להשקה!';
+  text.style.cssText = `
+    font-size: 16px; color: #4a4a4a; line-height: 1.7;
+    margin: 0 0 24px 0;
+  `;
+  
+  // CTA
+  const cta = document.createElement('button');
+  cta.textContent = 'מחכים לכם! 🔥';
+  cta.style.cssText = `
+    background: #C26A4B; color: #ffffff; border: none;
+    font-size: 17px; font-weight: 700; padding: 12px 36px;
+    border-radius: 50px; cursor: pointer;
+    transition: all 0.3s ease;
+  `;
+  
+  function closePopup() {
+    overlay.style.opacity = '0';
+    overlay.style.transition = 'opacity 0.3s ease';
+    setTimeout(function() { overlay.remove(); }, 300);
+    sessionStorage.setItem('zappy_coming_soon_popup_shown', '1');
+  }
+  
+  closeBtn.addEventListener('click', closePopup);
+  cta.addEventListener('click', closePopup);
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closePopup();
+  });
+  
+  // Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closePopup();
+  });
+  
+  // Assemble
+  popup.appendChild(closeBtn);
+  popup.appendChild(icon);
+  popup.appendChild(title);
+  popup.appendChild(text);
+  popup.appendChild(cta);
+  overlay.appendChild(popup);
+  
+  // Add animation keyframes
+  const styleTag = document.createElement('style');
+  styleTag.textContent = `
+    @keyframes zappy-popup-in {
+      from { opacity: 0; transform: translateY(30px) scale(0.95); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+  `;
+  document.head.appendChild(styleTag);
+  
+  // Show on page load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() { document.body.appendChild(overlay); });
+  } else {
+    document.body.appendChild(overlay);
+  }
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:7cc114501e08 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
