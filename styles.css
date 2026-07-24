@@ -11417,6 +11417,8 @@ main,
 #featured-products #zappy-featured-products {
   min-height: 200px !important;
 }
+/* Batch: הסרת רקע אפור מתמונות מוצרים - שינוי ללבן */
+.featured-products-section .product-card-media, .products-section .product-card-media, .product-detail-section .product-card-media, .related-products-section .product-card-media { background-color: #ffffff !important; background: #ffffff !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
