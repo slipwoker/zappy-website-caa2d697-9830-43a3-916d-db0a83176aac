@@ -11392,6 +11392,11 @@ main,
 
 
 
+
+.product-detail-section #add-to-cart-btn {
+  background-color: #2D6A4F !important;
+  border-color: #2D6A4F !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
