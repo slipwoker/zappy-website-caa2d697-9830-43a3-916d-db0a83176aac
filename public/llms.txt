@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 28**
+**Total active products: 29**
+
+### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד לבן ובוטנים (White Choc & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
+https://proteinstock.co.il/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh
+- Price: 160.00 ILS
+- Availability: In stock
+- Category: עוגיות חלבון
+- SKU: 5056357999608
+- Brand: SNICKERS
+- Description: עוגיית חלבון רכה ואפויה בטעם שוקולד לבן ובוטנים — עם חתיכות שוקולד לבן קרמי, בוטנים קלויים, חמאת בוטנים וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 245 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך
+- Image: https://proteinstock.co.il/assets/product-1785048908976-ivz87.webp
 
 ### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד ובוטנים (Chocolate & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
 https://proteinstock.co.il/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii
