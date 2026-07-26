@@ -5607,6 +5607,11 @@ function stripHtmlToText(html) {
             };
 
             var showGrowError = function(msg) {
+              window.__growPendingAuthCode = null;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
               sdkContainer.querySelector('.grow-sdk-wrapper').innerHTML = '<p style="color:#ef4444; text-align:center; padding:20px;">' + msg + '</p>';
               placeOrderBtn.disabled = false;
               placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
@@ -5620,19 +5625,70 @@ function stripHtmlToText(html) {
             // which showed a fatal error on the FIRST click on cold caches
             // (incognito / first visit) while the second click succeeded.
             // So: never call renderPaymentOptions until window.growRuntime exists.
+            var isGrowTransientNotReady = function(r) {
+              var msg = '';
+              if (typeof r === 'string') msg = r;
+              else if (r && r.message) msg = String(r.message);
+              return msg.indexOf('SDK was not loaded') !== -1 ||
+                msg.indexOf('Wallet not initialized') !== -1;
+            };
+
+            var ensureGrowWalletTarget = function() {
+              var wrapper = sdkContainer.querySelector('.grow-sdk-wrapper');
+              if (!wrapper) return;
+              if (!wrapper.querySelector('.grow-sdk-loading') && !document.getElementById('grow-wallet-target')) {
+                wrapper.innerHTML = '<div class="grow-sdk-loading"><div class="grow-sdk-loading-spinner"></div><span>' + (isRTL ? 'טוען אמצעי תשלום...' : 'Loading payment options...') + '</span></div><div id="grow-wallet-target"></div>';
+                return;
+              }
+              if (!document.getElementById('grow-wallet-target')) {
+                var target = document.createElement('div');
+                target.id = 'grow-wallet-target';
+                wrapper.appendChild(target);
+              }
+            };
+
             var renderWhenGrowRuntimeReady = function(authCode) {
-              if (window.growRuntime) { renderGrowWallet(authCode); return; }
-              var attempts = 0;
-              var pollReady = setInterval(function() {
-                attempts++;
-                if (window.growRuntime) {
-                  clearInterval(pollReady);
-                  renderGrowWallet(authCode);
-                } else if (attempts >= 80) { // 20 seconds
-                  clearInterval(pollReady);
+              window.__growPendingAuthCode = authCode;
+              window.__growReadyAttempts = 0;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
+
+              var attempt = function() {
+                if (window.__growPendingAuthCode !== authCode) return;
+                window.__growReadyAttempts = (window.__growReadyAttempts || 0) + 1;
+                if (window.__growReadyAttempts > 80) {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
+                  return;
                 }
-              }, 250);
+                if (typeof growPayment === 'undefined' || !window.growRuntime) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                ensureGrowWalletTarget();
+                window.__growLastRenderTransient = false;
+                try {
+                  growPayment.renderPaymentOptions(authCode);
+                } catch (err) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                if (window.__growLastRenderTransient) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                window.__growReadyTimer = setTimeout(function() {
+                  if (window.__growPendingAuthCode === authCode) attempt();
+                }, 2000);
+              };
+
+              attempt();
             };
 
             var growSdkEvents = {
@@ -5643,18 +5699,34 @@ function stripHtmlToText(html) {
               },
               onFailure: function(r) { showGrowError(r && r.message ? r.message : (isRTL ? 'התשלום נכשל. נסו שוב.' : 'Payment failed. Please try again.')); },
               onError: function(r) {
-                // Ignore the loader shim's "not ready yet" pseudo-error — it is
-                // emitted when renderPaymentOptions runs before mp.min.js has
-                // loaded, and the growRuntime readiness poll will retry anyway.
-                if (typeof r === 'string' && r.indexOf('SDK was not loaded') !== -1) return;
-                showGrowError(r && r.message ? r.message : (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
+                if (isGrowTransientNotReady(r)) {
+                  window.__growLastRenderTransient = true;
+                  return;
+                }
+                window.__growPendingAuthCode = null;
+                if (window.__growReadyTimer) {
+                  clearTimeout(window.__growReadyTimer);
+                  window.__growReadyTimer = null;
+                }
+                var errMsg = (r && r.message) ? r.message : (typeof r === 'string' ? r : '');
+                showGrowError(errMsg || (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
               },
               onTimeout: function() { showGrowError(isRTL ? 'פג תוקף התשלום. נסו שוב.' : 'Payment session expired. Please try again.'); },
               onWalletChange: function(state) {
                 if (state === 'open') {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   var loader = sdkContainer.querySelector('.grow-sdk-loading');
                   if (loader) loader.style.display = 'none';
                 }
+              },
+              onPaymentStart: function() {},
+              onPaymentCancel: function() {
+                placeOrderBtn.disabled = false;
+                placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
               }
             };
 
