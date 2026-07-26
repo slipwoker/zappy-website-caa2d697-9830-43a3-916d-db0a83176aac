@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-26T07:57:27.680Z",
+  "generated_at": "2026-07-26T08:19:45.010Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 33,
+  "count": 34,
   "products": [
+    {
+      "id": "07684464-74d7-4ec5-bb20-939645ccad0c",
+      "slug": "chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k",
+      "name": "חטיף חלבון דל סוכר THE DINKY PROTEIN BAR בטעם בוטנים ושוקולד (Peanut Chocolate) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose",
+      "name_translations": {},
+      "description": "<p>חטיף החלבון <strong>The Dinky</strong> של <strong>Muscle Moose</strong> בטעם <strong>Peanut Chocolate</strong> משלב את הטעמים הקלאסיים של בוטנים ושוקולד במארז קטן ונוח לנשיאה. בתוך כל חטיף תמצאו ליבת נוגט רכה, שכבת קרמל עשירה, בוטנים קצוצים וציפוי שוקולד חלב – שילוב מפנק שמעניק חוויית אכילה עשירה לצד ערכים תזונתיים מצוינים.</p><p><br></p><p>כל חטיף במשקל <strong>35 גרם</strong> מספק <strong>11 גרם חלבון</strong>, מכיל רק <strong>1.3 גרם סוכר</strong> ו-<strong>4.8 גרם סיבים תזונתיים</strong>, מה שהופך אותו לאפשרות נהדרת למי שמחפש חטיף חלבון דל סוכר עם טעם עשיר ומרקם מפנק.</p><p>מתאים לפני או אחרי אימון, כנשנוש במהלך יום העבודה, לנסיעות או לכל מי שמחפש דרך נוחה להוסיף חלבון לתפריט היומי.</p><p><br></p><p>✔ 11 גרם חלבון בכל חטיף</p><p> ✔ רק 1.3 גרם סוכר</p><p> ✔ עשיר בסיבים תזונתיים (4.8 גרם)</p><p> ✔ שילוב עשיר של שוקולד, בוטנים, נוגט וקרמל</p><p> ✔ רק 130 קלוריות לחטיף</p><p> ✔ קומפקטי ונוח לנשיאה לכל מקום</p><p><br></p><p><br></p><p>ערכים תזונתיים (לחטיף 35 גרם)</p><ul><li>אנרגיה: <strong>130 קלוריות</strong></li><li>חלבון: <strong>11 גרם</strong></li><li>פחמימות: <strong>11 גרם</strong>מתוכן סוכרים: <strong>1.3 גרם</strong></li><li>שומן: <strong>4.8 גרם</strong>מתוכו שומן רווי: <strong>1.6 גרם</strong></li><li>סיבים תזונתיים: <strong>4.8 גרם</strong></li><li>מלח: <strong>0.11 גרם</strong></li></ul><p><br></p><p><br></p><p>אחסון</p><p>לאחסן במקום קריר ויבש, הרחק מאור שמש ישיר.</p><p><br></p><p>רכיבים</p><p>תערובת חלבונים (36%) הכוללת חלבוני חלב, חלבון סויה, קולגן בקר וחלבון חיטה, איזומלטו-אוליגוסכרידים, חומרי לחות, ציפוי בטעם שוקולד חלב עם ממתיקים, שכבת קרמל דל סוכר, בוטנים, שמן קנולה, ממתיקים ורכיבי טעם. <em>(מומלץ לאמת את רשימת הרכיבים המלאה בהתאם לאריזה הרשמית לפני הפרסום.)</em></p><p><br></p><p>אלרגנים</p><p>מכיל <strong>חלב, סויה, חיטה (גלוטן) ובוטנים</strong>. עלול להכיל אגוזים נוספים.</p>",
+      "short_description": "חטיף חלבון קטן ומפנק בטעם בוטנים ושוקולד מבית Muscle Moose — שילוב עשיר של נוגט, קרמל, בוטנים וציפוי שוקולד חלב. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, מכיל רק 1.3 גרם סוכר ועשיר בסיבים תזונתיים. פתרון מושלם לנשנוש חלבון טעים בכל שעה של היום.",
+      "sku": "5060642590258",
+      "brand": "Muscle Moose",
+      "price": 129,
+      "base_price": 129,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785052631738-aiauvh.webp",
+        "https://proteinstock.co.il/assets/product-1785052665410-lcl2na.webp",
+        "https://proteinstock.co.il/assets/product-1785052820785-ikskro.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-07-26T08:19:08.293Z"
+    },
     {
       "id": "61dbf8f2-f08b-4243-8842-e841177b1566",
       "slug": "chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9",
