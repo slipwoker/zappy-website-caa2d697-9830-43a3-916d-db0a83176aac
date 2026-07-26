@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-26T07:01:08.775Z",
+  "generated_at": "2026-07-26T07:13:51.639Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 29,
+  "count": 30,
   "products": [
+    {
+      "id": "03e2add2-4250-432c-b866-112dd431a965",
+      "slug": "abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb",
+      "name": "אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם פטל כחול (Blue Raspberry) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba",
+      "name_translations": {},
+      "description": "<p>אבקת החלבון הצלול של Hubba Bubba מביאה את טעם מסטיק הבועות האייקוני אל עולם התזונה — בגרסת פטל כחול מרעננת. בניגוד לאבקות חלבון קלאסיות שיוצרות שייק חלבי וסמיך, חלבון צלול (Clear Whey) מתמוסס למשקה שקוף וקליל בסגנון מיץ פירות, מושלם לשתייה קרה אחרי אימון או לאורך היום.</p><p><br></p><p>כל מנה מספקת 20 גרם חלבון מי גבינה מבודד (איזולט) איכותי, עם 87 קלוריות בלבד, ללא שומן וכמעט ללא פחמימות וסוכר — פתרון קליל ומרענן להגדלת צריכת החלבון בלי הכובד של שייק רגיל.</p><p><br></p><p>✔ 20 גרם חלבון איזולט בכל מנה</p><p>✔ רק 87 קלוריות למנה — 0 שומן, כמעט 0 סוכר</p><p>✔ מרקם צלול ומרענן בסגנון מיץ, לא שייק חלבי</p><p>✔ טעם פטל כחול בהשראת מסטיק Hubba Bubba</p><p>✔ מתאים לצמחונים</p><p>✔ כ-15 מנות במארז של 405 גרם</p><p><br></p><p>ערכים תזונתיים (למנה של 27 גרם):</p><p>אנרגיה: 87 קלוריות</p><p>חלבון: 20 גרם</p><p>פחמימות: 1.6 גרם (מתוכן סוכרים: 0.9 גרם)</p><p>שומן: 0 גרם</p><p>מלח: 0.28 גרם</p><p><br></p><p>אופן הכנה: לערבב 27 גרם (שתי כפות מדידה) עם 500 מ\"ל מים ולנער היטב. לאחר הניעור, להמתין 10 עד 15 שניות עד שהקצף נמס והמשקה הופך לצלול — ולשתות קר.</p><p><br></p><p>אחסון: לאחסן במקום קריר ויבש, הרחק מאור שמש ישיר.</p><p><br></p><p>רכיבים: חלבון מי גבינה מבודד (איזולט) (86%) (חלב), מווסתי חומציות (חומצה ציטרית, חומצה מאלית), חומר טעם טבעי (1.5%), מלטודקסטרין, ממתיקים (סוכרלוז, אצסולפאם K), תמצית ספירולינה כחולה.</p><p><br></p><p>אלרגנים: מכיל חלב. עלול להכיל גלוטן, סויה וביצים. מתאים לצמחונים.</p>",
+      "short_description": "אבקת חלבון מי גבינה מסוג צלול (Clear Whey) בטעם פטל כחול מבית Hubba Bubba — לא שייק חלבי סמיך, אלא משקה חלבון מרענן ושקוף בסגנון מיץ קר. כל מנה מספקת 20 גרם חלבון איזולט ורק 83 קלוריות, ללא שומן וכמעט ללא פחמימות. פשוט לערבב עם מים, לנער ולשתות.",
+      "sku": "5056357999820",
+      "brand": "HUBBA BUBBA",
+      "price": 160,
+      "base_price": 160,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785049702206-u9rvf.webp",
+        "https://proteinstock.co.il/assets/product-1785049952538-te70a9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb",
+      "categories": [
+        "אבקות חלבון"
+      ],
+      "updated_at": "2026-07-26T07:13:15.187Z"
+    },
     {
       "id": "6c1bb103-7da8-4b03-a245-2c4dbefde335",
       "slug": "avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh",
