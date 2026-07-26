@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 26**
+**Total active products: 27**
+
+### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם קרמל מלוח (Salted Caramel) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
+https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha
+- Price: 160.00 ILS
+- Availability: In stock
+- Category: עוגיות חלבון
+- SKU: 5056357999639
+- Brand: MARS
+- Description: עוגיית חלבון רכה ואפויה בטעם קרמל מלוח — עם שבבי שוקולד חלב וחתיכות קרמל פאדג', ונגיעת מלח שמאזנת את המתיקות. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 232 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך.
+- Image: https://proteinstock.co.il/assets/product-1785047346291-rtpmp.webp
 
 ### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם שוקולד וקרמל | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
 https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu
