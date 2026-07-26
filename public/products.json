@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-26T07:13:51.639Z",
+  "generated_at": "2026-07-26T07:20:24.942Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 30,
+  "count": 31,
   "products": [
+    {
+      "id": "ea44c6ff-b0d3-442c-bd65-05f3807796a5",
+      "slug": "abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh",
+      "name": "אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם קולה (Cola) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba",
+      "name_translations": {},
+      "description": "<p>אבקת החלבון הצלול של Hubba Bubba מביאה את טעם מסטיק הבועות האייקוני אל עולם התזונה — בגרסת קולה מרעננת. בניגוד לאבקות חלבון קלאסיות שיוצרות שייק חלבי וסמיך, חלבון צלול (Clear Whey) מתמוסס למשקה שקוף וקליל בסגנון משקה קר, מושלם לשתייה אחרי אימון או לאורך היום.</p><p><br></p><p>כל מנה מספקת 20 גרם חלבון מי גבינה מבודד (איזולט) איכותי, עם 87 קלוריות בלבד, ללא שומן וכמעט ללא פחמימות וסוכר — פתרון קליל ומרענן להגדלת צריכת החלבון בלי הכובד של שייק רגיל.</p><p><br></p><p>✔ 20 גרם חלבון איזולט בכל מנה</p><p>✔ רק 87 קלוריות למנה — 0 שומן, כמעט 0 סוכר</p><p>✔ מרקם צלול ומרענן בסגנון משקה קר, לא שייק חלבי</p><p>✔ טעם קולה בהשראת מסטיק Hubba Bubba</p><p>✔ מתאים לצמחונים</p><p>✔ כ-15 מנות במארז של 405 גרם</p><p><br></p><p>ערכים תזונתיים (למנה של 27 גרם):</p><p>אנרגיה: 87 קלוריות</p><p>חלבון: 20 גרם</p><p>פחמימות: 1.6 גרם (מתוכן סוכרים: 0.9 גרם)</p><p>שומן: 0 גרם</p><p>מלח: 0.28 גרם</p><p><br></p><p>אופן הכנה: לערבב 27 גרם (שתי כפות מדידה) עם 500 מ\"ל מים ולנער היטב. לאחר הניעור, להמתין 10 עד 15 שניות עד שהקצף נמס והמשקה הופך לצלול — ולשתות קר.</p><p><br></p><p>אחסון: לאחסן במקום קריר ויבש, הרחק מאור שמש ישיר.</p><p><br></p><p>רכיבים: חלבון מי גבינה מבודד (איזולט) (85%) (חלב), מווסתי חומציות (חומצה ציטרית, חומצה מאלית), צבע מאכל (E150a), מלטודקסטרין, חומר טעם טבעי (1.5%), ממתיקים (סוכרלוז, אצסולפאם K).</p><p><br></p><p>אלרגנים: מכיל חלב. עלול להכיל גלוטן, סויה וביצים. מתאים לצמחונים.</p>",
+      "short_description": "אבקת חלבון מי גבינה מסוג צלול (Clear Whey) בטעם קולה מבית Hubba Bubba — לא שייק חלבי סמיך, אלא משקה חלבון מרענן ושקוף בסגנון משקה קר ומבעבע. כל מנה מספקת 20 גרם חלבון איזולט ורק 87 קלוריות, ללא שומן וכמעט ללא פחמימות. פשוט לערבב עם מים, לנער ולשתות.",
+      "sku": "5056357999851",
+      "brand": " HUBBA BUBBA",
+      "price": 160,
+      "base_price": 160,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785050221473-o3ovxc.webp",
+        "https://proteinstock.co.il/assets/product-1785050376548-lmmrl9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh",
+      "categories": [
+        "אבקות חלבון"
+      ],
+      "updated_at": "2026-07-26T07:19:52.157Z"
+    },
     {
       "id": "03e2add2-4250-432c-b866-112dd431a965",
       "slug": "abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb",
