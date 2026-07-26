@@ -5731,7 +5731,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ## Product Catalog
 
 ### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד ובוטנים (Chocolate & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
-URL: https://proteinstock.co.il/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-juozqm
+URL: https://proteinstock.co.il/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii
 Price: 160.00 ILS
 Availability: In stock
 SKU: 5056357912706
