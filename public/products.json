@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-24T14:11:53.125Z",
+  "generated_at": "2026-07-26T05:56:05.472Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 23,
+  "count": 24,
   "products": [
+    {
+      "id": "78677c4d-a239-4c7d-81b1-22beca897b1c",
+      "slug": "mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y",
+      "name": "משקה חלבון סניקרס SNICKERS HI PROTEIN MILK DRINK בטעם שוקולד, קרמל ובוטנים | 250 מ\"ל | 20 גרם חלבון | 6 יחידות במארז | Snickers",
+      "name_translations": {},
+      "description": "<p>משקה החלבון של סניקרס מגיש את הטעם האהוב של החטיף הקלאסי — שוקולד, קרמל ובוטנים — הפעם בבקבוק חלק ומוכן לשתייה. כל בקבוק בנפח 250 מ\"ל מכיל 20 גרם חלבון איכותי על בסיס חלב, עם 158 קלוריות בלבד, מה שהופך אותו לפינוק מושלם אחרי אימון או לחטיף חלבוני נוח באמצע היום — בלי צורך בהכנה, בערבוב או בשייקר.</p><p><br></p><p>בניגוד לשייקים \"דיאטטיים\" עם טעם מלאכותי, כאן מקבלים בדיוק את מה שמצפים מסניקרס: מרקם קרמי ועשיר וטעם ממכר — רק עם פרופיל תזונתי הרבה יותר קליל. אידיאלי למי שמחפש להגדיל צריכת חלבון בלי לוותר על ההנאה.</p><p><br></p><p>✔ 20 גרם חלבון על בסיס חלב בכל בקבוק</p><p>✔ 158 קלוריות בלבד לבקבוק — קליל ומספק</p><p>✔ טעם סניקרס אותנטי של שוקולד, קרמל ובוטנים</p><p>✔ מוכן לשתייה — בלי ערבוב ובלי שייקר</p><p>✔ מתאים לצמחונים</p><p>✔ נוח לקחת לאימון, לעבודה ולדרך</p><p><br></p><p>ערכים תזונתיים (לבקבוק 250 מ\"ל):</p><p>אנרגיה — 158 קלוריות</p><p>חלבון — 20 גרם</p><p>פחמימות — 12 גרם</p><p>שומן — 3 גרם</p><p><br></p><p>אופן הגשה ואחסון: לשתות קר, לנער היטב לפני השימוש. לאחר הפתיחה יש לשמור בקירור ולצרוך תוך 3 ימים. </p><p><br></p><p>רכיבים: חלב דל שומן (63%), תרכיז חלבון חלב (33%), אבקת מי גבינה (חלב), אבקת קקאו דלת שומן (0.7%), מים, תמצית לתת שעורה (0.1%), חומרי טעם, מייצבים (תאית, תאית גום, קרגינן), מלח, מווסת חומציות (אשלגן פוספט), ממתיקים (אצסולפאם K, סוכרלוז).</p><p><br></p><p>אלרגנים: מכיל חלב ושעורה (גלוטן). מכיל ממתיקים. שים לב: המוצר אינו מכיל בוטנים — טעם הבוטנים מגיע מחומרי הטעם בלבד.</p>",
+      "short_description": "הטעם האייקוני של סניקרס — שוקולד, קרמל ובוטנים — בבקבוק חלק ומוכן לשתייה. כל בקבוק בנפח 250 מ\"ל מכיל 20 גרם חלבון על בסיס חלב ורק 158 קלוריות. פינוק מושלם אחרי אימון או חטיף חלבוני נוח לדרך, בלי ערבוב ובלי שייקר.",
+      "sku": "5053357916711",
+      "brand": "SNICKERS",
+      "price": 110,
+      "base_price": 110,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785044417126-d5y7jc.webp",
+        "https://proteinstock.co.il/assets/product-1785044469506-rrs09.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y",
+      "categories": [
+        "משקאות חלבון"
+      ],
+      "updated_at": "2026-07-26T05:55:33.479Z"
+    },
     {
       "id": "3b47bdb1-9d3c-4a89-a127-c36245ed6f36",
       "slug": "mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx",

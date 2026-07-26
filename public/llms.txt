@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 23**
+**Total active products: 24**
+
+### משקה חלבון סניקרס SNICKERS HI PROTEIN MILK DRINK בטעם שוקולד, קרמל ובוטנים | 250 מ"ל | 20 גרם חלבון | 6 יחידות במארז | Snickers
+https://proteinstock.co.il/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y
+- Price: 110.00 ILS
+- Availability: In stock
+- Category: משקאות חלבון
+- SKU: 5053357916711
+- Brand: SNICKERS
+- Description: הטעם האייקוני של סניקרס — שוקולד, קרמל ובוטנים — בבקבוק חלק ומוכן לשתייה. כל בקבוק בנפח 250 מ"ל מכיל 20 גרם חלבון על בסיס חלב ורק 158 קלוריות. פינוק מושלם אחרי אימון או חטיף חלבוני נוח לדרך, בלי ערבוב ובלי שייקר.
+- Image: https://proteinstock.co.il/assets/product-1785044417126-d5y7jc.webp
 
 ### משקה חלבון מוכן לשתייה APPLIED NUTRITION HIGH PROTEIN SHAKE בטעם גלידת וניל (Vanilla Ice Cream) | 500 מ"ל | 42 גרם חלבון | 8 יחידות במארז | Applied Nutrition
 https://proteinstock.co.il/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx
