@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 25**
+**Total active products: 26**
+
+### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם שוקולד וקרמל | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
+https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu
+- Price: 160.00 ILS
+- Availability: In stock
+- Category: עוגיות חלבון
+- SKU: 5056357912683
+- Brand: MARS
+- Description: עוגיית חלבון רכה ואפויה בהשראת חטיף המרס הקלאסי — עם שבבי שוקולד חלב וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ומהווה נשנוש מפנק בלי הכנה — מושלם לתיק האימון, לעבודה או למגירת השולחן.
+- Image: https://proteinstock.co.il/assets/product-1785046516674-rmr4jo.webp
 
 ### משקה חלבון מרס MARS HI PROTEIN MILK DRINK בטעם שוקולד וקרמל | 250 מ"ל | 20 גרם חלבון | 6 יחידות במארז | Mars
 https://proteinstock.co.il/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy
