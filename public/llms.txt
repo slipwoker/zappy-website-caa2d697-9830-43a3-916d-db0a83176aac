@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 31**
+**Total active products: 32**
+
+### חטיף חלבון דל סוכר THE DINKY PROTEIN BAR בטעם שוקולד (Choccy Heaven) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
+https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp
+- Price: 129.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5060642590180
+- Brand: Muscle Moose
+- Description: חטיף חלבון קטן ומפנק בטעם שוקולד מבית Muscle Moose — "דינקי" בגודלו אבל עם 6 שכבות של פונדנט, טופי, קרמל, קריספיס וציפוי שוקולד חלב. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, דל בסוכר (1.4 גרם בלבד) ועשיר בסיבים תזונתיים. נשנוש קומפקטי לכל מקום.
+- Image: https://proteinstock.co.il/assets/product-1785050550003-6k0ghm.webp
 
 ### אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם קולה (Cola) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba
 https://proteinstock.co.il/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh
