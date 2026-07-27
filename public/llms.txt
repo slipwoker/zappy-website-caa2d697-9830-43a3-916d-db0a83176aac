@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 36**
+**Total active products: 37**
+
+### קרקרים אורגניים עשירים בחלבון Profusion Cracker Bites בטעם עדשים אדומות (Organic Red Lentil) | 150 גרם | 23 גרם חלבון לכל 100 גרם | טבעוני ואורגני | Profusion
+https://proteinstock.co.il/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m
+- Price: 39.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון מלוחים
+- SKU: 5032722319790
+- Brand: Profusion
+- Description: קרקרים אפויים, קריספיים וטבעוניים של Profusion על בסיס קמח עדשים אדומות אורגני (72%), עם חלבון אפונה וזרעי שומשום. 23 גרם חלבון ו‑7.5 גרם סיבים לכל 100 גרם, ורק 1.8 גרם סוכר — נשנוש מלוח שמשלב טעם וערך תזונתי. מושלם לטבילה בחומוס או גוואקמולה.
+- Image: https://proteinstock.co.il/assets/product-1785157721734-zltfbg.webp
 
 ### קרקרים אורגניים עשירים בחלבון Profusion Cracker Bites בטעם גרגירי חומוס (Organic Chickpea) | 150 גרם | 22 גרם חלבון לכל 100 גרם | טבעוני ואורגני | Profusion
 https://proteinstock.co.il/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng
