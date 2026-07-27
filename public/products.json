@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T10:55:44.239Z",
+  "generated_at": "2026-07-27T11:40:05.931Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 35,
+  "count": 36,
   "products": [
+    {
+      "id": "9e58b92f-b297-491e-908e-15005fc2123b",
+      "slug": "krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng",
+      "name": "קרקרים אורגניים עשירים בחלבון Profusion Cracker Bites בטעם גרגירי חומוס (Organic Chickpea) | 150 גרם | 22 גרם חלבון לכל 100 גרם | טבעוני ואורגני | Profusion",
+      "name_translations": {},
+      "description": "<p>Profusion Cracker Bites הם קרקרים אפויים וקריספיים על בסיס קמח גרגירי חומוס אורגני (64%), מועשרים בחלבון אפונה וזרעי צ'יה. הם מציעים נשנוש מלוח מבוסס צמחים עם ערך תזונתי אמיתי: 22 גרם חלבון, 9 גרם סיבים ורק 2.6 גרם סוכר לכל 100 גרם. טבעוני, אורגני ומיוצר באיטליה — נהדר בפני עצמו או כבסיס לטבילה בחומוס, גוואקמולה או כל ממרח שתבחר.</p><p><br></p><p>למה תאהבו אותו </p><p>✔ 22 גרם חלבון לכל 100 גרם — מבוסס גרגירי חומוס וחלבון אפונה</p><p>✔ עשיר בסיבים תזונתיים — 9 גרם לכל 100 גרם</p><p>✔ 64% קמח גרגירי חומוס אורגני</p><p>✔ טבעוני ואורגני — ללא רכיבים מן החי</p><p>✔ עם זרעי צ'יה ושמן חמניות עתיר אולאי</p><p>✔ רק 2.6 גרם סוכר לכל 100 גרם</p><p>✔ מיוצר באיטליה</p><p>✔ מושלם לנשנוש או לטבילה בממרחים</p><p><br></p><p><br></p><p>ערכים תזונתיים</p><p>לכל 100 גרם:</p><p>אנרגיה: 433 קק\"ל / 1812 קילו-ג'אול</p><p>חלבון: 22 גרם</p><p>פחמימות: 39 גרם</p><p>מתוכן סוכר: 2.6 גרם</p><p>שומן: 19 גרם</p><p>מתוכו רווי: 2.8 גרם</p><p>סיבים תזונתיים: 9 גרם</p><p>מלח: 1.4 גרם</p><p>באריזה שלמה (150 גרם): כ‑33 גרם חלבון וכ‑13.5 גרם סיבים.</p><p><br></p><p><br></p><p>אופן השימוש</p><p>מוכן לאכילה — נהדר לנשנוש ישירות מהאריזה, לצד ממרחים כמו חומוס, גוואקמולה או טחינה, או כתוספת פריכה לצלחת.</p><p><br></p><p>רכיבים</p><p>קמח גרגירי חומוס* (64%), קמח חיטה רך מלא*, שמן חמניות עתיר אולאי*, זרעי צ'יה* (Salvia Hispanica), חלבון אפונה*, מלח, מתפיחים: פחמתי נתרן, פחמתי אמון, מתחלב: לציטין חמניות*, טעם זית טבעי. *= רכיבים אורגניים מאושרים.</p><p><br></p><p>אלרגנים ואזהרות</p><p>מכיל: חיטה (גלוטן).</p><p>עלול להכיל: אגוזים, חרדל, סויה ושומשום (עקב תהליכי הייצור).</p><p>טבעוני — ללא רכיבים מן החי.</p><p>שים לב: המוצר מכיל חיטה ואינו נטול גלוטן.</p><p><br></p>",
+      "short_description": "קרקרים אפויים, קריספיים וטבעוניים של Profusion על בסיס קמח גרגירי חומוס אורגני (64%), עם חלבון אפונה וזרעי צ'יה. 22 גרם חלבון ו‑9 גרם סיבים לכל 100 גרם, ורק 2.6 גרם סוכר — נשנוש מלוח שמשלב טעם וערך תזונתי. מושלם לטבילה בחומוס או גוואקמולה.",
+      "sku": "5032722319783",
+      "brand": "Profusion",
+      "price": 39,
+      "base_price": 39,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-enhanced-1785150430458-p3yj1o.webp",
+        "https://proteinstock.co.il/assets/product-1785152357156-lv30q.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng",
+      "categories": [
+        "חטיפי חלבון מלוחים"
+      ],
+      "updated_at": "2026-07-27T11:39:32.571Z"
+    },
     {
       "id": "844cb2fd-58eb-4b06-85a4-3cdce37a5e13",
       "slug": "chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz",
