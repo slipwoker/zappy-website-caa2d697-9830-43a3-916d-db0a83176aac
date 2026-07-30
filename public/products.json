@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T13:17:37.619Z",
+  "generated_at": "2026-07-30T16:41:59.542Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 37,
+  "count": 38,
   "products": [
+    {
+      "id": "dbd262a3-6085-4c88-8735-98f35fa4b156",
+      "slug": "chtyp-chlbvn-mnvpch-bsgnvn-bmbh-mbvss-apvnh-profusion-protein-puffs-btam-lymvn-vplpl-shchvr-organic-lemon-black-pepper-40-grm-76-grm-chlbvn-lshkyt-tbavny-vavrgny-profusion-bc7krm",
+      "name": "חטיף חלבון מנופח בסגנון במבה מבוסס אפונה Profusion Protein Puffs בטעם לימון ופלפל שחור (Organic Lemon & Black Pepper) | 40 גרם | 7.6 גרם חלבון לשקית | טבעוני ואורגני | Profusion",
+      "name_translations": {},
+      "description": "<p>Profusion Protein Puffs בטעם לימון ופלפל שחור הם חטיף מנופח קליל בסגנון במבה, על בסיס קמח אפונה ירוקה אורגני (79.2%), עם תיבול לימוני-פלפלי מרענן. נשנוש מלוח מבוסס צמחים — טבעוני, אורגני וללא גלוטן — עם 7.6 גרם חלבון וכ‑3 גרם סיבים בכל שקית של 40 גרם, ורק 151 קלוריות. חלופה פריכה ומלאת טעם לצ'יפס ולחטיפים המנופחים הרגילים.</p><p><br></p><p>למה תאהבו אותו</p><p>✔ 7.6 גרם חלבון צמחי בכל שקית (19 גרם לכל 100 גרם)</p><p>✔ מבוסס 79.2% קמח אפונה ירוקה אורגני</p><p>✔ טבעוני, אורגני וללא גלוטן</p><p>✔ מקור לסיבים תזונתיים</p><p>✔ מרקם מנופח וקליל בסגנון במבה — רק 151 קלוריות לשקית שלמה</p><p>✔ מתובל בלימון, פלפל שחור ומלח הימלאיה ורוד</p><p>✔ חלופה חכמה ומלוחה לצ'יפס ולחטיפים מנופחים — מושלם לנשנוש בדרכים</p><p><br></p><p><br></p><p>ערכים תזונתיים</p><p>לכל 40 גרם (שקית) / לכל 100 גרם:</p><p>אנרגיה: 151 קק\"ל / 378 קק\"ל (1586 קילו-ג'אול)</p><p>חלבון: 7.6 גרם / 19 גרם</p><p>פחמימות: 18 גרם / 45 גרם</p><p>מתוכן סוכר: 0.9 גרם / 2.3 גרם</p><p>שומן: 4.8 גרם / 12 גרם</p><p>מתוכו רווי: 0.4 גרם / 1 גרם</p><p>סיבים תזונתיים: 3.1 גרם / 7.8 גרם</p><p>מלח: 1.4 גרם / 3.4 גרם</p><p><br></p><p><br></p><p>אופן השימוש</p><p>מוכן לאכילה — נהדר לנשנוש ישירות מהשקית, בהפסקה בעבודה, בדרכים או אחרי פעילות גופנית. חלופה קלילה ומלוחה לצ'יפס.</p><p><br></p><p>רכיבים</p><p>קמח אפונה ירוקה* (79.2%), שמן חמניות עתיר אולאי* (11%), תערובת תיבול לימון ופלפל שחור* (9%) [מלח ים, בצל*, פלפל שחור* (15%), גזר*, אבקת מיץ לימון* (6%), עגבנייה*, עמילן תירס*, טעם לימון טבעי], מלח הימלאיה ורוד (0.8%). *= רכיבים אורגניים מאושרים.</p><p><br></p><p>אלרגנים ואזהרות</p><p>ללא גלוטן. </p><p>טבעוני — ללא רכיבים מן החי.</p><p>עלול להכיל: חלב וסויה (עקב תהליכי הייצור).</p><p><br></p>",
+      "short_description": "חטיף מנופח קליל וקריספי בסגנון במבה של Profusion בטעם לימון ופלפל שחור. מבוסס קמח אפונה ירוקה אורגני (79.2%), טבעוני, אורגני וללא גלוטן — עם 7.6 גרם חלבון וסיבים בכל שקית, ורק 151 קלוריות. חלופה חכמה ומלוחה לצ'יפס ולחטיפים מנופחים רגילים.",
+      "sku": "5032722319783",
+      "brand": "Profusion ",
+      "price": 19.9,
+      "base_price": 19.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785429045912-7ffd1.webp",
+        "https://proteinstock.co.il/assets/product-1785429499417-mkcvko.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-mbvss-apvnh-profusion-protein-puffs-btam-lymvn-vplpl-shchvr-organic-lemon-black-pepper-40-grm-76-grm-chlbvn-lshkyt-tbavny-vavrgny-profusion-bc7krm",
+      "categories": [
+        "חטיפי חלבון מלוחים"
+      ],
+      "updated_at": "2026-07-30T16:41:23.011Z"
+    },
     {
       "id": "65c3281d-6fe2-4e94-894b-21bb0f01ceb2",
       "slug": "krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m",
