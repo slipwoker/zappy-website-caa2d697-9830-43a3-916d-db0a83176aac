@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 38**
+**Total active products: 39**
+
+### חטיף חלבון מנופח בסגנון במבה אורגני PROFUSION PROTEIN PUFFS בטעם פפריקה ומלח הימלאיה (Paprika & Himalayan Salt) | 40 גרם | 8.8 גרם חלבון | Profusion
+https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-avrgny-profusion-protein-puffs-btam-pprykh-vmlch-hymlayh-paprika-himalayan-salt-40-grm-88-grm-chlbvn-profusion-ye20hj
+- Price: 19.90 ILS
+- Availability: In stock
+- Category: חטיפי חלבון מלוחים
+- SKU: 5032722320338
+- Brand: Profusion
+- Description: חטיף חלבון מנופח בסגנון במבה, אורגני וטבעוני, על בסיס קמח עדשים אדומות עם פפריקה ומלח הימלאיה ורוד. ללא גלוטן, עשיר בחלבון ובסיבים תזונתיים — נשנוש מלוח וטראגן בלי להתפשר על התזונה.
+- Image: https://proteinstock.co.il/assets/product-1785683797689-4ua2al.webp
 
 ### חטיף חלבון מנופח בסגנון במבה מבוסס אפונה Profusion Protein Puffs בטעם לימון ופלפל שחור (Organic Lemon & Black Pepper) | 40 גרם | 7.6 גרם חלבון לשקית | טבעוני ואורגני | Profusion
 https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-mbvss-apvnh-profusion-protein-puffs-btam-lymvn-vplpl-shchvr-organic-lemon-black-pepper-40-grm-76-grm-chlbvn-lshkyt-tbavny-vavrgny-profusion-bc7krm

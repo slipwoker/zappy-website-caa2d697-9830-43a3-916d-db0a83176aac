@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T16:41:59.542Z",
+  "generated_at": "2026-08-02T15:30:19.987Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 38,
+  "count": 39,
   "products": [
+    {
+      "id": "7e5a1340-d146-42f6-b448-2992c0ede34a",
+      "slug": "chtyp-chlbvn-mnvpch-bsgnvn-bmbh-avrgny-profusion-protein-puffs-btam-pprykh-vmlch-hymlayh-paprika-himalayan-salt-40-grm-88-grm-chlbvn-profusion-ye20hj",
+      "name": "חטיף חלבון מנופח בסגנון במבה אורגני PROFUSION PROTEIN PUFFS בטעם פפריקה ומלח הימלאיה (Paprika & Himalayan Salt) | 40 גרם | 8.8 גרם חלבון | Profusion",
+      "name_translations": {},
+      "description": "<p>חטיף החלבון המנופח של <strong>Profusion</strong> הוא נשנוש מלוח בסגנון במבה שמשלב טעם עשיר של <strong>פפריקה ומלח הימלאיה ורוד</strong>. עשוי מקמח עדשים אדומות אורגני, החטיף מספק <strong>8.8 גרם חלבון צמחי</strong> במארז — אלטרנטיבה נהדרת לצ'יפס ולחטיפים המלוחים הרגילים.</p><p><strong>למה כדאי:</strong></p><p> ✔ עשיר בחלבון צמחי — 8.8 גרם למארז</p><p> ✔ מקור לסיבים תזונתיים</p><p> ✔ מרכיבים אורגניים מוסמכים</p><p> ✔ 100% טבעוני (plant-based)</p><p> ✔ ללא גלוטן</p><p><strong>ערכים תזונתיים (ל-100 גרם):</strong></p><p> אנרגיה 1685 קילו-ג'אול / 401 קק\"ל, שומן 11 גרם (מתוכו רווי 0.91 גרם), פחמימות 50 גרם (מתוכן סוכרים 1.1 גרם), סיבים תזונתיים 5 גרם, חלבון 22 גרם, מלח 2.6 גרם.</p><p><strong>רכיבים:</strong></p><p> קמח עדשים* (79.2%), שמן חמניות עתיר חומצה אולאית* (11%), תערובת תבלינים של עגבניה ואורגנו* (9%) [עמילן תירס*, מלח, אבקת עגבניה* (7%), אבקת בצל*, אבקת פפריקה* (6%), אבקת שום*, אבקת אורגנו*, צ'ילי*, פלפל שחור*, כורכום*, ארומה טבעית של אורגנו*, חומצת לימון], מלח הימלאיה ורוד (0.8%). *מרכיבים אורגניים מוסמכים.</p><p><strong>אלרגנים: </strong></p><p> בשל שיטת הייצור, המוצר אינו מתאים לאנשים עם אלרגיה לחלב ולסויה.</p>",
+      "short_description": "חטיף חלבון מנופח בסגנון במבה, אורגני וטבעוני, על בסיס קמח עדשים אדומות עם פפריקה ומלח הימלאיה ורוד. ללא גלוטן, עשיר בחלבון ובסיבים תזונתיים — נשנוש מלוח וטראגן בלי להתפשר על התזונה.",
+      "sku": "5032722320338",
+      "brand": "Profusion",
+      "price": 19.9,
+      "base_price": 19.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1785683797689-4ua2al.webp",
+        "https://proteinstock.co.il/assets/product-1785684542170-m2q4mv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-avrgny-profusion-protein-puffs-btam-pprykh-vmlch-hymlayh-paprika-himalayan-salt-40-grm-88-grm-chlbvn-profusion-ye20hj",
+      "categories": [
+        "חטיפי חלבון מלוחים"
+      ],
+      "updated_at": "2026-08-02T15:29:42.693Z"
+    },
     {
       "id": "dbd262a3-6085-4c88-8735-98f35fa4b156",
       "slug": "chtyp-chlbvn-mnvpch-bsgnvn-bmbh-mbvss-apvnh-profusion-protein-puffs-btam-lymvn-vplpl-shchvr-organic-lemon-black-pepper-40-grm-76-grm-chlbvn-lshkyt-tbavny-vavrgny-profusion-bc7krm",

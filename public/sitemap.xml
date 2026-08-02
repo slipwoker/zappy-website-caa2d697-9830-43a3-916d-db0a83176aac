@@ -2,93 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://proteinstock.co.il</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/why-protein-stock</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/global-brands</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/contact</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/products</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/cart</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/checkout</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/login</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/account</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/order-success</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/product/:slug</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/category/:slug</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/privacy</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/terms</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/accessibility</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-avrgny-profusion-protein-puffs-btam-pprykh-vmlch-hymlayh-paprika-himalayan-salt-40-grm-88-grm-chlbvn-profusion-ye20hj</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://proteinstock.co.il/product/chtyp-chlbvn-mnvpch-bsgnvn-bmbh-mbvss-apvnh-profusion-protein-puffs-btam-lymvn-vplpl-shchvr-organic-lemon-black-pepper-40-grm-76-grm-chlbvn-lshkyt-tbavny-vavrgny-profusion-bc7krm</loc>
