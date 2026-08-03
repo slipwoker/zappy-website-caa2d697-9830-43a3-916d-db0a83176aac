@@ -5778,13 +5778,6 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## Product Catalog
 
-### טסט של זאפי 
-URL: https://proteinstock.co.il/product/tst-shl-zapy-eb9rhl
-Price: 0.00 ILS
-Availability: In stock
-
----
-
 ### ‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם פופקורן פריך (Crunchy Popcorn) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud
 URL: https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd
 Price: 159.90 ILS

@@ -1,32 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-03T08:48:13.626Z",
+  "generated_at": "2026-08-03T10:55:10.696Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 43,
+  "count": 42,
   "products": [
-    {
-      "id": "be9771e5-c3f0-47ec-9e13-14a71455b7cf",
-      "slug": "tst-shl-zapy-eb9rhl",
-      "name": "טסט של זאפי ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://proteinstock.co.il/assets/product-1785746848007-05qti.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/tst-shl-zapy-eb9rhl",
-      "categories": [],
-      "updated_at": "2026-08-03T08:47:36.330Z"
-    },
     {
       "id": "187d0be9-aad9-4f95-bce2-dd66f4c1bd35",
       "slug": "chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd",
