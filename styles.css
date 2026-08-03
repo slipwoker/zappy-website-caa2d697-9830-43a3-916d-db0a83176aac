@@ -7346,6 +7346,18 @@ a, button {
 .product-tag.tag-sale { background: #ef4444; }
 .product-tag.tag-new { background: #22c55e; }
 .product-tag.tag-featured { background: #f59e0b; }
+/* Always-on sold-out badge on listing cards (independent of stock-status toggle) */
+.product-tag.tag-out-of-stock {
+  background: rgba(17, 24, 39, 0.88);
+  color: #fff;
+  letter-spacing: 0.04em;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+}
+.product-card.is-out-of-stock .product-card-media img {
+  filter: grayscale(0.18) brightness(0.97);
+}
 
 /* Filter buttons - V2 themed */
 .product-filters {
@@ -8632,7 +8644,11 @@ a, button {
 .product-info .product-stock { display: flex; align-items: center; gap: 8px; font-weight: 500; }
 .product-info .product-stock.in-stock { color: #10b981; }
 .product-info .product-stock.out-of-stock { color: #ef4444; }
+.product-info .product-stock.select-required { color: #d97706; }
 .product-info .product-stock.low-stock { color: #f59e0b; }
+.product-qty-stock-hint, .zappy-qv-stock-hint { display: block; width: 100%; font-size: 0.875rem; font-weight: 500; color: #b45309; line-height: 1.35; margin: 0 0 0.5rem; }
+.product-qty-stock-hint.is-over, .zappy-qv-stock-hint.is-over { color: #dc2626; }
+.product-qty-stock-hint[hidden], .zappy-qv-stock-hint[hidden] { display: none !important; }
 .product-stock svg {
   /* Some themes apply global svg { max-width:100%; height:auto; } which can blow this up.
      Clamp explicitly to icon size. */
@@ -9960,10 +9976,11 @@ html[lang="ar"] .mobile-search-panel .search-wrapper,
     gap: 12px !important;
   }
   
-  /* Desktop icon order: Search first (rightmost in RTL), then Login, then Cart (leftmost in RTL) */
+  /* Desktop icon order: Search, Globe, Login, Cart (LTR; mirrored for RTL) */
   .nav-ecommerce-icons .nav-search-box { order: 1 !important; }
-  .nav-ecommerce-icons .login-link.nav-login { order: 2 !important; }
-  .nav-ecommerce-icons .cart-link.nav-cart { order: 3 !important; }
+  .nav-ecommerce-icons .lang-switcher { order: 2 !important; }
+  .nav-ecommerce-icons .login-link.nav-login { order: 3 !important; }
+  .nav-ecommerce-icons .cart-link.nav-cart { order: 4 !important; }
   
   /* Hide nav-icons-right in V2 navbar desktop (search toggle is for mobile only) */
   .nav-right-group .nav-ecommerce-icons.nav-icons-right {
@@ -10718,10 +10735,26 @@ main,
     gap: 10px !important;
   }
 
-  /* Force-hide desktop search box on mobile (some templates keep it visible) */
+  /* Force-hide desktop search box on mobile (some templates / AI batches keep
+     it visible via higher-specificity .nav-icons-left .nav-search-box rules). */
   nav.navbar .nav-search-box,
-  .navbar .nav-search-box {
+  .navbar .nav-search-box,
+  .navbar .nav-ecommerce-icons .nav-search-box,
+  .navbar .nav-ecommerce-icons.nav-icons-left .nav-search-box,
+  .navbar .nav-container .nav-ecommerce-icons.nav-icons-left .nav-search-box,
+  html body .navbar .nav-ecommerce-icons.nav-icons-left .nav-search-box {
     display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    min-width: 0 !important;
+    max-width: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    pointer-events: none !important;
   }
 
   .cart-link,
@@ -10743,16 +10776,28 @@ main,
     background: var(--bg-light, #fff) !important;
   }
 
-  /* Icon color: contrast against the pill surface (luminance-aware). */
+  /* Icon color: contrast against the pill surface (luminance-aware).
+     High-specificity search-toggle selectors beat AI --nav-text SVG paints
+     on .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg. */
   .cart-link.nav-cart,
   .login-link.nav-login,
-  .nav-search-toggle {
+  .nav-search-toggle,
+  .navbar .nav-search-toggle,
+  .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle,
+  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle {
     color: var(--text-dark, #1a1a1a) !important;
   }
   .cart-link.nav-cart svg,
   .login-link.nav-login svg,
-  .nav-search-toggle svg {
+  .nav-search-toggle svg,
+  .navbar .nav-search-toggle svg,
+  .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg,
+  .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg *,
+  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg,
+  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg * {
     stroke: var(--text-dark, #1a1a1a) !important;
+    color: var(--text-dark, #1a1a1a) !important;
+    fill: none !important;
   }
   
   .cart-link svg,
