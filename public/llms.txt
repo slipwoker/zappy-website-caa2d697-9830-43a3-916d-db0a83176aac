@@ -75,14 +75,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 42**
 
 ### ‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם פופקורן פריך (Crunchy Popcorn) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud
-https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd
+https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-hi5uwj
 - Price: 159.90 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 7350068295546
 - Brand: PROPUD
 - Description: ‏חטיף חלבון על בסיס וניל עם פיסות תירס קלוי פריכות, עטוף בציפוי בטעם שוקולד חלב. 18 גרם חלבון לחפיסה, ללא תוספת סוכר וללא שמן דקלים. שילוב מנצח של פריכות ומתיקות לחובבי הפופקורן.
-- Image: https://proteinstock.co.il/assets/product-1785687665171-cwseqd.webp
+- Image: https://proteinstock.co.il/assets/product-1785837389315-nduzb.webp
 
 ### ‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם עוגיות ושמנת (Cookies N' Dream) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud
 https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-avgyvt-vshmnt-cookies-n-dream-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-ek4uz1

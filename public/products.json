@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-03T14:15:27.410Z",
+  "generated_at": "2026-08-04T09:58:06.480Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 42,
   "products": [
     {
       "id": "187d0be9-aad9-4f95-bce2-dd66f4c1bd35",
-      "slug": "chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd",
+      "slug": "chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-hi5uwj",
       "name": "‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם פופקורן פריך (Crunchy Popcorn) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud",
       "name_translations": {},
       "description": "<p>חטיף החלבון של ProPud (מבית המותג השוודי Njie) בטעם פופקורן פריך הוא חטיף עשיר על בסיס וניל, מפוזר בפיסות תירס קלוי ומלוח פריכות, כולו עטוף בציפוי בטעם שוקולד חלב. חטיף אחד מספק 18 גרם חלבון ללא תוספת סוכר — נשנוש אידיאלי אחרי אימון או בכל רגע שבו מתחשק משהו מתוק-מלוח בלי להתפשר.</p><p><br></p><p>‏<strong>למה כדאי:</strong></p><p>‏✔ עשיר בחלבון — 18 גרם לחפיסה</p><p>‏✔ ללא תוספת סוכר</p><p>‏✔ ללא שמן דקלים</p><p>‏✔ פיסות תירס קלוי פריכות</p><p>‏✔ ציפוי בטעם שוקולד חלב</p><p><br></p><p>‏<strong>ערכים תזונתיים (לחפיסה של 55 גרם / ל-100 גרם):</strong></p><p>‏אנרגיה: 246 קק\"ל / 441 קק\"ל</p><p>‏שומן: 14 גרם / 25 גרם (מתוכו רווי 7.7 גרם / 14 גרם)</p><p>‏פחמימות: 17 גרם / 31 גרם (מתוכן סוכרים 1.6 גרם / 2.9 גרם, רב-כהוליים 13 גרם / 24 גרם)</p><p>‏חלבון: 18 גרם / 32 גרם</p><p>‏מלח: 0.18 גרם / 0.33 גרם</p><p><br></p><p>‏<strong>רכיבים:</strong></p><p>‏חלבון חלב, ממתיק (מלטיטול), חומר לחות (גליצרול), חמאת קקאו (9.2%), שומן חלב נטול מים, פפטידי קולגן (בקר), אבקת חלב מלא, פיסות תירס מלוח וקלוי (5.4%) [תירס, שמן חמניות, מלח, נוגד חמצון (תמצית רוזמרין)], מים, מאסת קקאו (4.0%), שמן קנולה, ארומה, מלח, מתחלב (לציטין סויה), ממתיקים (אספרטיים, אצסולפיים K). מכיל מקור לפנילאלנין. מכיל סוכרים טבעיים.</p><p><br></p><p>‏<strong>אלרגנים:</strong></p><p>‏מכיל חלב וסויה. עלול להכיל עקבות של ביצים, שקדים, קשיו, אגוזי לוז, בוטנים, תורמוס וחיטה (גלוטן).</p>",
@@ -19,18 +19,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://proteinstock.co.il/assets/product-1785687665171-cwseqd.webp",
-        "https://proteinstock.co.il/assets/product-1785687815755-6c55vk.webp",
-        "https://proteinstock.co.il/assets/product-1785687883741-ylutnk.webp",
-        "https://proteinstock.co.il/assets/product-1785688635564-mnx24.webp"
+        "https://proteinstock.co.il/assets/product-1785837389315-nduzb.webp",
+        "https://proteinstock.co.il/assets/product-1785837415299-e9z1m.webp",
+        "https://proteinstock.co.il/assets/product-1785837432908-5fp32.webp",
+        "https://proteinstock.co.il/assets/product-1785837445222-gvr53w.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-hi5uwj",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-08-02T16:37:38.893Z"
+      "updated_at": "2026-08-04T09:57:34.324Z"
     },
     {
       "id": "adb87be5-ff78-4454-9895-a73caa8e0b0c",

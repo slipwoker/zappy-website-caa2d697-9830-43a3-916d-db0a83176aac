@@ -125,7 +125,9 @@ Description: גלה את המבחר הענק של אבקות חלבון, חטי�
 
 ## מוצרים מומלצים
 
-
+תצוגה מקדימה בלבד  החנות שלך מוכנה למוצרים
+הוסף את המוצר הראשון במנהל החנות כדי לראות אותו מופיע כאן.
+＋ הוסף מוצרים
 
 צפה בכל המוצרים →
 
@@ -5825,7 +5827,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ## Product Catalog
 
 ### ‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם פופקורן פריך (Crunchy Popcorn) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud
-URL: https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-f9bwbd
+URL: https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-hi5uwj
 Price: 159.90 ILS
 Availability: In stock
 SKU: 7350068295546
