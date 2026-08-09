@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-09T12:25:14.175Z",
+  "generated_at": "2026-08-09T12:37:49.961Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 51,
+  "count": 52,
   "products": [
+    {
+      "id": "5df4a0c9-4f4c-4cae-a9f0-d96e2663e246",
+      "slug": "chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-vchmat-bvtnym-chocolate-peanut-butter-75-grm-21-grm-chlbvn-12-ychydvt-bmarz-warrior-cxvphi",
+      "name": "חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם שוקולד וחמאת בוטנים (Chocolate Peanut Butter) | 75 גרם | 21 גרם חלבון | 12 יחידות במארז | Warrior",
+      "name_translations": {},
+      "description": "<p><strong>Warrior RAW Protein Flapjack — שוקולד וחמאת בוטנים | פלאפג&#39;ק חלבון 75 גרם</strong></p><p>Warrior לקחו את הזוג הקלאסי של שוקולד וחמאת בוטנים והפכו אותו לפלאפג&#39;ק חלבון אפוי-רך על בסיס שיבולת שועל. בניגוד לחטיפי שיבולת שועל יבשים ופירורים, ל-RAW יש מרקם רך, לעיס ונעים — עם חמאת בוטנים אמיתית שנותנת עומק וטעם מלא. עם 21 גרם חלבון, פרופיל דל סוכר וכמות נדיבה של סיבים תזונתיים, זהו חטיף משביע לפני אימון, אחריו, או כארוחת ביניים לאורך היום.</p><p></p><p><strong>למה תאהבו אותו:</strong></p><p>✔ 21 גרם חלבון בכל חטיף</p><p> ✔ עתיר סיבים תזונתיים — כ-8.5 גרם בחטיף</p><p> ✔ דל סוכר — רק כ-3.5 גרם סוכר</p><p> ✔ עם חמאת בוטנים אמיתית ומרקם אפוי-רך</p><p> ✔ מיוצר בבריטניה</p><p></p><p><strong>ערכים תזונתיים (ערכים טיפוסיים, לחטיף 75 גרם):</strong></p><p>אנרגיה: כ-255 קק&quot;ל</p><p> חלבון: 21 גרם</p><p> סוכר: כ-3.5 גרם</p><p> שומן: כ-5.3 גרם</p><p> סיבים תזונתיים: כ-8.5 גרם</p><p></p><p><strong>מרכיבים:</strong></p><p>שיבולת שועל, שיבולת שועל קלויה (מכילה דבש, תמצית לתת שעורה, סוכר, שמן צמחי), תערובת חלבונים (חלבון חלב, ג&#39;לטין הידרוליזט), גליצרין, פרוקטו-אוליגוסכריד, חמאת בוטנים, אבקת קקאו, שבבי שוקולד (סוכר, מסת קקאו, חמאת קקאו, מתחלב לציטין סויה), מלח, ממתיקים (סטיביה, סוכרלוז), טעמים.</p><p></p><p><strong>אלרגנים:</strong></p><p>מכיל שיבולת שועל (גלוטן), חלב, בוטנים וסויה. עלול להכיל ביצים ואגוזים.</p><p></p><p><strong>חשוב לדעת:</strong></p><p>המוצר מכיל ג&#39;לטין ואינו מתאים לצמחונים ולטבעונים. המוצר מכיל יותר מ-10 גרם רב-כהלים ל-100 גרם — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "פלאפג'ק חלבון אפוי-רך על בסיס שיבולת שועל, בשילוב המנצח של שוקולד וחמאת בוטנים אמיתית. 21 גרם חלבון, דל סוכר ועתיר סיבים — חטיף משביע ומספק לכל שעה ביום.",
+      "sku": "5060424708604",
+      "brand": "Warrior",
+      "price": 150,
+      "base_price": 150,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1786278508492-8il6k2.webp",
+        "https://proteinstock.co.il/assets/product-1786278724299-23zamj.webp",
+        "https://proteinstock.co.il/assets/product-1786278890381-eky2ua.webp",
+        "https://proteinstock.co.il/assets/product-1786278975160-otqdp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-vchmat-bvtnym-chocolate-peanut-butter-75-grm-21-grm-chlbvn-12-ychydvt-bmarz-warrior-cxvphi",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-08-09T12:37:15.081Z"
+    },
     {
       "id": "9cdf3f25-3c6b-46e6-be72-6565fefe8b30",
       "slug": "chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-bravny-shvkvld-chocolate-brownie-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-1kqlo8",
