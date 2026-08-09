@@ -75,10 +75,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 46**
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם פאדג' בראוני (Fudge Brownie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
-https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-padg-bravny-fudge-brownie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-2qezys
+https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-padg-bravny-fudge-brownie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-n18wbb
 - Price: 169.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
+- SKU: 5060756343993
+- Brand: Warrior
 - Description: חטיף החלבון שהפך את הבראוני השוקולדי העשיר לחוויה פריכה ורב-שכבתית. ליבת בראוני רכה בטעם פאדג', קריספיז קקאו פריכים וציפוי שוקולד חלב עם פנינים צבעוניות — 20 גרם חלבון ורק 2.1 גרם סוכר בכל חטיף.
 - Image: https://proteinstock.co.il/assets/product-1786271694576-gsqdk6.webp
 
