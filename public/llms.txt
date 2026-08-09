@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 46**
+**Total active products: 47**
+
+### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם חמאת בוטנים (Peanut Butter Cup) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
+https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-chmat-bvtnym-peanut-butter-cup-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-8pozbm
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5060756344433
+- Brand: Warrior
+- Description: חטיף החלבון שלוקח את הקלאסיקה של כוסיות חמאת הבוטנים והופך אותה לחוויה פריכה ורב-שכבתית. ליבת נוגט רכה בטעם חמאת בוטנים, קריספיז חלבון פריכים וציפוי שוקולד חלב עם קישוט שוקולד מריר — 20 גרם חלבון ורק 2.2 גרם סוכר בכל חטיף.
+- Image: https://proteinstock.co.il/assets/product-1786272842549-qc1c4e.webp
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם פאדג' בראוני (Fudge Brownie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-padg-bravny-fudge-brownie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-n18wbb
