@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 47**
+**Total active products: 48**
+
+### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם קרמל מלוח (Salted Caramel) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
+https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-krml-mlvch-salted-caramel-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-p23bzi
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5060424705368
+- Brand: Warrior
+- Description: חטיף החלבון שלוקח את הקסם של קרמל מלוח — מתוק, חמאתי עם נגיעת מלח — והופך אותו לחוויה פריכה ורב-שכבתית. ליבת נוגט רכה, שכבת קרמל מלוח וקריספי חלבון פריכים בציפוי שוקולד חלב — 20 גרם חלבון ורק 2.3 גרם סוכר בכל חטיף.
+- Image: https://proteinstock.co.il/assets/product-1786273826037-7dk4fh.webp
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם חמאת בוטנים (Peanut Butter Cup) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-chmat-bvtnym-peanut-butter-cup-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-8pozbm
