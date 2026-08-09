@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-09T11:18:48.140Z",
+  "generated_at": "2026-08-09T11:28:58.066Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 48,
+  "count": 49,
   "products": [
+    {
+      "id": "76da36e3-0bf5-48c1-99a9-9462a2f8ca2f",
+      "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-lbn-pryk-white-chocolate-crisp-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-ebzi63",
+      "name": "חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם שוקולד לבן פריך (White Chocolate Crisp) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior",
+      "name_translations": {},
+      "description": "<p></p><p><strong>Warrior Crunch — שוקולד לבן פריך | חטיף חלבון פריך 64 גרם</strong></p><p>Warrior לקחו את המתיקות הקרמית של שוקולד לבן והפכו אותה לחטיף חלבון רב-שכבתי ופריך שנשבר בין השיניים בכל ביס. ליבת נוגט רכה, שכבת קרמל חלקה, קריספי חלבון פריכים, והכל עטוף בציפוי נדיב של שוקולד לבן קרמי. טעם של פינוק אמיתי — עם 20 גרם חלבון ורק 2.5 גרם סוכר בכל חטיף. מושלם לפני אימון או אחריו, כחטיף ביניים משביע, או פשוט כשמתחשק משהו מתוק בלי לצאת מהמסלול.</p><p></p><p><strong>למה תאהבו אותו:</strong></p><p>✔ 20 גרם חלבון בכל חטיף — כמעט כמו חזה עוף</p><p> ✔ רק 2.5 גרם סוכר — דל סוכר באמת</p><p> ✔ שכבות של מרקם וטעם — שוקולד לבן, קרמל, נוגט וקריספי</p><p> ✔ מקור החלבון העיקרי הוא חלבון חלב איכותי</p><p> ✔ מיוצר בבריטניה בתקן GMP</p><p></p><p><strong>ערכים תזונתיים (לחטיף 64 גרם):</strong></p><p>אנרגיה: 239 קק&quot;ל</p><p> חלבון: 20 גרם</p><p> פחמימות: 24 גרם (מתוכן סוכר: 2.5 גרם)</p><p> שומן: 11 גרם (מתוכם רווי: 6 גרם)</p><p> סיבים תזונתיים: 2 גרם</p><p></p><p><strong>מרכיבים:</strong></p><p>ציפוי שוקולד לבן עם ממתיק (31%) (ממתיק מלטיטול, חמאת קקאו, אבקת חלב מלא, מתחלב לציטין, תמצית וניל בורבון טבעית), שכבת קרמל עם ממתיק (18%) (ממתיק מלטיטול, חלב מרוכז, חמאת קקאו, לחות סורביטול, מתחלב מונו ודי-גליצרידים של חומצות שומן, טעמים, מלח, צבע קרמל), חלבון חלב, קריספיז סויה (8.6%) (חלבון סויה, קמח אורז, תמצית לתת שעורה, מלח), קולגן הידרוליזט, לחות גליצרול, מים, חלבון סויה, שומן קוקוס, טעם (חלב).</p><p></p><p><strong>אלרגנים:</strong></p><p>מכיל חלב, סויה, שעורה וגלוטן. עלול להכיל אגוזים, ביצים ובוטנים.</p><p></p><p><strong>חשוב לדעת:</strong></p><p>המוצר מכיל קולגן ואינו מתאים לצמחונים. המוצר מכיל ממתיקים מסוג רב-כהלים (מלטיטול, סורביטול) — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p></p><p></p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "חטיף החלבון שעוטף ליבה פריכה ורב-שכבתית בציפוי שוקולד לבן חלק וקרמי. ליבת נוגט רכה, שכבת קרמל וקריספיז חלבון פריכים תחת שכבה נדיבה של שוקולד לבן — 20 גרם חלבון ורק 2.5 גרם סוכר בכל חטיף.",
+      "sku": "5060424705467",
+      "brand": "Warrior",
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1786274501665-32eein.webp",
+        "https://proteinstock.co.il/assets/product-1786274627001-a5nehn.webp",
+        "https://proteinstock.co.il/assets/product-1786274718466-oy5dcu.webp",
+        "https://proteinstock.co.il/assets/product-1786274888778-mbn3ti.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-lbn-pryk-white-chocolate-crisp-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-ebzi63",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-08-09T11:28:20.124Z"
+    },
     {
       "id": "dd3e5d25-2f93-4ceb-8ad8-86f6f97d033f",
       "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-krml-mlvch-salted-caramel-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-p23bzi",
