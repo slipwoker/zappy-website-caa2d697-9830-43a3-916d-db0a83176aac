@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-09T09:59:05.927Z",
+  "generated_at": "2026-08-09T10:07:55.981Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 44,
+  "count": 45,
   "products": [
+    {
+      "id": "a1fcd64a-a2f9-41f0-9278-a0b06de4503d",
+      "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-mryr-vchmat-bvtnym-dark-chocolate-peanut-butter-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-847py2",
+      "name": "חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם שוקולד מריר וחמאת בוטנים (Dark Chocolate Peanut Butter) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior",
+      "name_translations": {},
+      "description": "<p><strong>Warrior Crunch — שוקולד מריר וחמאת בוטנים | חטיף חלבון פריך 64 גרם</strong></p><p>Warrior לקחו את השילוב הקלאסי של שוקולד מריר עשיר וטעם חמאת בוטנים קרמי והפכו אותו לחטיף חלבון רב-שכבתי ופריך שנשבר בין השיניים בכל ביס. ליבת נוגט רכה בטעם חמאת בוטנים, שכבת קרמל חלקה, קריספי חלבון פריכים, והכל טבול בציפוי שוקולד מריר עמוק. טעם של פינוק אמיתי — עם 20 גרם חלבון ורק 2.5 גרם סוכר בכל חטיף. מושלם לפני אימון או אחריו, כחטיף ביניים משביע, או פשוט כשמתחשק משהו מתוק בלי לצאת מהמסלול.</p><p><strong>למה תאהבו אותו:</strong></p><p>✔ 20 גרם חלבון בכל חטיף — כמעט כמו חזה עוף</p><p> ✔ רק 2.5 גרם סוכר — דל סוכר באמת</p><p> ✔ שכבות של מרקם וטעם — שוקולד מריר, קרמל, נוגט וקריספיז</p><p> ✔ מקור החלבון העיקרי הוא חלבון חלב איכותי</p><p> ✔ מיוצר בבריטניה בתקן GMP</p><p></p><p><strong>ערכים תזונתיים (לחטיף 64 גרם):</strong></p><p>אנרגיה: 239 קק&quot;ל</p><p> חלבון: 20 גרם</p><p> פחמימות: 24 גרם (מתוכן סוכר: 2.5 גרם)</p><p> שומן: 11 גרם (מתוכם רווי: 6.1 גרם)</p><p> סיבים תזונתיים: 2 גרם</p><p></p><p><strong>מרכיבים:</strong></p><p>שוקולד מריר עם ממתיק (31%) (מסת קקאו, ממתיק מלטיטול, חמאת קקאו, מתחלב לציטין סויה, תמצית וניל), שכבת קרמל בטעם עם ממתיק (18%) (ממתיק מלטיטול, חלב מרוכז, חמאת קקאו, לחות סורביטול, מתחלב מונו ודי-גליצרידים של חומצות שומן, טעמים, מלח, צבע קרמל), חלבון חלב, קולגן הידרוליזט, קריספיז סויה (8.6%) (חלבון סויה, קמח אורז, תמצית לתת שעורה, מלח), לחות גליצרול, חלבון סויה, מים, שומן דקל, אבקת קקאו דלת שומן, טעמים.</p><p></p><p><strong>אלרגנים:</strong></p><p>מכיל חלב, סויה, שעורה וגלוטן. עלול להכיל עקבות של אגוזים, ביצים ובוטנים.</p><p></p><p><strong>חשוב לדעת:</strong></p><p>המוצר מכיל קולגן ואינו מתאים לצמחונים. המוצר מכיל ממתיקים מסוג רב-כהלים (מלטיטול, סורביטול) — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "חטיף החלבון שמשלב את העומק של שוקולד מריר עם טעם עשיר של חמאת בוטנים, בחוויה פריכה ורב-שכבתית. ליבת נוגט רכה, קריספיז חלבון פריכים וציפוי שוקולד מריר — 20 גרם חלבון ורק 2.5 גרם סוכר בכל חטיף.",
+      "sku": "5060424705535",
+      "brand": "Warrior",
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1786269814686-8gj5gu.webp",
+        "https://proteinstock.co.il/assets/product-1786269951978-04562o.webp",
+        "https://proteinstock.co.il/assets/product-1786270013934-5o0wds.webp",
+        "https://proteinstock.co.il/assets/product-1786270028884-gw9lod.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-mryr-vchmat-bvtnym-dark-chocolate-peanut-butter-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-847py2",
+      "categories": [],
+      "updated_at": "2026-08-09T10:07:21.605Z"
+    },
     {
       "id": "7733d3f4-b4fd-4f63-ad99-a7d39264a828",
       "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-btsk-avgyvt-shvkvld-tsyps-btsk-avgyvt-shvkvld-tsyps-vshvkvld-chlb-chocolate-chip-cookie-dough-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-scufsc",

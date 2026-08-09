@@ -72,7 +72,16 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 44**
+**Total active products: 45**
+
+### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם שוקולד מריר וחמאת בוטנים (Dark Chocolate Peanut Butter) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
+https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-mryr-vchmat-bvtnym-dark-chocolate-peanut-butter-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-847py2
+- Price: 169.00 ILS
+- Availability: In stock
+- SKU: 5060424705535
+- Brand: Warrior
+- Description: חטיף החלבון שמשלב את העומק של שוקולד מריר עם טעם עשיר של חמאת בוטנים, בחוויה פריכה ורב-שכבתית. ליבת נוגט רכה, קריספיז חלבון פריכים וציפוי שוקולד מריר — 20 גרם חלבון ורק 2.5 גרם סוכר בכל חטיף.
+- Image: https://proteinstock.co.il/assets/product-1786269814686-8gj5gu.webp
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם בצק עוגיות שוקולד צ'יפס — בצק עוגיות, שוקולד צ'יפס ושוקולד חלב (Chocolate Chip Cookie Dough) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-btsk-avgyvt-shvkvld-tsyps-btsk-avgyvt-shvkvld-tsyps-vshvkvld-chlb-chocolate-chip-cookie-dough-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-scufsc
