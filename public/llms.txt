@@ -75,9 +75,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 51**
 
 ### חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם בראוני שוקולד (Chocolate Brownie) | 75 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
-https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-bravny-shvkvld-chocolate-brownie-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-3vpyz8
+https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-bravny-shvkvld-chocolate-brownie-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-1kqlo8
 - Price: 150.00 ILS
 - Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5060424707041
+- Brand: Warrior
 - Description: פלאפג'ק חלבון אפוי-רך על בסיס שיבולת שועל, בטעם בראוני שוקולד עשיר. 20 גרם חלבון, דל סוכר ועתיר סיבים — חטיף משביע ומאוזן לכל שעה ביום, עם מרקם רך ונעים הרבה יותר מחטיפי שיבולת שועל רגילים.
 - Image: https://proteinstock.co.il/assets/product-1786277531844-2dw9vc.webp
 
