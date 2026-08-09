@@ -5827,7 +5827,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ## Product Catalog
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם בצק עוגיות שוקולד צ'יפס — בצק עוגיות, שוקולד צ'יפס ושוקולד חלב (Chocolate Chip Cookie Dough) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
-URL: https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-btsk-avgyvt-shvkvld-tsyps-btsk-avgyvt-shvkvld-tsyps-vshvkvld-chlb-chocolate-chip-cookie-dough-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-my83yb
+URL: https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-btsk-avgyvt-shvkvld-tsyps-btsk-avgyvt-shvkvld-tsyps-vshvkvld-chlb-chocolate-chip-cookie-dough-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-scufsc
 Price: 169.00 ILS
 Availability: In stock
 SKU: 5060756342781
@@ -5838,7 +5838,7 @@ Warrior Crunch — בצק עוגיות שוקולד צ&#39;יפס | חטיף ח�
 ---
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם באנופי פאי — בננה, טופי, שמנת ושוקולד (Banoffee Pie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
-URL: https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-banvpy-pay-bnnh-tvpy-shmnt-vshvkvld-banoffee-pie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-1bukbd
+URL: https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-banvpy-pay-bnnh-tvpy-shmnt-vshvkvld-banoffee-pie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-nfo9ox
 Price: 169.00 ILS
 Availability: In stock
 SKU: 5060424708062
