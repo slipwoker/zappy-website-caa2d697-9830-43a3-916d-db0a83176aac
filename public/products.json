@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-09T11:28:58.066Z",
+  "generated_at": "2026-08-09T12:02:43.762Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 49,
+  "count": 50,
   "products": [
+    {
+      "id": "2f88f281-8416-407a-b02b-94a6d03eee98",
+      "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-lbn-vmvkh-white-chocolate-mocha-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-rlvs1j",
+      "name": "חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם שוקולד לבן ומוקה (White Chocolate Mocha) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior",
+      "name_translations": {},
+      "description": "<p><strong>Warrior Crunch — שוקולד לבן ומוקה | חטיף חלבון פריך 64 גרם</strong></p><p>Warrior חיברו בין שני טעמים שנולדו זה לזה — שוקולד לבן קרמי וקפה מוקה עשיר — והפכו אותם לחטיף חלבון רב-שכבתי ופריך שנשבר בין השיניים בכל ביס. ליבת נוגט רכה, קריספיז חלבון פריכים, והכל עטוף בציפוי שוקולד לבן חלק עם קישוט שוקולד חלב וטעם קפוצ&#39;ינו נעים. טעם של פינוק קפה אמיתי — עם 20 גרם חלבון ופרופיל דל סוכר. מושלם לפני אימון או אחריו, כחטיף ביניים משביע, או פשוט כשמתחשק פינוק מתוק בנימה של קפה.</p><p></p><p><strong>למה תאהבו אותו:</strong></p><p>✔ 20 גרם חלבון בכל חטיף — כמעט כמו חזה עוף</p><p> ✔ פרופיל דל סוכר</p><p> ✔ שילוב טעמים מנצח — שוקולד לבן, שוקולד חלב וקפה מוקה</p><p> ✔ מקור החלבון העיקרי הוא חלבון חלב איכותי</p><p> ✔ מיוצר בבריטניה בתקן GMP</p><p></p><p><strong>ערכים תזונתיים (ערכים טיפוסיים, לחטיף 64 גרם):</strong></p><p>אנרגיה: 239 קק&quot;ל</p><p> חלבון: 20 גרם</p><p> פחמימות: 24 גרם (מתוכן סוכר: 2.3 גרם)</p><p> שומן: 11 גרם (מתוכם רווי: 6.1 גרם)</p><p> מלח: 0.36 גרם</p><p></p><p><strong>מרכיבים:</strong></p><p>שוקולד לבן עם ממתיק (30%) (ממתיק מלטיטול, חמאת קקאו, אבקת חלב מלא, מתחלב לציטין, תמצית וניל), פולידקסטרוז, חלבון חלב, קולגן הידרוליזט, קריספיז סויה (8.6%) (חלבון סויה, קמח אורז, תמצית לתת שעורה, מלח), לחות (גליצרול, סורביטול), חלבון סויה, שומן קוקוס, חלב מרוכז, שוקולד חלב עם ממתיק (1.6%) (ממתיק מלטיטול, חמאת קקאו, אבקת חלב מלא, מסת קקאו, מתחלב לציטין סויה, תמצית וניל), חמאת קקאו, טעם (חלב), מתחלב מונו ודי-גליצרידים של חומצות שומן, אבקת קקאו דלת שומן, מלח, צבע קרמל.</p><p></p><p><strong>אלרגנים:</strong></p><p>מכיל חלב, סויה, שעורה וגלוטן. עלול להכיל אגוזים, ביצים ובוטנים.</p><p></p><p><strong>חשוב לדעת:</strong></p><p>המוצר מכיל קולגן ואינו מתאים לצמחונים. המוצר מכיל ממתיקים מסוג רב-כהלים (מלטיטול, סורביטול) — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p></p><p></p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "חטיף החלבון שמחבר בין מתיקות קרמית של שוקולד לבן לעומק של קפה מוקה. ליבת נוגט רכה וקריספי חלבון פריכים בציפוי שוקולד לבן עם קישוט שוקולד חלב וטעם קפוצ'ינו עשיר — 20 גרם חלבון בכל חטיף.",
+      "sku": "5060756343917",
+      "brand": "Warrior",
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1786276006182-n76guo.webp",
+        "https://proteinstock.co.il/assets/product-1786276137751-5thf5.webp",
+        "https://proteinstock.co.il/assets/product-1786276515719-qsuauq.webp",
+        "https://proteinstock.co.il/assets/product-1786276919339-ecspy.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-lbn-vmvkh-white-chocolate-mocha-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-rlvs1j",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-08-09T12:02:07.947Z"
+    },
     {
       "id": "76da36e3-0bf5-48c1-99a9-9462a2f8ca2f",
       "slug": "chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-shvkvld-lbn-pryk-white-chocolate-crisp-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-ebzi63",
