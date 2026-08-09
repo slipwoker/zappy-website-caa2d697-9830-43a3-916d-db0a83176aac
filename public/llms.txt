@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 52**
+**Total active products: 53**
+
+### חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם עוגיות ושמנת (Cookies & Cream) | 75 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
+https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-avgyvt-vshmnt-cookies-cream-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-pqcknh
+- Price: 150.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5060756342972
+- Brand: Warrior
+- Description: פלאפג'ק חלבון אפוי-רך על בסיס שיבולת שועל, בטעם עוגיות ושמנת עם פירורי עוגייה אמיתיים פזורים לאורכו. 20 גרם חלבון, דל סוכר ועתיר סיבים — חטיף משביע ומספק לכל שעה ביום.
+- Image: https://proteinstock.co.il/assets/product-1786279332053-1pkenv.webp
 
 ### חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם שוקולד וחמאת בוטנים (Chocolate Peanut Butter) | 75 גרם | 21 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-vchmat-bvtnym-chocolate-peanut-butter-75-grm-21-grm-chlbvn-12-ychydvt-bmarz-warrior-cxvphi
