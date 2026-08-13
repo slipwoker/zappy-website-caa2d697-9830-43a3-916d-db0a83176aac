@@ -5875,7 +5875,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ## Product Catalog
 
 ### חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם כוסיות חמאת בוטנים (Peanut Butter Cup) | 75 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
-URL: https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-kvsyvt-chmat-bvtnym-peanut-butter-cup-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-jsl1vb
+URL: https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-kvsyvt-chmat-bvtnym-peanut-butter-cup-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-ryvqw6
 Price: 150.00 ILS
 Availability: In stock
 SKU: 5060756345614
