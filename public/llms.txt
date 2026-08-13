@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 57**
+**Total active products: 58**
+
+### משקה חלבון מוכן לשתייה בטעם קרמל מלוח ללא תוספת סוכר UFIT HIGH PROTEIN MILKSHAKE  (Salted Caramel) | 500 מ"ל | 50 גרם חלבון | 8 יחידות במארז | UFIT
+https://proteinstock.co.il/product/mshkh-chlbvn-mvkn-lshtyyh-btam-krml-mlvch-lla-tvspt-svkr-ufit-high-protein-milkshake-salted-caramel-500-ml-50-grm-chlbvn-8-ychydvt-bmarz-ufit-6amfmy
+- Price: 179.00 ILS
+- Availability: In stock
+- Category: משקאות חלבון
+- SKU: 5060317322573
+- Brand: UFIT
+- Description: משקה חלבון בטעם קרמל מלוח מוכן לשתייה, עם 50 גרם חלבון בבקבוק, ללא תוספת סוכר ונטול שומן כמעט לחלוטין, בתוספת ויטמינים ומינרלים. האיזון המושלם בין מתיקות קרמל לקורט מלח — פינוק חכם לכל רגע ביום.
+- Image: https://proteinstock.co.il/assets/product-1786648436512-4x4o1m.webp
 
 ### משקה חלבון מוכן לשתייה בטעם שוקולד ללא תוספת סוכר UFIT HIGH PROTEIN MILKSHAKE  (Chocolate) | 500 מ"ל | 50 גרם חלבון | 8 יחידות במארז | UFIT
 https://proteinstock.co.il/product/mshkh-chlbvn-mvkn-lshtyyh-btam-shvkvld-lla-tvspt-svkr-ufit-high-protein-milkshake-chocolate-500-ml-50-grm-chlbvn-8-ychydvt-bmarz-ufit-8t40uq
