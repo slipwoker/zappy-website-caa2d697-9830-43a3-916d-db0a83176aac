@@ -1,10 +1,39 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-13T18:30:59.438Z",
+  "generated_at": "2026-08-13T18:48:54.501Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 55,
+  "count": 56,
   "products": [
+    {
+      "id": "f5f92b8a-296a-40b2-b0a8-fc44d7391872",
+      "slug": "chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-lbn-vchmvtsyvt-white-chocolate-cranberry-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-2cwsbj",
+      "name": "חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם שוקולד לבן וחמוציות (White Chocolate Cranberry) | 75 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior",
+      "name_translations": {},
+      "description": "<p><strong>Warrior RAW Protein Flapjack — שוקולד לבן וחמוציות | פלאפג&#39;ק חלבון 75 גרם</strong></p><p>Warrior לקחו את השילוב הקלאסי של שוקולד לבן וחמוציות והפכו אותו לפלאפג&#39;ק חלבון אפוי-רך על בסיס שיבולת שועל, עם חמוציות מיובשות אמיתיות ושבבי שוקולד לבן פזורים לאורכו. בניגוד לחטיפי שיבולת שועל יבשים ופירורים, ל-RAW יש מרקם רך, לעיס ונעים — עם איזון מרענן בין המתיקות הקרמית של השוקולד הלבן לחמצמצות של החמוציות. עם 20 גרם חלבון, פרופיל דל סוכר וכמות נדיבה של סיבים תזונתיים, זהו חטיף משביע לפני אימון, אחריו, או כארוחת ביניים לאורך היום.</p><p></p><p><strong>למה תאהבו אותו:</strong></p><p>✔ 20 גרם חלבון בכל חטיף</p><p> ✔ עתיר סיבים תזונתיים — 8.5 גרם בחטיף</p><p> ✔ דל סוכר — רק 4.1 גרם סוכר</p><p> ✔ דל שומן במיוחד — רק 2.2 גרם שומן</p><p> ✔ עם חמוציות מיובשות אמיתיות ושבבי שוקולד לבן</p><p> ✔ מרקם אפוי-רך ולעיס, לא יבש</p><p> ✔ מיוצר בבריטניה</p><p></p><p><strong>ערכים תזונתיים (לחטיף 75 גרם):</strong></p><p>אנרגיה: 247 קק&quot;ל</p><p> חלבון: 20 גרם</p><p> פחמימות: 36.8 גרם (מתוכן סוכר: 4.1 גרם)</p><p> שומן: 2.2 גרם (מתוכם רווי: 0.5 גרם)</p><p> סיבים תזונתיים: 8.5 גרם</p><p> מלח: 0 גרם</p><p></p><p><strong>מרכיבים:</strong></p><p>שיבולת שועל, תערובת חלבונים (חלבון חלב, ג&#39;לטין הידרוליזט), גליצרין, פרוקטו-אוליגוסכריד, שיבולת שועל קלויה (מכילה דבש, תמצית לתת שעורה, סוכר, שמן צמחי), חמוציות מיובשות (2%), שבבי שוקולד לבן (1%) (סוכר, מסת קקאו, חמאת קקאו, מתחלב לציטין סויה), טעמים, מלח, ממתיקים (סוכרלוז, סטיביה).</p><p></p><p><strong>אלרגנים:</strong></p><p>מכיל שיבולת שועל, שעורה (גלוטן), חלב וסויה. עלול להכיל ביצים, אגוזים ובוטנים.</p><p></p><p><strong>חשוב לדעת:</strong></p><p>המוצר מכיל ג&#39;לטין ואינו מתאים לצמחונים ולטבעונים. המוצר מכיל יותר מ-10 גרם רב-כהלים ל-100 גרם — צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p></p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "פלאפג'ק חלבון אפוי-רך על בסיס שיבולת שועל, בשילוב מרענן של שוקולד לבן וחמוציות אמיתיות. 20 גרם חלבון, דל סוכר ועתיר סיבים — האיזון המושלם בין מתוק לחמצמץ.",
+      "sku": "5060424707782",
+      "brand": "Warrior",
+      "price": 150,
+      "base_price": 150,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1786646756056-84eqnd.webp",
+        "https://proteinstock.co.il/assets/product-1786646479734-hfg9qc.webp",
+        "https://proteinstock.co.il/assets/product-1786646841739-3wpcdd.webp",
+        "https://proteinstock.co.il/assets/product-1786646257418-r28s0n.webp",
+        "https://proteinstock.co.il/assets/product-1786646270669-fx7wwp.webp",
+        "https://proteinstock.co.il/assets/product-1786646285358-gwbkp6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-lbn-vchmvtsyvt-white-chocolate-cranberry-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-2cwsbj",
+      "categories": [
+        "חטיפי חלבון"
+      ],
+      "updated_at": "2026-08-13T18:48:17.274Z"
+    },
     {
       "id": "c4f3f214-752d-4c78-bb1d-e8fb7fee3c05",
       "slug": "chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-kvsyvt-chmat-bvtnym-peanut-butter-cup-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-ryvqw6",
