@@ -72,7 +72,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 56**
+**Total active products: 57**
+
+### משקה חלבון מוכן לשתייה בטעם שוקולד ללא תוספת סוכר UFIT HIGH PROTEIN MILKSHAKE  (Chocolate) | 500 מ"ל | 50 גרם חלבון | 8 יחידות במארז | UFIT
+https://proteinstock.co.il/product/mshkh-chlbvn-mvkn-lshtyyh-btam-shvkvld-lla-tvspt-svkr-ufit-high-protein-milkshake-chocolate-500-ml-50-grm-chlbvn-8-ychydvt-bmarz-ufit-8t40uq
+- Price: 179.00 ILS
+- Availability: In stock
+- Category: משקאות חלבון
+- SKU: 5060317320449
+- Brand: UFIT
+- Description: משקה חלבון שוקולד מוכן לשתייה עם 50 גרם חלבון בבקבוק, ללא תוספת סוכר ודל שומן, בתוספת ויטמינים ומינרלים. פינוק שוקולדי חלק ומספק לכל רגע ביום — בבית, בדרך או אחרי אימון.
+- Image: https://proteinstock.co.il/assets/product-1786647836673-a29k7.webp
 
 ### חטיף פלאפג'ק חלבון דל סוכר ועתיר סיבים WARRIOR RAW PROTEIN FLAPJACK בטעם שוקולד לבן וחמוציות (White Chocolate Cranberry) | 75 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-plapgk-chlbvn-dl-svkr-vatyr-sybym-warrior-raw-protein-flapjack-btam-shvkvld-lbn-vchmvtsyvt-white-chocolate-cranberry-75-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-2cwsbj
