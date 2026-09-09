@@ -399,10 +399,14 @@
     return 'zappy_purchase_fired_' + String(orderId || '');
   }
 
+  function purchaseMetaDedupKey(orderId) {
+    return 'zappy_purchase_meta_fired_' + String(orderId || '');
+  }
+
   function alreadyFiredPurchase(orderId) {
     if (!orderId) return false;
     try {
-      return sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
+      return window.sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
     } catch (e) {
       return false;
     }
@@ -410,8 +414,77 @@
 
   function markPurchaseFired(orderId) {
     if (!orderId) return;
-    try { sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
+    try { window.sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
   }
+
+  function alreadyFiredPurchaseMeta(orderId) {
+    if (!orderId) return false;
+    try {
+      return window.sessionStorage.getItem(purchaseMetaDedupKey(orderId)) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markPurchaseMetaFired(orderId) {
+    if (!orderId) return;
+    try { window.sessionStorage.setItem(purchaseMetaDedupKey(orderId), '1'); } catch (e) {}
+  }
+
+  function getPendingMetaEvents() {
+    try {
+      if (!Array.isArray(window.__zappyPendingMetaEvents)) {
+        window.__zappyPendingMetaEvents = [];
+      }
+      return window.__zappyPendingMetaEvents;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function enqueueMetaEvent(eventName, params, orderId) {
+    var q = getPendingMetaEvents();
+    if (orderId) {
+      for (var i = 0; i < q.length; i++) {
+        if (q[i] && q[i].orderId === orderId && q[i].eventName === eventName) return;
+      }
+    }
+    q.push({ eventName: eventName, params: params || {}, orderId: orderId || null });
+  }
+
+  /**
+   * Live sites replace the eager Meta snippet with a consent-gated lazy
+   * loader. Payment providers bounce the shopper back to /order-success
+   * before CookieConsent hydrates, so confirm-order used to fire Purchase
+   * while window.fbq was still undefined — then sessionStorage blocked a
+   * retry. Queue until fbq exists, then flush.
+   */
+  function flushPendingMetaEvents() {
+    if (typeof window.fbq !== 'function') return;
+    var q = getPendingMetaEvents().slice();
+    try { window.__zappyPendingMetaEvents = []; } catch (e) {}
+    for (var i = 0; i < q.length; i++) {
+      var item = q[i];
+      if (!item || !item.eventName) continue;
+      if (item.orderId && alreadyFiredPurchaseMeta(item.orderId)) continue;
+      try {
+        window.fbq('track', item.eventName, item.params || {});
+        if (item.orderId) markPurchaseMetaFired(item.orderId);
+      } catch (e2) {}
+    }
+  }
+  window.zappyFlushPendingMetaEvents = flushPendingMetaEvents;
+
+  var metaFlushAttempts = 0;
+  var metaFlushTimer = setInterval(function() {
+    metaFlushAttempts++;
+    flushPendingMetaEvents();
+    var pendingLen = 0;
+    try { pendingLen = (window.__zappyPendingMetaEvents || []).length; } catch (e) {}
+    if ((pendingLen === 0 && typeof window.fbq === 'function') || metaFlushAttempts > 60) {
+      clearInterval(metaFlushTimer);
+    }
+  }, 500);
 
   /**
    * Fire a marketing event to first-party analytics + GA4/GTM/Meta when present.
@@ -431,15 +504,19 @@
         metadata.pagePath = pagePath();
       }
 
+      var oid = '';
+      var purchaseAlreadySent = false;
+      var purchaseMetaAlreadySent = false;
       if (eventId === 'checkout_complete') {
-        var oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
-        if (oid && alreadyFiredPurchase(oid)) return;
-        if (oid) markPurchaseFired(oid);
+        oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
+        purchaseAlreadySent = !!(oid && alreadyFiredPurchase(oid));
+        purchaseMetaAlreadySent = !!(oid && alreadyFiredPurchaseMeta(oid));
+        if (purchaseAlreadySent && purchaseMetaAlreadySent) return;
       }
 
       // First-party (skip when already tracked via zappyTrackEcomAnalytics path
       // that opts out, or when caller already recorded under a different name)
-      if (!opts.skipFirstParty) {
+      if (!opts.skipFirstParty && !purchaseAlreadySent) {
         try {
           if (window.zappyAnalytics && typeof window.zappyAnalytics.track === 'function') {
             window.zappyAnalytics.track(eventId, metadata);
@@ -448,40 +525,53 @@
       }
 
       // GTM / dataLayer — platform-standard ecommerce event names
-      try {
-        window.dataLayer = window.dataLayer || [];
-        if (plat.ecom) {
-          var ga4ForGtm = buildGa4Params(eventId, metadata);
-          var ecommerce = {};
-          if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
-          if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
-          if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
-          if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
-          window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
-          // Secondary Zappy-specific trigger for merchants who want it
-          if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
-            window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+      if (!purchaseAlreadySent) {
+        try {
+          window.dataLayer = window.dataLayer || [];
+          if (plat.ecom) {
+            var ga4ForGtm = buildGa4Params(eventId, metadata);
+            var ecommerce = {};
+            if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
+            if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
+            if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
+            if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
+            window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
+            // Secondary Zappy-specific trigger for merchants who want it
+            if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
+              window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+            }
+          } else {
+            var dl = { event: plat.gtm };
+            for (var k in metadata) {
+              if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+            }
+            window.dataLayer.push(dl);
           }
+        } catch (e2) {}
+
+        // GA4 gtag
+        try {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
+          }
+        } catch (e3) {}
+
+        if (oid) markPurchaseFired(oid);
+      }
+
+      // Meta Pixel — live sites lazy-load fbq after marketing consent. If the
+      // stub is not defined yet, queue and flush when the pixel arrives.
+      try {
+        if (purchaseMetaAlreadySent) {
+          // already delivered to Meta
         } else {
-          var dl = { event: plat.gtm };
-          for (var k in metadata) {
-            if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+          var metaParams = buildMetaParams(eventId, metadata);
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', plat.meta, metaParams);
+            if (oid) markPurchaseMetaFired(oid);
+          } else {
+            enqueueMetaEvent(plat.meta, metaParams, eventId === 'checkout_complete' ? oid : null);
           }
-          window.dataLayer.push(dl);
-        }
-      } catch (e2) {}
-
-      // GA4 gtag
-      try {
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
-        }
-      } catch (e3) {}
-
-      // Meta Pixel (only when fbq is loaded — consent-gated lazy loader)
-      try {
-        if (typeof window.fbq === 'function') {
-          window.fbq('track', plat.meta, buildMetaParams(eventId, metadata));
         }
       } catch (e4) {}
     } catch (err) {}
@@ -1033,7 +1123,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
-<script>window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1557,12 +1647,12 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         לצד אבקות חלבון, מוצרי פאמפ ומגנזיום — כדי שתוכלו להתמקד במה שחשוב באמת: ביצועים, התאוששות והנאה מכל אימון.</p>
     </div>
 
-    <div class="global-brands-showcase-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782893027644-q1rnfr" data-zappy-auto-grid="true" data-original-item-width="516" data-original-gap="30px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
+    <div class="global-brands-showcase-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782893027644-q1rnfr" data-zappy-auto-grid="true" data-original-item-width="380" data-original-gap="30px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
       
       <!-- Card 1: Snickers -->
       <article class="global-brands-showcase-section__card" data-grid-item-index="0">
         <div class="global-brands-showcase-section__card-image-wrapper">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027599-7jywycx58" data-element-type="image" data-zappy-zoom-wrapper-width="515px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="חטיף חלבון סניקרס" class="global-brands-showcase-section__card-image" src="/assets/site-imported-brands-showcase-image-1.webp" data-placeholder="imported-brands-showcase-image-1" data-context="Close-up of a Snickers Hi-Protein bar unwrapped on a dark gym bench, with chocolate and caramel visible, dramatic lighting, fitness vibe" style="display: block !important; width: 107.87% !important; height: 253.135% !important; object-fit: cover !important; object-position: 54% 69% !important; margin: 0px !important; left: -4.2498% !important; top: -105.663% !important; max-width: none !important; max-height: none !important;" data-element-type="image" data-element-id="img-1782893027599-7jywycx58" data-zappy-zoom="1.0787" data-zappy-object-position="54% 69%" data-zappy-mobile-object-position="54% 69%" data-zappy-mobile-zoom="1.0787" decoding="async" /></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027599-7jywycx58" data-element-type="image" data-zappy-zoom-wrapper-width="378px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important; margin-top: -30px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-mobile-bleed="1"><img alt="חטיף חלבון סניקרס" class="global-brands-showcase-section__card-image" src="/assets/site-imported-brands-showcase-image-1.webp" data-placeholder="imported-brands-showcase-image-1" data-context="Close-up of a Snickers Hi-Protein bar unwrapped on a dark gym bench, with chocolate and caramel visible, dramatic lighting, fitness vibe" style="display: block !important; width: 107.87% !important; height: 294.057% !important; object-fit: cover !important; object-position: 54% 69% !important; margin: 0px !important; left: -4.2498% !important; top: -133.899% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1782893027599-7jywycx58" data-zappy-zoom="1.0787" data-zappy-object-position="54% 69%" data-zappy-mobile-object-position="54% 69%" data-zappy-mobile-zoom="1.0787" decoding="async" /></div>
           <div class="global-brands-showcase-section__card-badge">Snickers</div>
         </div>
         <div class="global-brands-showcase-section__card-content">
@@ -1575,7 +1665,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Card 2: Mars -->
       <article class="global-brands-showcase-section__card" data-grid-item-index="1">
         <div class="global-brands-showcase-section__card-image-wrapper">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027600-v5qfmti0w" data-element-type="image" data-zappy-zoom-wrapper-width="515px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="חטיף חלבון מארס" class="global-brands-showcase-section__card-image" src="/assets/site-imported-brands-showcase-image-3.webp" data-placeholder="imported-brands-showcase-image-3" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="display: block !important; width: 107.869% !important; height: 419.839% !important; object-fit: cover !important; object-position: 48% 85% !important; margin: 0px !important; left: -3.77712% !important; top: -271.864% !important; max-width: none !important; max-height: none !important;" data-element-type="image" data-element-id="img-1782893027600-v5qfmti0w" data-zappy-zoom="1.07869" data-zappy-object-position="48% 85%" decoding="async" /></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027600-v5qfmti0w" data-element-type="image" data-zappy-zoom-wrapper-width="378px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important; margin-top: -30px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-mobile-bleed="1"><img alt="חטיף חלבון מארס" class="global-brands-showcase-section__card-image" src="/assets/site-imported-brands-showcase-image-3.webp" data-placeholder="imported-brands-showcase-image-3" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="display: block !important; width: 107.869% !important; height: 294.054% !important; object-fit: cover !important; object-position: 48% 85% !important; margin: 0px !important; left: -3.77712% !important; top: -164.946% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1782893027600-v5qfmti0w" data-zappy-zoom="1.07869" data-zappy-object-position="48% 85%" decoding="async" /></div>
           <div class="global-brands-showcase-section__card-badge">Mars</div>
         </div>
         <div class="global-brands-showcase-section__card-content">
@@ -1588,24 +1678,24 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Card 3: Placeholder -->
       <article class="global-brands-showcase-section__card" data-grid-item-index="2" style="display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
         <div class="global-brands-showcase-section__card-image-wrapper">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027600-en4mkgv9m" data-element-type="image" data-zappy-zoom-wrapper-width="515px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="Image placeholder" class="global-brands-showcase-section__card-image" src="/assets/image-1785853022519-g02va5.webp?v=1785853022519" data-placeholder="image-placeholder" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="width: 108% !important; height: 241.371% !important; object-fit: cover !important; object-position: 45% 54% !important; margin: 0px !important; left: -3.6% !important; top: -76.3406% !important; max-width: none !important; max-height: none !important; display: block !important;" data-element-type="image" data-element-id="img-1782893027600-en4mkgv9m" data-zappy-zoom="1.08" data-zappy-original-width="454.6000061035156" data-zappy-original-height="160" data-zappy-object-position="45% 54%" data-zappy-mobile-object-position="45% 54%" data-zappy-mobile-zoom="1.08" decoding="async" /></div>
-          <div class="global-brands-showcase-section__card-badge">PROTEIN</div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782893027600-en4mkgv9m" data-element-type="image" data-zappy-zoom-wrapper-width="378px" data-zappy-zoom-wrapper-height="220px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 220px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important; margin-top: -30px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-mobile-bleed="1"><img alt="Image placeholder" class="global-brands-showcase-section__card-image" src="/assets/image-1785853022519-g02va5.webp?v=1785853022519" data-placeholder="image-placeholder" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="width: 108% !important; height: 214.92% !important; object-fit: cover !important; object-position: 45% 54% !important; margin: 0px !important; left: -3.6% !important; top: -62.0568% !important; max-width: none !important; max-height: none !important; display: block !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1782893027600-en4mkgv9m" data-zappy-zoom="1.08" data-zappy-original-width="454.6000061035156" data-zappy-original-height="160" data-zappy-object-position="45% 54%" data-zappy-mobile-object-position="45% 54%" data-zappy-mobile-zoom="1.08" decoding="async" /></div>
+          <div class="global-brands-showcase-section__card-badge" style>PROTEIN</div>
         </div>
         <div class="global-brands-showcase-section__card-content">
-          <h3 class="global-brands-showcase-section__card-title">משקאות חלבון ממותגים מובילים</h3>
-          <p class="global-brands-showcase-section__card-text" style="color: rgb(74, 74, 74) !important;">מרס,סניקרס ועוד</p>
-          <p class="global-brands-showcase-section__card-desc">טקסט כאן</p>
+          <h3 class="global-brands-showcase-section__card-title" style>משקאות חלבון ממותגים מובילים</h3>
+          <p class="global-brands-showcase-section__card-text" style="color: rgb(74, 74, 74) !important;">מרס,סניקרס,UFIT,</p>
+          <p class="global-brands-showcase-section__card-desc" style>טקסט כאן</p>
         </div>
       </article>
 
       <!-- Card 4: Placeholder -->
-      <article class="global-brands-showcase-section__card" data-grid-item-index="3">
+      <article class="global-brands-showcase-section__card" data-grid-item-index="3" style>
         <div class="global-brands-showcase-section__card-image-wrapper">
-          <img alt="Image placeholder" class="global-brands-showcase-section__card-image" src="/assets/image-1785853053454-hxkd5w.webp?v=1785853053454" data-placeholder="image-placeholder" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="width: 100%; height: 100%; object-fit: cover; object-position: center center;" data-element-type="image" data-element-id="img-1782893027600-p4so9tm96" decoding="async" />
+          <img alt="Image placeholder" class="global-brands-showcase-section__card-image" src="/assets/image-1785853053454-hxkd5w.webp?v=1785853053454" data-placeholder="image-placeholder" data-context="Mars Hi-Protein bar split in half showing nougat and caramel layers, with a shaker bottle blurred in the background" style="width: 100%; height: 100%; object-fit: cover; object-position: center center;" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1782893027600-p4so9tm96" decoding="async" />
           <div class="global-brands-showcase-section__card-badge">MnM</div>
         </div>
         <div class="global-brands-showcase-section__card-content">
-          <h3 class="global-brands-showcase-section__card-title">משקאות אנרגיה ממותגים מובילים בעולם</h3>
+          <h3 class="global-brands-showcase-section__card-title" style>משקאות אנרגיה ממותגים מובילים בעולם</h3>
           <p class="global-brands-showcase-section__card-text" style="color: rgb(74, 74, 74) !important;">פחיות MONSTER בטעמים הכי מיוחדים שתמצאו</p>
           <p class="global-brands-showcase-section__card-desc">טקסט כאן</p>
         </div>
@@ -1664,7 +1754,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="imported-brands-authenticity-section__card-title">שקיפות מלאה – מה שאתה רואה זה מה שאתה מקבל</h3>
-        <p class="imported-brands-authenticity-section__card-text">ב״פרוטאין סטוק״ אנחנו מאמינים בשקיפות. כל מוצר באתר מוצג עם תיאור מדויק, רשימת רכיבים מלאה ותאריך תפוגה גלוי. אנחנו מקפידים על הצגת המוצרים כפי שהם – בלי הפתעות ובלי להסתיר מידע, כדי שתוכלו לקנות בביטחון מלא, בדיוק כמו בחנות פיזית.</p>
+        <p class="imported-brands-authenticity-section__card-text" style>ב״פרוטאין סטוק״ אנחנו מאמינים בשקיפות. כל מוצר באתר מוצג עם תיאור מדויק, רשימת רכיבים מלאה ותאריך תפוגה גלוי. אנחנו מקפידים על הצגת המוצרים כפי שהם – בלי הפתעות ובלי להסתיר מידע, כדי שתוכלו לקנות בביטחון מלא, בדיוק כמו בחנות פיזית.</p>
       </div>
     </div>
   </div>
@@ -1704,7 +1794,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <h3 class="goal-card__title">תמיכה בבניית שריר</h3>
           <p class="goal-card__text">אבקות חלבון איכותיות וחטיפי חלבון עשירים, המיועדים לתמוך בתהליך בניית השריר ולספק לגוף את אבני הבניין החיוניות לאחר אימון עצים. המוצרים שלנו מכילים פרופיל חומצות אמינו מלא לתוצאות מיטביות.</p>
         </div>
-        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-1" data-context="Close-up of a muscular athlete mixing protein powder in a shaker bottle, gym background with weights, clean and powerful aesthetic, bright lighting" width="600" height="400" src="/assets/site-imported-brands-goals-image-1.webp" alt="ספורטאי מכין שייק חלבון לאחר אימון" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-v30hqm28y" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-1" data-context="Close-up of a muscular athlete mixing protein powder in a shaker bottle, gym background with weights, clean and powerful aesthetic, bright lighting" width="600" height="400" src="/assets/site-imported-brands-goals-image-1.webp" alt="ספורטאי מכין שייק חלבון לאחר אימון" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-v30hqm28y" style fetchpriority="low" />
       </div>
 
       <!-- Goal 2: Convenient Protein Intake -->
@@ -1736,11 +1826,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <h3 class="goal-card__title">אנרגיה מתפרצת ותמיכת פאמפ</h3>
           <p class="goal-card__text">מוצרי פאמפ ומגנזיום מתקדמים לשיפור זרימת הדם, הגברת האנרגיה והשגת תחושת "פאמפ" מלאה במהלך האימון. הפורמולות שלנו מסייעות לשמור על מיקוד ועצימות גבוהה לאורך כל הסט.</p>
         </div>
-        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-3" data-context="Dynamic shot of a fitness athlete doing bicep curls with intense focus, veins visible, dramatic gym lighting, sweat and determination, powerful atmosphere" width="600" height="400" src="/assets/site-imported-brands-goals-image-3.webp" alt="ספורטאי מבצע תרגיל משקולות בעצימות גבוהה" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-5cklobjow" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-3" data-context="Dynamic shot of a fitness athlete doing bicep curls with intense focus, veins visible, dramatic gym lighting, sweat and determination, powerful atmosphere" width="600" height="400" src="/assets/site-imported-brands-goals-image-3.webp" alt="ספורטאי מבצע תרגיל משקולות בעצימות גבוהה" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-5cklobjow" style fetchpriority="low" />
       </div>
 
       <!-- Goal 4: Recovery Rhythm -->
-      <div class="goal-card" data-grid-item-index="3">
+      <div class="goal-card" data-grid-item-index="3" style>
         <div class="goal-card__icon-wrapper">
           <svg class="goal-card__icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/>
@@ -1755,7 +1845,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <h3 class="goal-card__title">קצב התאוששות מנצח</h3>
           <p class="goal-card__text">תוספי מגנזיום ורכיבים תזונתיים חיוניים המסייעים להרפיית השרירים, צמצום התכווצויות ושיפור איכות השינה. התאוששות טובה יותר משמעה אימון חזק יותר – ותוצאות מהירות יותר לאורך זמן.</p>
         </div>
-        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-4" data-context="Athlete resting peacefully after workout, holding a magnesium supplement bottle, soft evening light, calm and restorative wellness vibe" width="600" height="400" src="/assets/site-imported-brands-goals-image-4.webp" alt="ספורטאי נח לאחר אימון עם תוסף מגנזיום" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-aqi44sdr7" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="imported-brands-goals-image-4" data-context="Athlete resting peacefully after workout, holding a magnesium supplement bottle, soft evening light, calm and restorative wellness vibe" width="600" height="400" src="/assets/site-imported-brands-goals-image-4.webp" alt="ספורטאי נח לאחר אימון עם תוסף מגנזיום" class="goal-card__image" data-element-type="image" data-element-id="img-1782813098666-aqi44sdr7" style fetchpriority="low" />
       </div>
 
     </div>
