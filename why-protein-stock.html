@@ -399,10 +399,14 @@
     return 'zappy_purchase_fired_' + String(orderId || '');
   }
 
+  function purchaseMetaDedupKey(orderId) {
+    return 'zappy_purchase_meta_fired_' + String(orderId || '');
+  }
+
   function alreadyFiredPurchase(orderId) {
     if (!orderId) return false;
     try {
-      return sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
+      return window.sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
     } catch (e) {
       return false;
     }
@@ -410,8 +414,77 @@
 
   function markPurchaseFired(orderId) {
     if (!orderId) return;
-    try { sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
+    try { window.sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
   }
+
+  function alreadyFiredPurchaseMeta(orderId) {
+    if (!orderId) return false;
+    try {
+      return window.sessionStorage.getItem(purchaseMetaDedupKey(orderId)) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markPurchaseMetaFired(orderId) {
+    if (!orderId) return;
+    try { window.sessionStorage.setItem(purchaseMetaDedupKey(orderId), '1'); } catch (e) {}
+  }
+
+  function getPendingMetaEvents() {
+    try {
+      if (!Array.isArray(window.__zappyPendingMetaEvents)) {
+        window.__zappyPendingMetaEvents = [];
+      }
+      return window.__zappyPendingMetaEvents;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function enqueueMetaEvent(eventName, params, orderId) {
+    var q = getPendingMetaEvents();
+    if (orderId) {
+      for (var i = 0; i < q.length; i++) {
+        if (q[i] && q[i].orderId === orderId && q[i].eventName === eventName) return;
+      }
+    }
+    q.push({ eventName: eventName, params: params || {}, orderId: orderId || null });
+  }
+
+  /**
+   * Live sites replace the eager Meta snippet with a consent-gated lazy
+   * loader. Payment providers bounce the shopper back to /order-success
+   * before CookieConsent hydrates, so confirm-order used to fire Purchase
+   * while window.fbq was still undefined — then sessionStorage blocked a
+   * retry. Queue until fbq exists, then flush.
+   */
+  function flushPendingMetaEvents() {
+    if (typeof window.fbq !== 'function') return;
+    var q = getPendingMetaEvents().slice();
+    try { window.__zappyPendingMetaEvents = []; } catch (e) {}
+    for (var i = 0; i < q.length; i++) {
+      var item = q[i];
+      if (!item || !item.eventName) continue;
+      if (item.orderId && alreadyFiredPurchaseMeta(item.orderId)) continue;
+      try {
+        window.fbq('track', item.eventName, item.params || {});
+        if (item.orderId) markPurchaseMetaFired(item.orderId);
+      } catch (e2) {}
+    }
+  }
+  window.zappyFlushPendingMetaEvents = flushPendingMetaEvents;
+
+  var metaFlushAttempts = 0;
+  var metaFlushTimer = setInterval(function() {
+    metaFlushAttempts++;
+    flushPendingMetaEvents();
+    var pendingLen = 0;
+    try { pendingLen = (window.__zappyPendingMetaEvents || []).length; } catch (e) {}
+    if ((pendingLen === 0 && typeof window.fbq === 'function') || metaFlushAttempts > 60) {
+      clearInterval(metaFlushTimer);
+    }
+  }, 500);
 
   /**
    * Fire a marketing event to first-party analytics + GA4/GTM/Meta when present.
@@ -431,15 +504,19 @@
         metadata.pagePath = pagePath();
       }
 
+      var oid = '';
+      var purchaseAlreadySent = false;
+      var purchaseMetaAlreadySent = false;
       if (eventId === 'checkout_complete') {
-        var oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
-        if (oid && alreadyFiredPurchase(oid)) return;
-        if (oid) markPurchaseFired(oid);
+        oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
+        purchaseAlreadySent = !!(oid && alreadyFiredPurchase(oid));
+        purchaseMetaAlreadySent = !!(oid && alreadyFiredPurchaseMeta(oid));
+        if (purchaseAlreadySent && purchaseMetaAlreadySent) return;
       }
 
       // First-party (skip when already tracked via zappyTrackEcomAnalytics path
       // that opts out, or when caller already recorded under a different name)
-      if (!opts.skipFirstParty) {
+      if (!opts.skipFirstParty && !purchaseAlreadySent) {
         try {
           if (window.zappyAnalytics && typeof window.zappyAnalytics.track === 'function') {
             window.zappyAnalytics.track(eventId, metadata);
@@ -448,40 +525,53 @@
       }
 
       // GTM / dataLayer — platform-standard ecommerce event names
-      try {
-        window.dataLayer = window.dataLayer || [];
-        if (plat.ecom) {
-          var ga4ForGtm = buildGa4Params(eventId, metadata);
-          var ecommerce = {};
-          if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
-          if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
-          if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
-          if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
-          window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
-          // Secondary Zappy-specific trigger for merchants who want it
-          if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
-            window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+      if (!purchaseAlreadySent) {
+        try {
+          window.dataLayer = window.dataLayer || [];
+          if (plat.ecom) {
+            var ga4ForGtm = buildGa4Params(eventId, metadata);
+            var ecommerce = {};
+            if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
+            if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
+            if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
+            if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
+            window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
+            // Secondary Zappy-specific trigger for merchants who want it
+            if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
+              window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+            }
+          } else {
+            var dl = { event: plat.gtm };
+            for (var k in metadata) {
+              if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+            }
+            window.dataLayer.push(dl);
           }
+        } catch (e2) {}
+
+        // GA4 gtag
+        try {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
+          }
+        } catch (e3) {}
+
+        if (oid) markPurchaseFired(oid);
+      }
+
+      // Meta Pixel — live sites lazy-load fbq after marketing consent. If the
+      // stub is not defined yet, queue and flush when the pixel arrives.
+      try {
+        if (purchaseMetaAlreadySent) {
+          // already delivered to Meta
         } else {
-          var dl = { event: plat.gtm };
-          for (var k in metadata) {
-            if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+          var metaParams = buildMetaParams(eventId, metadata);
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', plat.meta, metaParams);
+            if (oid) markPurchaseMetaFired(oid);
+          } else {
+            enqueueMetaEvent(plat.meta, metaParams, eventId === 'checkout_complete' ? oid : null);
           }
-          window.dataLayer.push(dl);
-        }
-      } catch (e2) {}
-
-      // GA4 gtag
-      try {
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
-        }
-      } catch (e3) {}
-
-      // Meta Pixel (only when fbq is loaded — consent-gated lazy loader)
-      try {
-        if (typeof window.fbq === 'function') {
-          window.fbq('track', plat.meta, buildMetaParams(eventId, metadata));
         }
       } catch (e4) {}
     } catch (err) {}
@@ -781,7 +871,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
-<script>window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1300,8 +1390,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Centered intro block -->
     <div class="intro-header">
       <p><span class="section-label" style="color: rgb(74, 74, 74) !important;">הגישה שלנו</span>
-      </p><h2 class="intro-title">איכות עולמית במחיר מקומי</h2>
-      <p class="intro-description">&nbsp; איכות עולמית. מחיר מקומי.
+      </p><h2 class="intro-title" style>איכות עולמית במחיר מקומי</h2>
+      <p class="intro-description" style>&nbsp; איכות עולמית. מחיר מקומי.
 ב-Protein Stock אנחנו מאמינים שקניית תוספי תזונה צריכה להיות פשוטה, משתלמת ואמינה. לכן אנו מציעים מגוון רחב של אבקות חלבון, קריאטין, גיינרים, חטיפי חלבון ותוספי תזונה ממותגים מובילים בעולם - במחירים משתלמים כבר מהמוצר הראשון, ללא צורך ברכישה בכמות.
 אנחנו מתחייבים לזמני שילוח קצרים, כדי שתוכלו לקבל את ההזמנה שלכם במהירות, ומציעים מגוון רחב של מוצרים עם כשרות. בנוסף, תיהנו מחוויית קנייה נוחה, תשלום מאובטח ושירות לקוחות מקצועי שמלווה אתכם לכל אורך הדרך.
 למה לבחור ב-Protein Stock<br />&nbsp; &nbsp;🌍 איכות עולמית ממותגים מובילים.&nbsp;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;💰 מחירים משתלמים כבר מהמוצר הראשון.&nbsp;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;📦 אין צורך לקנות בכמויות כדי ליהנות ממחיר מעולה.&nbsp;<br />&nbsp;🚚 התחייבות לזמני שילוח קצרים.<br />&nbsp; &nbsp; &nbsp; ✅ מגוון רחב של מוצרים עם כשרות.&nbsp;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;🔒 תשלום מאובטח ושירות לקוחות מקצועי.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Protein Stock - איכות עולמית. מחיר מקומי.</p>
@@ -1325,7 +1415,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section class="why-protein-stock-benefits-section" data-layout-spec="למה פרוטין סטוק-benefits">
+<section class="why-protein-stock-benefits-section" data-layout-spec="למה פרוטין סטוק-benefits" id="why-protein-stock-benefits-section">
   <div class="why-protein-stock-benefits-section__container">
     <!-- Section Header -->
     <div class="why-protein-stock-benefits-section__header">
@@ -1334,10 +1424,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
 
     <!-- Benefits Grid -->
-    <div class="why-protein-stock-benefits-section__grid">
+    <div class="why-protein-stock-benefits-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1788953185713-apj34t" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       
       <!-- Card 1 -->
-      <article class="why-protein-stock-benefits-section__card">
+      <article class="why-protein-stock-benefits-section__card" data-grid-item-index="0">
         <div class="why-protein-stock-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2.5"/>
@@ -1354,7 +1444,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </article>
 
       <!-- Card 2 -->
-      <article class="why-protein-stock-benefits-section__card">
+      <article class="why-protein-stock-benefits-section__card" data-grid-item-index="1">
         <div class="why-protein-stock-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24 4L30 16L44 18L32 28L36 42L24 34L12 42L16 28L4 18L18 16L24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -1367,11 +1457,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </article>
 
       <!-- Card 3 -->
-      <article class="why-protein-stock-benefits-section__card">
+      <article class="why-protein-stock-benefits-section__card" data-grid-item-index="2">
         <div class="why-protein-stock-benefits-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 4L30 16L44 18L32 28L36 42L24 34L12 42L16 28L4 18L18 16L24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="50" height="50" viewBox="0 0 24 24" data-icon="tabler:alarm-minus" data-iconify="tabler:alarm-minus" data-element-type="icon" data-element-id="zappy-temp-icon-1788953201811-4vcbryfwu" data-icon-type="iconify" data-size-adjusted="true" style="width: 50px !important; height: 50px !important; display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75);" class="iconify iconify--tabler"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13a7 7 0 1 0 14 0a7 7 0 1 0-14 0m2-9L4.25 6M17 4l2.75 2M10 13h4"/></svg>
         </div>
         <div class="why-protein-stock-benefits-section__card-content">
           <h3 class="why-protein-stock-benefits-section__card-title">החלטות פשוטות ומהירות</h3>
@@ -1380,7 +1468,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </article>
 
       <!-- Card 4 -->
-      <article class="why-protein-stock-benefits-section__card">
+      <article class="why-protein-stock-benefits-section__card" data-grid-item-index="3">
         <div class="why-protein-stock-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24 4L30 16L44 18L32 28L36 42L24 34L12 42L16 28L4 18L18 16L24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
