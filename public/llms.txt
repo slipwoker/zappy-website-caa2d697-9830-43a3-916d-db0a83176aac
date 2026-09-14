@@ -50,9 +50,6 @@ https://proteinstock.co.il/product/:slug
 https://proteinstock.co.il/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
-### Page
-https://proteinstock.co.il/menu-group-1789387022181
-
 ### דבר איתנו וקבל ייעוץ על אבקות חלבון — פרוטאין סטוק - PROTEIN STOCK
 https://proteinstock.co.il/contact
 יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
