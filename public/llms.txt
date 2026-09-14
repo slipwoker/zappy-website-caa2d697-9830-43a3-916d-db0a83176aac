@@ -54,6 +54,9 @@ https://proteinstock.co.il/category/:slug
 https://proteinstock.co.il/contact
 יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
+### Page
+https://proteinstock.co.il/articles
+
 ## Legal & Policy
 
 ### Privacy Policy
