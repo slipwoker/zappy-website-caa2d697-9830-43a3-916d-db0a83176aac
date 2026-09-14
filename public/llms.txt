@@ -6,53 +6,56 @@
 
 ## Pages
 
-### דף הבית
+### אבקות חלבון מובילות במחיר השקה — פרוטאין סטוק - PROTEIN STOCK
 https://proteinstock.co.il
 גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!
 
-### למה פרוטין סטוק
+### הסוד לתזונת ספורט מנצחת נחשף — פרוטאין סטוק - PROTEIN STOCK
 https://proteinstock.co.il/why-protein-stock
 רוצה להבין למה מתאמנים בוחרים בנו? אצלנו תמצא אבקות חלבון איכותיות, מגנזיום חיוני ושירות אישי שידחוף אותך קדימה. הצטרף למהפכת הכושר עכשיו!
 
-### מותגים מכל העולם
+### מותגי על כמו Snickers ו-Mars מחכים לך — פרוטאין סטוק - PROTEIN STOCK
 https://proteinstock.co.il/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
-### צור קשר
-https://proteinstock.co.il/contact
-יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
-
-### Products
+### מוצרים
 https://proteinstock.co.il/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
-### Cart
+### עגלת קניות
 https://proteinstock.co.il/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://proteinstock.co.il/checkout
 תשלום
 
-### Login
+### התחברות
 https://proteinstock.co.il/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://proteinstock.co.il/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://proteinstock.co.il/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://proteinstock.co.il/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
-### Category
+### מוצרים
 https://proteinstock.co.il/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
+
+### Page
+https://proteinstock.co.il/menu-group-1789387022181
+
+### דבר איתנו וקבל ייעוץ על אבקות חלבון — פרוטאין סטוק - PROTEIN STOCK
+https://proteinstock.co.il/contact
+יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
 ## Legal & Policy
 
