@@ -452,7 +452,7 @@ Hubba Bubba
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -883,7 +883,7 @@ M&M's
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -1326,7 +1326,7 @@ MnM
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -1565,7 +1565,7 @@ Description: המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -1821,7 +1821,7 @@ Description: עגלת הקניות שלך
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -2263,7 +2263,7 @@ Description: תשלום
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -2526,7 +2526,7 @@ Description: התחברות לקוחות
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -2944,7 +2944,7 @@ Description: החשבון שלי
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -3224,7 +3224,7 @@ Description: תודה על ההזמנה
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -3488,7 +3488,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 אימייל: info@proteinstock.co.il
 
 
-טלפון: [business_phone]
+טלפון: 0556650400
 
 
 כתובת: שדרות הראשונים 20, ראשון לציון, ישראל
@@ -3533,7 +3533,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -3791,7 +3791,7 @@ Description: פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -4071,7 +4071,7 @@ Description: מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -4169,7 +4169,6 @@ URL: https://proteinstock.co.il/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
-
 
 
 
@@ -4364,7 +4363,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - אימייל: info@proteinstock.co.il
 
-- טלפון: [business_phone]
+- טלפון: 0556650400
 
 - כתובת: שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -4415,7 +4414,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -4473,7 +4472,6 @@ URL: https://proteinstock.co.il/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
-
 
 
 
@@ -4676,7 +4674,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - אימייל: info@proteinstock.co.il
 
-- טלפון: [business_phone]
+- טלפון: 0556650400
 
 
 
@@ -4728,7 +4726,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -4786,7 +4784,6 @@ URL: https://proteinstock.co.il/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
-
 
 
 
@@ -5012,7 +5009,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - אימייל: info@proteinstock.co.il
 
-- טלפון: [business_phone]
+- טלפון: 0556650400
 
 - כתובת: שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -5060,7 +5057,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -5246,7 +5243,7 @@ Description: יש שאלה על מגנזיום, מוצרי פאמפ או חטי�
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 
 
@@ -5476,7 +5473,7 @@ Q
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -5682,7 +5679,7 @@ URL: https://proteinstock.co.il/articles
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -5877,7 +5874,7 @@ URL: https://proteinstock.co.il/kmh-chlbvn-mvmlts-ltsrvk-byvm
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
@@ -6072,7 +6069,7 @@ URL: https://proteinstock.co.il/kryatyn-mh-hva-avshh-kmh-lv
 
 - info@proteinstock.co.il
 
-- [business_phone]
+- 0556650400
 
 - שדרות הראשונים 20, ראשון לציון, ישראל
 
