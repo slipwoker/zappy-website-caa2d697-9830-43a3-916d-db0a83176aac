@@ -84,12 +84,24 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 68**
+**Total active products: 69**
 
-### TMP-badapple
-https://proteinstock.co.il/product/tmp-badapple-g6eoeh
+### משקה אנרגיה מונסטר אולטרה בלו הוואיין MONSTER ULTRA BLUE HAWAIIAN בטעם פירות טרופיים (Blue Hawaiian) | 473 מ"ל | 12 יחידות במארז | Monster Energy
+https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-avltrh-blv-hvvayyn-monster-ultra-blue-hawaiian-btam-pyrvt-trvpyym-blue-hawaiian-473-ml-12-ychydvt-bmarz-monster-energy-jfvujx
+- Price: 275.00 ILS
+- Availability: In stock
+- Category: משקאות אנרגיה
+- Brand: Monster Energy
+- Description: משקה אנרגיה מוגז ללא סוכר בטעם פירות טרופיים בהשראת הקוקטייל ההוואי, עם קפאין וטאורין. פחית 473 מ"ל, מארז 12 פחיות.
+- Image: https://proteinstock.co.il/assets/product-1792408369849-749tf8.webp
+
+### משקה אנרגיה מונסטר ג'וס באד אפל MONSTER JUICE BAD APPLE בטעם תפוח (Bad Apple) | 500 מ"ל | 12 יחידות במארז | Monster Energy
+https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-gvs-bad-apl-monster-juice-bad-apple-btam-tpvch-bad-apple-500-ml-12-ychydvt-bmarz-monster-energy-of02v7
 - Price: 179.00 ILS
 - Availability: In stock
+- Category: משקאות אנרגיה
+- Brand: Monster Energy
+- Description: משקה אנרגיה מוגז מסדרת Monster Juice בטעם תפוח עסיסי, עם מיץ תפוחים, קפאין וטאורין. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408340993-caad7n.webp
 
 ### משקה אנרגיה מונסטר ניטרו קוסמיק פיץ' MONSTER NITRO COSMIC PEACH בטעם אפרסק (Cosmic Peach) | 500 מ"ל | 12 יחידות במארז | Monster Energy

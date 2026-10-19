@@ -1,19 +1,49 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:12:34.866Z",
+  "generated_at": "2026-10-19T11:13:14.916Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 68,
+  "count": 69,
   "products": [
     {
-      "id": "6d1cf5ab-a1b9-4c9a-a90b-e7665dd55e3e",
-      "slug": "tmp-badapple-g6eoeh",
-      "name": "TMP-badapple",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
+      "id": "8dc7a547-f0c9-476c-a35a-894465c6facc",
+      "slug": "mshkh-anrgyh-mvnstr-avltrh-blv-hvvayyn-monster-ultra-blue-hawaiian-btam-pyrvt-trvpyym-blue-hawaiian-473-ml-12-ychydvt-bmarz-monster-energy-jfvujx",
+      "name": "משקה אנרגיה מונסטר אולטרה בלו הוואיין MONSTER ULTRA BLUE HAWAIIAN בטעם פירות טרופיים (Blue Hawaiian) | 473 מ\"ל | 12 יחידות במארז | Monster Energy",
+      "name_translations": {
+        "en": "TMP-blue",
+        "he": "TMP-כחול"
+      },
+      "description": "<p>Monster Ultra Blue Hawaiian הוא משקה אנרגיה מוגז מסדרת Ultra בטעם טרופי בהשראת קוקטייל ה-Blue Hawaiian – אננס ופירות טרופיים בטעם קליל ומרענן, בלי סוכר. מהדורה אמריקאית בפחית 473 מ\"ל.</p><p>יתרונות עיקריים:</p><p>✔ 0 גרם סוכר</p><p>✔ רק 2 קלוריות ל-100 מ\"ל</p><p>✔ 200 מ\"ג קפאין בפחית</p><p>✔ ויטמינים B3, B5, B6 ו-B12</p><p>✔ מארז של 12 פחיות × 473 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 2 קלוריות</p><p>פחמימות: 1.1 גרם</p><p>מתוכן סוכרים: 0 גרם</p><p>נתרן: 78 מ\"ג</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה אנרגיה מוגז ללא סוכר בטעם פירות טרופיים בהשראת הקוקטייל ההוואי, עם קפאין וטאורין. פחית 473 מ\"ל, מארז 12 פחיות.",
       "sku": null,
-      "brand": null,
+      "brand": "Monster Energy",
+      "price": 275,
+      "base_price": 275,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408369849-749tf8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-avltrh-blv-hvvayyn-monster-ultra-blue-hawaiian-btam-pyrvt-trvpyym-blue-hawaiian-473-ml-12-ychydvt-bmarz-monster-energy-jfvujx",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:13:09.098Z"
+    },
+    {
+      "id": "6d1cf5ab-a1b9-4c9a-a90b-e7665dd55e3e",
+      "slug": "mshkh-anrgyh-mvnstr-gvs-bad-apl-monster-juice-bad-apple-btam-tpvch-bad-apple-500-ml-12-ychydvt-bmarz-monster-energy-of02v7",
+      "name": "משקה אנרגיה מונסטר ג'וס באד אפל MONSTER JUICE BAD APPLE בטעם תפוח (Bad Apple) | 500 מ\"ל | 12 יחידות במארז | Monster Energy",
+      "name_translations": {
+        "en": "TMP-badapple",
+        "he": "TMP-badapple"
+      },
+      "description": "<p>Monster Juice Bad Apple לוקח את הטעם הקלאסי של תפוח ומעניק לו טוויסט אנרגטי – מיץ תפוחים אמיתי, בועות מרעננות וכל הבוסט של מונסטר.</p><p>יתרונות עיקריים:</p><p>✔ טעם תפוח עסיסי עם מיץ תפוחים</p><p>✔ 32 מ\"ג קפאין ל-100 מ\"ל (160 מ\"ג בפחית)</p><p>✔ טאורין, ג'ינסנג, L-קרניטין וויטמיני B</p><p>✔ פחית גדולה של 500 מ\"ל</p><p>✔ מארז של 12 פחיות × 500 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 35.8 קלוריות</p><p>קפאין: 32 מ\"ג</p><p>⚠️ המוצר מסומן בסמל אדום \"סוכר בכמות גבוהה\".</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה אנרגיה מוגז מסדרת Monster Juice בטעם תפוח עסיסי, עם מיץ תפוחים, קפאין וטאורין. פחית 500 מ\"ל, מארז 12 פחיות.",
+      "sku": null,
+      "brand": "Monster Energy",
       "price": 179,
       "base_price": 179,
       "sale_price": null,
@@ -23,9 +53,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/tmp-badapple-g6eoeh",
-      "categories": [],
-      "updated_at": "2026-10-19T11:12:31.825Z"
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-gvs-bad-apl-monster-juice-bad-apple-btam-tpvch-bad-apple-500-ml-12-ychydvt-bmarz-monster-energy-of02v7",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:12:39.876Z"
     },
     {
       "id": "7374a8d8-2d64-4cc8-981f-c14389223011",
