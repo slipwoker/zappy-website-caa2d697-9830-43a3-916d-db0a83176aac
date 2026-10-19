@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-13T12:37:04.276Z",
+  "generated_at": "2026-10-19T11:03:21.634Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 60,
+  "count": 61,
   "products": [
+    {
+      "id": "531c6384-0a75-44a0-a22b-ec19cffa24dd",
+      "slug": "mshkh-anrgyh-mvnstr-gvs-monster-juice-viking-berry-btam-pyrvt-yar-viking-berry-500-ml-12-ychydvt-bmarz-monster-energy-jb5v0e",
+      "name": "משקה אנרגיה מונסטר ג'וס MONSTER JUICE VIKING BERRY בטעם פירות יער (Viking Berry) | 500 מ\"ל | 12 יחידות במארז | Monster Energy",
+      "name_translations": {},
+      "description": "<p>Monster Juice Viking Berry משלב את הבעיטה המוכרת של מונסטר עם טעם עשיר של פירות יער אדומים וכהים ומיץ פירות אמיתי. משקה מוגז, מתקתק ומרענן שמתאים לבוקר עמוס, לאימון או לנסיעה ארוכה.</p><p>יתרונות עיקריים:</p><p>✔ טעם פירות יער עשיר עם מיץ פירות</p><p>✔ 32 מ&quot;ג קפאין ל-100 מ&quot;ל (160 מ&quot;ג בפחית)</p><p>✔ טאורין, ג&#39;ינסנג, L-קרניטין וויטמיני B</p><p>✔ פחית גדולה של 500 מ&quot;ל</p><p>✔ מארז של 12 פחיות × 500 מ&quot;ל</p><p>ערכים תזונתיים ל-100 מ&quot;ל:</p><p>אנרגיה: 42 קלוריות</p><p>פחמימות: 11 גרם</p><p>מתוכן סוכרים: 10.4 גרם</p><p>קפאין: 32 מ&quot;ג</p><p>⚠️ המוצר מסומן בסמל אדום &quot;סוכר בכמות גבוהה&quot;.</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה אנרגיה מוגז מסדרת Monster Juice בטעם פירות יער עסיסי, עם מיץ פירות, טאורין, קפאין וויטמיני B. פחית 500 מ\"ל, מארז 12 פחיות.",
+      "sku": null,
+      "brand": "Monster Energy",
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792407675810-2glz98.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-gvs-monster-juice-viking-berry-btam-pyrvt-yar-viking-berry-500-ml-12-ychydvt-bmarz-monster-energy-jb5v0e",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:03:11.835Z"
+    },
     {
       "id": "e0e1e8a4-171c-446c-af04-fec647bc25bc",
       "slug": "chtyp-chlbvn-dl-svkr-dinky-protein-bar-btam-krml-mlvch-vprtsl-byyglh-salted-caramel-pretzel-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-2xc2mk",

@@ -84,7 +84,16 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 60**
+**Total active products: 61**
+
+### משקה אנרגיה מונסטר ג'וס MONSTER JUICE VIKING BERRY בטעם פירות יער (Viking Berry) | 500 מ"ל | 12 יחידות במארז | Monster Energy
+https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-gvs-monster-juice-viking-berry-btam-pyrvt-yar-viking-berry-500-ml-12-ychydvt-bmarz-monster-energy-jb5v0e
+- Price: 179.00 ILS
+- Availability: In stock
+- Category: משקאות אנרגיה
+- Brand: Monster Energy
+- Description: משקה אנרגיה מוגז מסדרת Monster Juice בטעם פירות יער עסיסי, עם מיץ פירות, טאורין, קפאין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
+- Image: https://proteinstock.co.il/assets/product-1792407675810-2glz98.webp
 
 ### חטיף חלבון דל סוכר Dinky Protein Bar בטעם קרמל מלוח ופרצל בייגלה (Salted Caramel Pretzel) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
 https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-dinky-protein-bar-btam-krml-mlvch-vprtsl-byyglh-salted-caramel-pretzel-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-2xc2mk
