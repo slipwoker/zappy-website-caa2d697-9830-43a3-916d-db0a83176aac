@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:10:06.095Z",
+  "generated_at": "2026-10-19T11:10:35.184Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 66,
+  "count": 67,
   "products": [
+    {
+      "id": "3d2d5ed3-69b8-42f8-b5bd-379cff367dd6",
+      "slug": "tmp-rio2-vg5uv2",
+      "name": "TMP-rio2",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408219779-zhuv4p.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/tmp-rio2-vg5uv2",
+      "categories": [],
+      "updated_at": "2026-10-19T11:10:30.502Z"
+    },
     {
       "id": "054aa1b1-bf9d-41c5-9706-14d6d69a6a07",
       "slug": "mshkh-anrgyh-mvnstr-gvs-ryv-pants-monster-juice-rio-punch-btam-pants-pyrvt-trvpyym-rio-punch-500-ml-12-ychydvt-bmarz-monster-energy-vsig2l",
