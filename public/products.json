@@ -1,22 +1,49 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:13:44.941Z",
+  "generated_at": "2026-10-19T11:14:20.205Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 70,
+  "count": 71,
   "products": [
     {
+      "id": "081bdad6-93c4-48af-b565-b92856a41802",
+      "slug": "mshkh-anrgyh-mvnstr-avltrh-strvbry-dryms-monster-ultra-strawberry-dreams-btam-tvt-shdh-strawberry-dreams-473-ml-12-ychydvt-bmarz-monster-energy-5fymrj",
+      "name": "משקה אנרגיה מונסטר אולטרה סטרוברי דרימס MONSTER ULTRA STRAWBERRY DREAMS בטעם תות שדה (Strawberry Dreams) | 473 מ\"ל | 12 יחידות במארז | Monster Energy",
+      "name_translations": {
+        "en": "TMP-strawberry",
+        "he": "TMP-תות"
+      },
+      "description": "<p>Monster Ultra Strawberry Dreams הוא משקה אנרגיה מוגז ללא סוכר בטעם תות שדה מתקתק ועדין. קליל, מרענן ומושלם לכל שעה ביום – מהדורה אמריקאית בפחית 473 מ\"ל.</p><p>יתרונות עיקריים:</p><p>✔ 0 גרם סוכר</p><p>✔ דל קלוריות</p><p>✔ 32 מ\"ג קפאין ל-100 מ\"ל (כ-151 מ\"ג בפחית)</p><p>✔ ויטמינים B3, B5, B6 ו-B12</p><p>✔ מארז של 12 פחיות × 473 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 9 קלוריות</p><p>פחמימות: 1.3 גרם</p><p>מתוכן סוכרים: 0 גרם</p><p>קפאין: 32 מ\"ג</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה אנרגיה מוגז ללא סוכר בטעם תות שדה, עם קפאין וטאורין. פחית 473 מ\"ל, מארז 12 פחיות.",
+      "sku": null,
+      "brand": "Monster Energy",
+      "price": 275,
+      "base_price": 275,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408441985-zhxtvl.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-avltrh-strvbry-dryms-monster-ultra-strawberry-dreams-btam-tvt-shdh-strawberry-dreams-473-ml-12-ychydvt-bmarz-monster-energy-5fymrj",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:14:18.313Z"
+    },
+    {
       "id": "1e4a376a-f007-453c-a8a7-2299f96572cc",
-      "slug": "tmp-guava-s9pkbd",
-      "name": "TMP-guava",
+      "slug": "mshkh-anrgyh-mvnstr-avltrh-vyys-gvyabh-monster-ultra-vice-guava-btam-gvyabh-vice-guava-473-ml-12-ychydvt-bmarz-monster-energy-hp8ynu",
+      "name": "משקה אנרגיה מונסטר אולטרה וייס גויאבה MONSTER ULTRA VICE GUAVA בטעם גויאבה (Vice Guava) | 473 מ\"ל | 12 יחידות במארז | Monster Energy",
       "name_translations": {
         "en": "TMP-guava",
         "he": "TMP-גויאבה"
       },
-      "description": "",
-      "short_description": null,
+      "description": "<p>Monster Ultra Vice Guava מביא טעם גויאבה טרופי, ורוד ומרענן במשקה אנרגיה מוגז ללא סוכר. קליל, פירותי ומלא אנרגיה – מהדורה אמריקאית בפחית 473 מ\"ל.</p><p>יתרונות עיקריים:</p><p>✔ 0 גרם סוכר</p><p>✔ רק 2 קלוריות ל-100 מ\"ל</p><p>✔ 30 מ\"ג קפאין ל-100 מ\"ל (כ-142 מ\"ג בפחית)</p><p>✔ ויטמינים B3, B5, B6 ו-B12</p><p>✔ מארז של 12 פחיות × 473 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 2 קלוריות</p><p>פחמימות: 1.1 גרם</p><p>מתוכן סוכרים: 0 גרם</p><p>נתרן: 78 מ\"ג</p><p>קפאין: 30 מ\"ג</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה אנרגיה מוגז ללא סוכר בטעם גויאבה טרופית, עם קפאין וטאורין. פחית 473 מ\"ל, מארז 12 פחיות.",
       "sku": null,
-      "brand": null,
+      "brand": "Monster Energy",
       "price": 275,
       "base_price": 275,
       "sale_price": null,
@@ -26,9 +53,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/tmp-guava-s9pkbd",
-      "categories": [],
-      "updated_at": "2026-10-19T11:13:43.726Z"
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-avltrh-vyys-gvyabh-monster-ultra-vice-guava-btam-gvyabh-vice-guava-473-ml-12-ychydvt-bmarz-monster-energy-hp8ynu",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:13:46.849Z"
     },
     {
       "id": "8dc7a547-f0c9-476c-a35a-894465c6facc",
