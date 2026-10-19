@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:13:14.916Z",
+  "generated_at": "2026-10-19T11:13:44.941Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 69,
+  "count": 70,
   "products": [
+    {
+      "id": "1e4a376a-f007-453c-a8a7-2299f96572cc",
+      "slug": "tmp-guava-s9pkbd",
+      "name": "TMP-guava",
+      "name_translations": {
+        "en": "TMP-guava",
+        "he": "TMP-גויאבה"
+      },
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 275,
+      "base_price": 275,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408406656-9x86xc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/tmp-guava-s9pkbd",
+      "categories": [],
+      "updated_at": "2026-10-19T11:13:43.726Z"
+    },
     {
       "id": "8dc7a547-f0c9-476c-a35a-894465c6facc",
       "slug": "mshkh-anrgyh-mvnstr-avltrh-blv-hvvayyn-monster-ultra-blue-hawaiian-btam-pyrvt-trvpyym-blue-hawaiian-473-ml-12-ychydvt-bmarz-monster-energy-jfvujx",
