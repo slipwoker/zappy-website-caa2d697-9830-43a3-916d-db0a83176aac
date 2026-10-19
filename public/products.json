@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:12:25.177Z",
+  "generated_at": "2026-10-19T11:12:34.866Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 67,
+  "count": 68,
   "products": [
+    {
+      "id": "6d1cf5ab-a1b9-4c9a-a90b-e7665dd55e3e",
+      "slug": "tmp-badapple-g6eoeh",
+      "name": "TMP-badapple",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408340993-caad7n.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/tmp-badapple-g6eoeh",
+      "categories": [],
+      "updated_at": "2026-10-19T11:12:31.825Z"
+    },
     {
       "id": "7374a8d8-2d64-4cc8-981f-c14389223011",
       "slug": "mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster-nitro-cosmic-peach-btam-aprsk-cosmic-peach-500-ml-12-ychydvt-bmarz-monster-energy-8ay3qm",
