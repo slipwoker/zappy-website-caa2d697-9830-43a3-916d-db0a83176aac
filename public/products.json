@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:15:29.866Z",
+  "generated_at": "2026-10-19T11:21:14.432Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 72,
+  "count": 73,
   "products": [
+    {
+      "id": "4ef4a210-b711-430a-a8c9-f984eb606014",
+      "slug": "mshkh-anrgyh-mvnstr-ryhab-monster-rehab-wild-berry-tea-btam-th-pyrvt-yar-wild-berry-tea-458-ml-12-ychydvt-bmarz-monster-energy-gn4unb",
+      "name": "משקה אנרגיה מונסטר ריהאב MONSTER REHAB WILD BERRY TEA בטעם תה פירות יער (Wild Berry Tea) | 458 מ\"ל | 12 יחידות במארז | Monster Energy",
+      "name_translations": {
+        "en": "TMP-rehab",
+        "he": "TMP-rehab"
+      },
+      "description": "<p>Monster Rehab Wild Berry Tea הוא משקה תה שחור לא מוגז בטעם פירות יער עם בוסט אנרגיה – שילוב של תה, קפאין, טאורין וויטמיני B, בטעם רענן שנשתה בקלות. מהדורה אמריקאית בפחית 458 מ\"ל.</p><p>יתרונות עיקריים:</p><p>✔ תה שחור בטעם פירות יער</p><p>✔ לא מוגז</p><p>✔ כ-39 מ\"ג קפאין ל-100 מ\"ל</p><p>✔ טאורין, ג'ינסנג וויטמיני B</p><p>✔ מארז של 12 פחיות × 458 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 22.8 קלוריות</p><p>קפאין: כ-39 מ\"ג</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
+      "short_description": "משקה תה אנרגיה לא מוגז בטעם פירות יער, עם קפאין, טאורין וויטמיני B. פחית 458 מ\"ל, מארז 12 פחיות.",
+      "sku": null,
+      "brand": "Monster Energy",
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://proteinstock.co.il/assets/product-1792408820666-5n8l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-ryhab-monster-rehab-wild-berry-tea-btam-th-pyrvt-yar-wild-berry-tea-458-ml-12-ychydvt-bmarz-monster-energy-gn4unb",
+      "categories": [
+        "משקאות אנרגיה"
+      ],
+      "updated_at": "2026-10-19T11:20:36.661Z"
+    },
     {
       "id": "71cb8fcf-0ae5-4241-978b-3f00aff6bba7",
       "slug": "mshkh-anrgyh-mvnstr-avltrh-vvyld-pshn-monster-ultra-wild-passion-btam-psyplvrh-wild-passion-473-ml-12-ychydvt-bmarz-monster-energy-vbowre",
