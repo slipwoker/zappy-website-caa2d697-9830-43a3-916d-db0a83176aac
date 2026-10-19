@@ -84,7 +84,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 68**
+**Total active products: 67**
 
 ### משקה אנרגיה מונסטר ניטרו קוסמיק פיץ' MONSTER NITRO COSMIC PEACH בטעם אפרסק (Cosmic Peach) | 500 מ"ל | 12 יחידות במארז | Monster Energy
 https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster-nitro-cosmic-peach-btam-aprsk-cosmic-peach-500-ml-12-ychydvt-bmarz-monster-energy-8ay3qm
@@ -94,14 +94,6 @@ https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז עם חנקן בטעם אפרסק, מרקם חלק וקרמי, עם קפאין וטאורין. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408294867-2z3cxh.webp
-
-### משקה אנרגיה מונסטר ניטרו קוסמיק פיץ' MONSTER NITRO COSMIC PEACH בטעם אפרסק (Cosmic Peach) | 500 מ"ל | 12 יחידות במארז | Monster Energy
-https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster-nitro-cosmic-peach-btam-aprsk-cosmic-peach-500-ml-12-ychydvt-bmarz-monster-energy-curudm
-- Price: 179.00 ILS
-- Availability: In stock
-- Category: משקאות אנרגיה
-- Brand: Monster Energy
-- Description: משקה אנרגיה מוגז עם חנקן בטעם אפרסק, מרקם חלק וקרמי, עם קפאין וטאורין. פחית 500 מ"ל, מארז 12 פחיות.
 
 ### משקה אנרגיה מונסטר ג'וס ריו פאנץ' MONSTER JUICE RIO PUNCH בטעם פאנץ' פירות טרופיים (Rio Punch) | 500 מ"ל | 12 יחידות במארז | Monster Energy
 https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-gvs-ryv-pants-monster-juice-rio-punch-btam-pants-pyrvt-trvpyym-rio-punch-500-ml-12-ychydvt-bmarz-monster-energy-rsgr7v

@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-19T11:11:55.979Z",
+  "generated_at": "2026-10-19T11:12:25.177Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
-  "count": 68,
+  "count": 67,
   "products": [
     {
       "id": "7374a8d8-2d64-4cc8-981f-c14389223011",
@@ -31,31 +31,6 @@
         "משקאות אנרגיה"
       ],
       "updated_at": "2026-10-19T11:11:52.834Z"
-    },
-    {
-      "id": "76ff4da1-c464-44c1-9afb-8a9749079cce",
-      "slug": "mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster-nitro-cosmic-peach-btam-aprsk-cosmic-peach-500-ml-12-ychydvt-bmarz-monster-energy-curudm",
-      "name": "משקה אנרגיה מונסטר ניטרו קוסמיק פיץ' MONSTER NITRO COSMIC PEACH בטעם אפרסק (Cosmic Peach) | 500 מ\"ל | 12 יחידות במארז | Monster Energy",
-      "name_translations": {
-        "en": "TMP-cosmic",
-        "he": "TMP-קוסמיק"
-      },
-      "description": "<p>Monster Nitro Cosmic Peach משלב טעם אפרסק מתוק ועסיסי עם טכנולוגיית הניטרו של מונסטר – תוספת חנקן שיוצרת מרקם חלק וקטיפתי ושתייה נעימה יותר.</p><p>יתרונות עיקריים:</p><p>✔ טכנולוגיית ניטרו למרקם חלק וקרמי</p><p>✔ טעם אפרסק עסיסי</p><p>✔ 30 מ\"ג קפאין ל-100 מ\"ל (150 מ\"ג בפחית)</p><p>✔ טאורין, ג'ינסנג, L-קרניטין וויטמיני B</p><p>✔ מארז של 12 פחיות × 500 מ\"ל</p><p>ערכים תזונתיים ל-100 מ\"ל:</p><p>אנרגיה: 38 קלוריות</p><p>קפאין: 30 מ\"ג</p><p>⚠️ המוצר מסומן בסמל אדום \"סוכר בכמות גבוהה\".</p><p>⚠️ מכיל קפאין בכמות גבוהה. לא מומלץ לילדים, לנשים בהריון או מניקות ולאנשים הרגישים לקפאין. יש לשמור במקום קריר, יבש ומוצל.</p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
-      "short_description": "משקה אנרגיה מוגז עם חנקן בטעם אפרסק, מרקם חלק וקרמי, עם קפאין וטאורין. פחית 500 מ\"ל, מארז 12 פחיות.",
-      "sku": null,
-      "brand": "Monster Energy",
-      "price": 179,
-      "base_price": 179,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/mshkh-anrgyh-mvnstr-nytrv-kvsmyk-pyts-monster-nitro-cosmic-peach-btam-aprsk-cosmic-peach-500-ml-12-ychydvt-bmarz-monster-energy-curudm",
-      "categories": [
-        "משקאות אנרגיה"
-      ],
-      "updated_at": "2026-10-19T11:11:19.755Z"
     },
     {
       "id": "3d2d5ed3-69b8-42f8-b5bd-379cff367dd6",
