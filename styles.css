@@ -16164,6 +16164,13 @@ main,
   transition: none !important;
   transform: none !important;
 }
+
+.site-footer .footer-social {
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  width: auto !important;
+  max-width: 100%;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
