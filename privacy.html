@@ -1446,6 +1446,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             אתרנו משתמש בעוגיות לשיפור חוויית השימוש. ניתן לנהל את העוגיות דרך הגדרות הדפדפן שלכם. 
             השבתת עוגיות עלולה להשפיע על פונקציונליות האתר.
         </p>
+        <div class="cookies-actions">
+            <button type="button" class="btn btn-primary" data-cc="show-preferencesModal" onclick="CookieConsent.showPreferences()">ניהול העדפות עוגיות</button>
+            <button type="button" class="btn btn-primary btn-outline" onclick="CookieConsent.reset(true);var cookies=document.cookie.split(';');for(var i=0;i<cookies.length;i++){var c=cookies[i];var name=c.substr(0,c.indexOf('=')).trim();document.cookie=name+'=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';document.cookie=name+'=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=.proteinstock.co.il';}var keys=Object.keys(localStorage);for(var j=0;j<keys.length;j++){if(keys[j].indexOf('zappy_visitor_')===0)localStorage.removeItem(keys[j]);}alert('העוגיות נמחקו וההסכמה בוטלה');location.reload();">מחיקת העוגיות וביטול ההסכמה</button>
+        </div>
 
         <h2>6. אבטחת מידע</h2>
         <p>
