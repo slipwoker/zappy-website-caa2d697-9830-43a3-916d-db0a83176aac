@@ -1968,9 +1968,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <script id="tiktok-pixel-lazy-loader">
 (function() {
   var TIKTOK_PIXEL_ID = 'DBCB1TBC77U4J2JQ8DLG';
+  var retries = 0;
+  var MAX_RETRIES = 60;
   function loadTikTokPixel() {
     if (window.__ttqLoaded) return;
-    if (window.CookieConsent && typeof window.CookieConsent.acceptedCategory === 'function' && !window.CookieConsent.acceptedCategory('marketing')) {
+    if (!(window.CookieConsent && typeof window.CookieConsent.acceptedCategory === 'function' && window.CookieConsent.acceptedCategory('marketing') === true)) {
       return;
     }
     window.__ttqLoaded = true;
@@ -2010,7 +2012,17 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     if (typeof window.addEventListener === 'function') {
       window.addEventListener('cc:onConsent', loadTikTokPixel);
       window.addEventListener('cc:onChange', loadTikTokPixel);
+      window.addEventListener('cc:onFirstConsent', loadTikTokPixel);
     }
+  }
+  if (!window.__ttqLoaded) {
+    var retryInterval = setInterval(function() {
+      retries++;
+      loadTikTokPixel();
+      if (window.__ttqLoaded || retries >= MAX_RETRIES) {
+        clearInterval(retryInterval);
+      }
+    }, 500);
   }
 })();
 </script>
