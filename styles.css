@@ -6822,7 +6822,7 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
 }
 
 #featured-products #zappy-featured-products {
-  min-height: 200px !important;
+  min-height: 0px;
 }
 /* Batch: הסרת רקע אפור מתמונות מוצרים - שינוי ללבן */
 .featured-products-section .product-card-media, .products-section .product-card-media, .product-detail-section .product-card-media, .related-products-section .product-card-media { background-color: #ffffff !important; background: #ffffff !important; }
@@ -16114,15 +16114,13 @@ main,
   border: none !important; 
 }
 
-/* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
-
 #featured-products #zappy-featured-products {
-  min-height: 560px !important;
+  min-height: 0px;
   align-content: start;
 }
 
 #zappy-featured-products .loading-products {
-  min-height: 560px;
+  min-height: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16137,12 +16135,12 @@ main,
 }
 
 #featured-products #zappy-featured-products {
-  min-height: 1800px !important;
+  min-height: 0px;
   overflow: hidden !important;
 }
 
 #zappy-featured-products .loading-products {
-  min-height: 1800px !important;
+  min-height: 0px;
 }
 
 .featured-products-section .product-grid {
