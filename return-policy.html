@@ -1200,7 +1200,10 @@
     // Preview pages are served by the current Zappy origin, which may be a
     // remote tunnel/QA host rather than this server's baked SERVER_URL.
     // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
+    window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview'))
+      ? window.location.origin
+      : "https://api.zappy5.com";
+  </script>
   
         <!-- ZAPPY_INTEGRATION_START analytics:add_facebook_pixel -->
 <!-- Facebook Pixel -->
@@ -1358,15 +1361,15 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </nav>
   <main class="page-container ecommerce-page">
     
-<section class="legal-page-content return-policy">
+<section class="legal-page-content return-policy" id="legal-page-content">
   <div class="container">
     <h1>מדיניות החזרת מוצרים</h1>
     <p class="last-updated"><strong>עדכון אחרון:</strong> 10.8.2026</p>
     
     <p>פרוטאין סטוק - PROTEIN STOCK מחויבת לשביעות רצון לקוחותיה. מדיניות זו מפרטת את זכויותיכם להחזרת מוצרים בהתאם לחוק הגנת הצרכן.</p>
 
-    <h2>1. זכות הביטול</h2>
-    <p>בהתאם לחוק הגנת הצרכן, עומדת לכם הזכות לבטל עסקה בתוך <strong>14 ימים</strong> מיום קבלת המוצר.</p>
+    <h2 style>1. זכות הביטול</h2>
+    <p style>ניתן לבטל עסקה בתוך 14 ימים מיום קבלת המוצר, או מיום קבלת המסמך עם פרטי העסקה, לפי המאוחר מביניהם.</p>
     <ul>
       <li>לאזרחים ותיקים, עולים חדשים ואנשים עם מוגבלות - תקופת הביטול היא 4 חודשים</li>
       <li>יש להחזיר את המוצר באריזתו המקורית</li>
@@ -1399,7 +1402,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/protein-stock-sports-nutrition-e-commerce-logo.webp" alt="פרוטאין סטוק - PROTEIN STOCK" class="logo" data-element-type="image" data-element-id="img-1791883729089-0imuc7zza" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
+        <img src="/assets/protein-stock-sports-nutrition-e-commerce-logo.webp" alt="פרוטאין סטוק - PROTEIN STOCK" class="logo" data-element-type="image" data-element-id="img-1791883729089-0imuc7zza" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
         <p class="footer-tagline">יעד הפרימיום שלך לתוספי תזונה איכותיים, מותגים מיובאים ושירות מקצועי. אצלנו תמצאו את כל מה שאתם צריכים כדי להגיע לשיא הביצועים.</p>
       </div>
 
