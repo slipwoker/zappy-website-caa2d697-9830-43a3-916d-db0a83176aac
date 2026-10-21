@@ -16115,6 +16115,22 @@ main,
 }
 
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
+
+#featured-products #zappy-featured-products {
+  min-height: 560px !important;
+  align-content: start;
+}
+
+#zappy-featured-products .loading-products {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-products-section .product-grid {
+  transition: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
