@@ -16131,6 +16131,24 @@ main,
 .featured-products-section .product-grid {
   transition: none !important;
 }
+
+.featured-products-section {
+  min-height: 1900px !important;
+}
+
+#featured-products #zappy-featured-products {
+  min-height: 1800px !important;
+  overflow: hidden !important;
+}
+
+#zappy-featured-products .loading-products {
+  min-height: 1800px !important;
+}
+
+.featured-products-section .product-grid {
+  animation: none !important;
+  transition: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
