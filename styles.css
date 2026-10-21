@@ -16171,6 +16171,17 @@ main,
   width: auto !important;
   max-width: 100%;
 }
+
+/* zappy-category-showcase */
+
+.zappy-category-showcase { width: 100%; }
+.zappy-category-showcase .cat-product-strip { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; }
+.zappy-category-showcase .cat-product-chip { flex: 0 0 180px; display: flex; flex-direction: column; text-decoration: none; color: inherit; scroll-snap-align: start; }
+.zappy-category-showcase .chip-img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 12px; display: block; }
+.zappy-category-showcase .chip-name { font-weight: 600; margin-top: 8px; }
+.zappy-category-showcase .chip-price { opacity: 0.85; }
+.zappy-category-showcase .loading-products { min-height: 80px; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
