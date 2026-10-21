@@ -6503,11 +6503,12 @@ URL: https://proteinstock.co.il/abkt-chlbvn-ham-bamt-tsryk-avth
 
 ---
 
-## https://proteinstock.co.il/transaction-cancellation
+## ביטול עסקה — פרוטאין סטוק - PROTEIN STOCK
 
 URL: https://proteinstock.co.il/transaction-cancellation
+Description: טופס לביטול עסקה והחזרת מוצרים בפרוטאין סטוק. ניתן גם בדוא"ל info@proteinstock.co.il או בטלפון / WhatsApp 055-6650400.
 
-ביטול עסקה
+ביטול עסקה — פרוטאין סטוק - PROTEIN STOCK
 
 
 
