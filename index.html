@@ -1306,6 +1306,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 </style>
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="preload" as="image" href="/assets/site-index-hero-image-1-1782631685137-7pp2zp.webp?v=1782631688449" fetchpriority="high" />
 
     <style id="zappy-widget-visibility">
       html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
@@ -1869,7 +1870,34 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 
 
-  <section class="featured-products-section" id="featured-products" data-zappy-dynamic="true">
+  <section class="ps-hero" aria-label="אזור פתיחה">
+  <div class="ps-hero__bg">
+    <img loading="eager" fetchpriority="high" data-placeholder="section-hero-1" data-context="Dynamic fitness and sports nutrition scene: array of protein powder containers, shaker bottles, dumbbells, and fresh ingredients on dark textured surface, dramatic side lighting, energetic athletic atmosphere, professional product photography" src="/assets/site-index-hero-image-1-1782631685137-7pp2zp.webp?v=1782631688449" alt="אבקות חלבון וציוד ספורט" class="ps-hero__bg-img" decoding="async" />
+    <div class="ps-hero__overlay" aria-hidden="true"></div>
+  </div>
+
+  <div class="ps-hero__content">
+    <span class="ps-hero__badge">🚀 מחירי השקה — עד 35% הנחה</span>
+    <h1 class="ps-hero__title">תדלק את הגוף.<br />תנצח כל אימון.</h1>
+    <p class="ps-hero__subtitle">
+      אבקות חלבון איכותיות, תוספי תזונה וכל מה שצריך כדי להגיע לשיא שלך.
+      במחירים שלא תמצאו בשום מקום אחר.
+    </p>
+    <a href="/products" class="ps-hero__cta" aria-label="מעבר לקטלוג המוצרים">
+      לקטלוג המוצרים
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div class="ps-hero__trust">
+      <span class="ps-hero__trust-item">✓ משלוח חינם מעל 299₪</span>
+      <span class="ps-hero__trust-item">✓ 100% אחריות כסף</span>
+      <span class="ps-hero__trust-item">✓ מותגים מובילים</span>
+    </div>
+  </div>
+</section>
+
+<section class="featured-products-section" id="featured-products" data-zappy-dynamic="true">
       <div class="container">
         <h2 class="section-title">מוצרים מומלצים</h2>
         <div class="product-grid featured-grid" id="zappy-featured-products"><div class="loading-products"></div></div>
