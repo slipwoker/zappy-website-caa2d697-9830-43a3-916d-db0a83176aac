@@ -18,35 +18,35 @@ https://proteinstock.co.il/why-protein-stock
 https://proteinstock.co.il/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
-### מוצרים
+### Products
 https://proteinstock.co.il/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
-### עגלת קניות
+### Cart
 https://proteinstock.co.il/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://proteinstock.co.il/checkout
 תשלום
 
-### התחברות
+### Login
 https://proteinstock.co.il/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://proteinstock.co.il/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://proteinstock.co.il/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://proteinstock.co.il/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
-### מוצרים
+### Category
 https://proteinstock.co.il/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 

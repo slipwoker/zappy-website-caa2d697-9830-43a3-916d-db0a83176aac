@@ -725,9 +725,6 @@
   
   
   
-  
-  
-  
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="he_IL" />
   
@@ -757,7 +754,7 @@
     <!-- Mickidum Accessibility Toolbar -->
     
 
-  <style id="zappy-cta-mobile-style">
+          <style id="zappy-cta-mobile-style">
             /* Hide CTA list item on desktop (tablets and up) */
             @media (min-width: 769px) {
               .nav-cta-item-mobile {
@@ -1194,14 +1191,8 @@
             })();
           </script>
         
+<script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
 
-  <script>
-    window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";
-    // Preview pages are served by the current Zappy origin, which may be a
-    // remote tunnel/QA host rather than this server's baked SERVER_URL.
-    // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
-  
         <!-- ZAPPY_INTEGRATION_START analytics:add_facebook_pixel -->
 <!-- Facebook Pixel -->
 <!-- ZAPPY_INTEGRATION_END analytics:add_facebook_pixel -->
@@ -1266,7 +1257,7 @@
         right: 0;
       }
     </style>
-    <style id="zappy-critical-above-fold-css">
+  <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 :root{--nav-bg:#FFFFFF}.navbar{background-color:#FFFFFF!important}
 
@@ -1356,7 +1347,15 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </style>
 </head>
 <body>
-<div class="mobile-search-panel" id="mobile-search-panel">
+
+  <script>
+    window.ZAPPY_WEBSITE_ID = "caa2d697-9830-43a3-916d-db0a83176aac";
+    // Preview pages are served by the current Zappy origin, which may be a
+    // remote tunnel/QA host rather than this server's baked SERVER_URL.
+    // Deployed sites are static and must call the public Zappy API (never localhost).
+    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
+  
+    <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
@@ -1387,7 +1386,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link"><img class="logo" src="/assets/protein-stock-sports-nutrition-e-commerce-logo-1782294515508-d0rc3h.webp?v=1782294517073-2mbkpi" alt="פרוטאין סטוק - PROTEIN STOCK" decoding="async" width="35" height="35" /></a>
-    </div><ul class="nav-menu" id="navMenu"><li><a href="/why-protein-stock">למה פרוטין סטוק</a></li><li><a href="/global-brands">מותגים מכל העולם</a></li><li class="menu-item-has-children zappy-products-dropdown">
+    </div><ul class="nav-menu" id="navMenu">
+
+    <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1398,7 +1399,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       <li class="zappy-nav-parent" data-category-id="d3de7c91-bdc7-48fe-835d-21ade4df6221" data-category-slug="protein-powders"><a href="/category/protein-powders" dir="rtl">אבקות חלבון</a></li><li class="zappy-nav-child" data-category-id="8b4424e3-8ef6-449f-ab0f-52c6bca9f1de" data-category-slug="low-calorie-protein-powders"><a href="/category/low-calorie-protein-powders" dir="rtl">אבקות חלבון דלות קלוריות</a></li><li class="zappy-nav-child" data-category-id="6ab0e05e-d9ef-4c71-ab70-13a27b76c0ae" data-category-slug="weight-gain-supplement"><a href="/category/weight-gain-supplement" dir="rtl">גיינר לעלייה במשקל</a></li><li class="zappy-nav-child" data-category-id="1c4578fe-3269-40a8-a463-1c8e18e54c78" data-category-slug="protein-fortified-oatmeal"><a href="/category/protein-fortified-oatmeal" dir="rtl">שיבולת שועל בתוספת חלבון</a></li><li data-category-id="306919a2-71b8-4842-85d2-04c4f4ae2b3f" data-category-slug="protein-snacks"><a href="/category/protein-snacks" dir="rtl">חטיפי חלבון</a></li><li data-category-id="8de37760-36ba-46e5-baa1-1331fbac0539" data-category-slug="savory-protein-snacks"><a href="/category/savory-protein-snacks" dir="rtl">חטיפי חלבון מלוחים</a></li><li data-category-id="e38ba65d-a311-465e-9aac-9158027266ee" data-category-slug="over-20g-protein"><a href="/category/over-20g-protein" dir="rtl">מעל 20 גרם חלבון</a></li><li data-category-id="019aae6a-0ebd-41d2-95fa-35a04e013e35" data-category-slug="energy-drinks"><a href="/category/energy-drinks" dir="rtl">משקאות אנרגיה</a></li><li data-category-id="b4f7d2ef-6c5a-4328-b225-6ca5a3b6c1b5" data-category-slug="protein-beverages"><a href="/category/protein-beverages" dir="rtl">משקאות חלבון</a></li><li data-category-id="077ec287-52a2-4d15-bea8-a2c42c1ec4cb" data-category-slug="protein-cookies"><a href="/category/protein-cookies" dir="rtl">עוגיות חלבון</a></li><li data-category-id="8692662e-6f7d-46b2-9227-9d5c08d7a868" data-category-slug="creatine-and-nutritional-supplements"><a href="/category/creatine-and-nutritional-supplements" dir="rtl">קריאטין ותוספי תזונה</a></li></ul>
-    </li><li><a href="/contact">צור קשר</a></li><li><a href="/articles" class>מאמרים</a></li><li><a href="/kmh-chlbvn-mvmlts-ltsrvk-byvm" class>כמה חלבון מומלץ לצרוך ביום</a></li><li><a href="/kryatyn-mh-hva-avshh-kmh-lv" class>קריאטין: מה הוא עושה, כמה לו...</a></li><li><a href="/abkt-chlbvn-ham-bamt-tsryk-avth" class>אבקת חלבון האם באמת צריך אותה?</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+    </li>
+  <li><a href="/why-protein-stock">למה פרוטין סטוק</a></li><li><a href="/global-brands">מותגים מכל העולם</a></li><li><a href="/contact">צור קשר</a></li><li><a href="/articles" class>מאמרים</a></li><li><a href="/kmh-chlbvn-mvmlts-ltsrvk-byvm" class>כמה חלבון מומלץ לצרוך ביום</a></li><li><a href="/kryatyn-mh-hva-avshh-kmh-lv" class>קריאטין: מה הוא עושה, כמה לו...</a></li><li><a href="/abkt-chlbvn-ham-bamt-tsryk-avth" class>אבקת חלבון האם באמת צריך אותה?</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
@@ -1676,69 +1678,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     }
   })();
   </script>
-  <a href="https://wa.me/972556650400" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
-
-<script id="tiktok-pixel-lazy-loader">
-(function() {
-  var TIKTOK_PIXEL_ID = 'DBCB1TBC77U4J2JQ8DLG';
-  var retries = 0;
-  var MAX_RETRIES = 60;
-  function loadTikTokPixel() {
-    if (window.__ttqLoaded) return;
-    if (!(window.CookieConsent && typeof window.CookieConsent.acceptedCategory === 'function' && window.CookieConsent.acceptedCategory('marketing') === true)) {
-      return;
-    }
-    window.__ttqLoaded = true;
-    (function (w, d, t) {
-      w.TiktokAnalyticsObject = 'ttq';
-      var ttq = w.ttq = w.ttq || [];
-      ttq.methods = ['page', 'track', 'identify', 'instances', 'debug', 'on', 'off', 'once', 'ready', 'alias', 'group', 'enableCookie', 'disableCookie'];
-      ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))); }; };
-      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-      ttq.instance = function (t) {
-        for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
-        return e;
-      };
-      ttq.load = function (e, n) {
-        var r = 'https://analytics.tiktok.com/i18n/pixel/events.js';
-        var o = n && n.partner;
-        ttq._i = ttq._i || {};
-        ttq._i[e] = [];
-        ttq._i[e]._u = r;
-        ttq._t = ttq._t || {};
-        ttq._t[e] = +new Date();
-        ttq._o = ttq._o || {};
-        ttq._o[e] = n || {};
-        n = document.createElement('script');
-        n.type = 'text/javascript';
-        n.async = true;
-        n.src = r + '?sdkid=' + e + '&lib=' + t;
-        e = document.getElementsByTagName('script')[0];
-        e.parentNode.insertBefore(n, e);
-      };
-      ttq.load(TIKTOK_PIXEL_ID);
-      ttq.page();
-    })(window, document, 'ttq');
-  }
-  loadTikTokPixel();
-  if (window.CookieConsent) {
-    if (typeof window.addEventListener === 'function') {
-      window.addEventListener('cc:onConsent', loadTikTokPixel);
-      window.addEventListener('cc:onChange', loadTikTokPixel);
-      window.addEventListener('cc:onFirstConsent', loadTikTokPixel);
-    }
-  }
-  if (!window.__ttqLoaded) {
-    var retryInterval = setInterval(function() {
-      retries++;
-      loadTikTokPixel();
-      if (window.__ttqLoaded || retries >= MAX_RETRIES) {
-        clearInterval(retryInterval);
-      }
-    }, 500);
-  }
-})();
-</script>
+  <a href="https://wa.me/0556650400" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
     <script src="/script.js"></script>
 
