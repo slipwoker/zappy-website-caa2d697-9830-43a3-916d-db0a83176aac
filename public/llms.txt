@@ -92,16 +92,25 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 74**
+**Total active products: 75**
 
 ### מארז 12 יח פחיות MONSTER ENERGY ULTRA BLACK בטעם דובדבן שחור | 500 מ"ל (Copy)
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-energy-ultra-black-btam-dvbdbn-shchvr-500-ml-copy-mlqebn
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-energy-ultra-black-btam-dvbdbn-shchvr-500-ml-copy-45q1pp
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
 - Brand: Monster Energy
 - Description: Monster Ultra Black הוא משקה אנרגיה מוגז מסדרת Ultra – ללא סוכר, דל קלוריות ובטעם דובדבן שחור עמוק ומרענן. כל האנרגיה של מונסטר בגרסה קלילה, לכל מי ששומר על התפריט ולא מוכן לוותר על טעם. יתרונות עיקריים: ✔ 0 גרם סוכר ✔ רק 3 קלוריות ל-100 מ&quot;ל ✔ 30 מ&quot;ג קפאין ל-100 מ&quot;ל (150 מ&quot;ג בפחית) ✔ ניאצין, ויטמין B6, ריבופלבין וויטמין B12 ✔ מארז של 12 פחיות × 500 מ&quot;ל ערכים תזונתיים ל-100 מ&quot;ל: אנרגיה: 3 קלוריות פחמימות: 1.4 גרם מתוכן סוכרים: 0 גרם נתרן: 80 מ&quot;ג קפאין: 30 מ&quot…
 - Image: https://proteinstock.co.il/assets/product-1792407877347-wpdipd.webp
+
+### מארז 12 יח פחיות MONSTER ULTRA PUNK PUNCH בטעם פירות פאנץ' | 473 מ"ל
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-punk-punch-btam-pyrvt-pants-473-ml-abw9nl
+- Price: 275.00 ILS
+- Availability: In stock
+- Category: משקאות אנרגיה
+- Brand: Monster Energy
+- Description: משקה אנרגיה מוגז ללא סוכר בטעם פאנץ' פירות קלאסי, עם קפאין, טאורין וויטמיני B. פחית 473 מ"ל, מארז 12 פחיות.
+- Image: https://proteinstock.co.il/assets/product-1792753326236-zjsxy.webp
 
 ### מארז 12 יח פחיות MONSTER REHAB WILD BERRY TEA בטעם תה פירות יער | 458 מ"ל
 https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-rehab-wild-berry-tea-btam-th-pyrvt-yar-458-ml-8eflo1
