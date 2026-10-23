@@ -113,10 +113,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-rosa-btam-py
 - Image: https://proteinstock.co.il/assets/product-1792753563086-hn8rp.webp
 
 ### מארז 12 יח פחיות MONSTER ULTRA VIOLET בטעם ענבים והדרים | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-violet-btam-anbym-vhdrym-500-ml-4g9t6r
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-violet-btam-anbym-vhdrym-500-ml-6a4vy4
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784908228
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר ודל קלוריות בטעם ענבים עם נגיעות הדרים, עם קפאין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792753493178-btemc9.webp
@@ -251,19 +252,21 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-nitro-super-dry-bt
 - Image: https://proteinstock.co.il/assets/product-1792408061903-gfh7uq.webp
 
 ### מארז 12 יח פחיות MONSTER ENERGY ULTRA BLACK בטעם דובדבן שחור | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-energy-ultra-black-btam-dvbdbn-shchvr-500-ml-9zhazm
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-energy-ultra-black-btam-dvbdbn-shchvr-500-ml-prsg7o
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784907870
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר ודל קלוריות בטעם דובדבן שחור, עם קפאין, טאורין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792407877347-wpdipd.webp
 
 ### מארז 12 יח פחיות MONSTER JUICE VIKING BERRY בטעם פירות יער | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-viking-berry-btam-pyrvt-yar-500-ml-mfbjq6
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-viking-berry-btam-pyrvt-yar-500-ml-rnm6pt
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784911631
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז מסדרת Monster Juice בטעם פירות יער עסיסי, עם מיץ פירות, טאורין, קפאין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792407675810-2glz98.webp
