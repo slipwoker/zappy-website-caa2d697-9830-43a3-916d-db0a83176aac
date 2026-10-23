@@ -131,10 +131,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-lando-norris-zero-
 - Image: https://proteinstock.co.il/assets/product-1792753429063-wfbv3k.webp
 
 ### מארז 12 יח פחיות MONSTER ULTRA PUNK PUNCH בטעם פירות פאנץ' | 473 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-punk-punch-btam-pyrvt-pants-473-ml-ff77sv
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-punk-punch-btam-pyrvt-pants-473-ml-hzcm03
 - Price: 275.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 070847899617
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר בטעם פאנץ' פירות קלאסי, עם קפאין, טאורין וויטמיני B. פחית 473 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792753326236-zjsxy.webp
@@ -207,10 +208,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-nitro-cosmic-peach
 - Image: https://proteinstock.co.il/assets/product-1792408294867-2z3cxh.webp
 
 ### מארז 12 יח פחיות MONSTER JUICE RIO PUNCH בטעם פאנץ' פירות טרופיים | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-rio-punch-btam-pants-pyrvt-trvpyym-500-ml-8knz0d
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-rio-punch-btam-pants-pyrvt-trvpyym-500-ml-3iioky
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784901069
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז מסדרת Monster Juice בטעם פאנץ' פירות טרופיים, עם מיץ פירות, קפאין וטאורין. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408219779-zhuv4p.webp
@@ -225,10 +227,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-fantasy-ruby
 - Image: https://proteinstock.co.il/assets/product-1792408156021-769ze.webp
 
 ### מארז 12 יח פחיות MONSTER ULTRA PEACHY KEEN בטעם אפרסק | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-peachy-keen-btam-aprsk-500-ml-4lp9at
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-peachy-keen-btam-aprsk-500-ml-y68utn
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784900932
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר בטעם אפרסק עסיסי, עם קפאין, טאורין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408123547-8gl2mq.webp
