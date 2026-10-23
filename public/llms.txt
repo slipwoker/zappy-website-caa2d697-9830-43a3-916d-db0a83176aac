@@ -199,10 +199,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-bad-apple-bt
 - Image: https://proteinstock.co.il/assets/product-1792408340993-caad7n.webp
 
 ### מארז 12 יח פחיות MONSTER NITRO COSMIC PEACH בטעם אפרסק | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-nitro-cosmic-peach-btam-aprsk-500-ml-99hmkf
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-nitro-cosmic-peach-btam-aprsk-500-ml-myslvw
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784906996
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז עם חנקן בטעם אפרסק, מרקם חלק וקרמי, עם קפאין וטאורין. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408294867-2z3cxh.webp
@@ -218,10 +219,11 @@ https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-juice-rio-punch-bt
 - Image: https://proteinstock.co.il/assets/product-1792408219779-zhuv4p.webp
 
 ### מארז 12 יח פחיות MONSTER ULTRA FANTASY RUBY RED בטעם אשכולית אדומה | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-fantasy-ruby-red-btam-ashkvlyt-advmh-500-ml-qaipzv
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-fantasy-ruby-red-btam-ashkvlyt-advmh-500-ml-wnjnlr
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5056784906965
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר בטעם אשכולית אדומה והדרים, עם קפאין, טאורין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792408156021-769ze.webp
