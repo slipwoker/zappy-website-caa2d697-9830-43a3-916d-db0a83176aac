@@ -95,19 +95,21 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 78**
 
 ### מארז 12 יח פחיות MONSTER PACIFIC PUNCH בטעם פאנץ' פירות | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-pacific-punch-btam-pants-pyrvt-500-ml-gbbx9d
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-pacific-punch-btam-pants-pyrvt-500-ml-qpx7yb
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5060751211693
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז בטעם פאנץ' פירות טרופי, עם מיץ פירות, קפאין, טאורין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792753632069-eqg2mf.webp
 
 ### מארז 12 יח פחיות MONSTER ULTRA ROSA בטעם פירותי עם נגיעות פרחוניות | 500 מ"ל
-https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-rosa-btam-pyrvty-am-ngyavt-prchvnyvt-500-ml-o7mor3
+https://proteinstock.co.il/product/marz-12-ych-pchyvt-monster-ultra-rosa-btam-pyrvty-am-ngyavt-prchvnyvt-500-ml-tz7vfd
 - Price: 179.00 ILS
 - Availability: In stock
 - Category: משקאות אנרגיה
+- SKU: 5061013943543
 - Brand: Monster Energy
 - Description: משקה אנרגיה מוגז ללא סוכר ודל קלוריות בטעם מתקתק וקליל עם נגיעות פרחוניות, עם קפאין, טאורין וויטמיני B. פחית 500 מ"ל, מארז 12 פחיות.
 - Image: https://proteinstock.co.il/assets/product-1792753563086-hn8rp.webp
