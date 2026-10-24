@@ -25779,6 +25779,13 @@ main,
   height: auto;
 }
 }
+
+@media (max-width: 768px) {
+#zappy-featured-products .price {
+  white-space: nowrap !important;
+  font-size: clamp(14px, 3.6vw, 17px);
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
