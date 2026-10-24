@@ -25767,6 +25767,18 @@ main,
     padding: 6px 14px;
   }
 }
+
+@media (max-width: 768px) {
+#featured-products #zappy-featured-products.product-grid.featured-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 12px !important;
+}
+
+#zappy-featured-products .product-card img {
+  aspect-ratio: 1 / 1;
+  height: auto;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
