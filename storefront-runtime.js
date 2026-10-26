@@ -6884,7 +6884,17 @@ function stripHtmlToText(html) {
             websiteId: websiteId,
             code: code,
             subtotal: subtotal,
-            customerEmail: customerEmail || null
+            customerEmail: customerEmail || null,
+            cartItems: (typeof cart !== 'undefined' && cart ? cart : []).map(function(item) {
+              return {
+                productId: item.productId || item.id,
+                id: item.id,
+                price: (typeof getItemPrice === 'function') ? getItemPrice(item) : item.price,
+                quantity: item.quantity,
+                quantityStep: item.quantityStep,
+                quantityUnit: item.quantityUnit
+              };
+            })
           })
         });
         
@@ -6899,6 +6909,8 @@ function stripHtmlToText(html) {
             errorMsg = t.couponExpired || 'Coupon has expired';
           } else if (data.data?.error === 'min_order') {
             errorMsg = (t.couponMinOrder || 'Minimum order amount') + ': ' + formatMoney(data.data.minOrderAmount);
+          } else if (data.data?.error === 'not_applicable') {
+            errorMsg = getEcomText('couponNotApplicable', 'This coupon does not apply to the items in your cart');
           } else if (data.data?.error === 'not_first_order') {
             errorMsg = t.couponFirstOrderOnly || (isRTL ? 'קופון זה מיועד להזמנה ראשונה בלבד' : 'This coupon is for first-time customers only');
           } else if (data.data?.error === 'email_required') {
@@ -7001,7 +7013,7 @@ function stripHtmlToText(html) {
 
   function getEffectiveCheckoutShippingCost() {
     if (isCartCoursesOnly()) return 0;
-    if (appliedCoupon && appliedCoupon.type === 'free_shipping') return 0;
+    if (appliedCoupon && appliedCoupon.type === 'free_shipping' && appliedCoupon.grantsFreeShipping !== false) return 0;
     if (seasonalFreeShipping || firstOrderFreeShipping) return 0;
     return getShippingCost();
   }
@@ -7050,16 +7062,56 @@ function stripHtmlToText(html) {
     var shippingRow = document.getElementById('shipping-row');
     if (shippingRow) shippingRow.style.display = coursesOnlyCheckout ? 'none' : '';
     
-    // Recalculate coupon discount based on current subtotal
+    // ZAPPY_COUPON_SCOPE_V1 — percentage/fixed/free-shipping codes can target products or categories.
     if (appliedCoupon) {
+      var couponBase = subtotal;
+      var couponScoped = appliedCoupon.appliesTo === 'selected_products' || appliedCoupon.appliesTo === 'selected_categories';
+      var couponHasEligible = true;
+      if (couponScoped) {
+        var couponEligibleIds = appliedCoupon.eligibleProductIds || [];
+        couponBase = 0;
+        couponHasEligible = false;
+        for (var couponIdx = 0; couponIdx < cart.length; couponIdx++) {
+          var couponItem = cart[couponIdx];
+          var couponPid = String(couponItem.productId || couponItem.id || '');
+          var couponMatched = false;
+          for (var couponEid = 0; couponEid < couponEligibleIds.length; couponEid++) {
+            if (String(couponEligibleIds[couponEid]) === couponPid) { couponMatched = true; break; }
+          }
+          if (couponMatched) {
+            couponHasEligible = true;
+            couponBase += getCartLineTotal(couponItem);
+          }
+        }
+      }
       if (appliedCoupon.type === 'percentage') {
-        couponDiscount = (subtotal * appliedCoupon.value) / 100;
+        couponDiscount = (couponBase * appliedCoupon.value) / 100;
       } else if (appliedCoupon.type === 'fixed') {
-        couponDiscount = appliedCoupon.value;
+        couponDiscount = Math.min(parseFloat(appliedCoupon.value) || 0, couponBase);
       } else if (appliedCoupon.type === 'free_shipping') {
         couponDiscount = 0;
+        if (couponScoped) {
+          var couponRequireAll = appliedCoupon.freeShippingRequiresAllEligible === true;
+          var couponAllEligible = cart.length > 0;
+          if (couponRequireAll) {
+            var couponFreeIds = appliedCoupon.eligibleProductIds || [];
+            for (var couponFreeIdx = 0; couponFreeIdx < cart.length; couponFreeIdx++) {
+              var couponFreePid = String(cart[couponFreeIdx].productId || cart[couponFreeIdx].id || '');
+              var couponFreeOk = false;
+              for (var couponFreeEid = 0; couponFreeEid < couponFreeIds.length; couponFreeEid++) {
+                if (String(couponFreeIds[couponFreeEid]) === couponFreePid) { couponFreeOk = true; break; }
+              }
+              if (!couponFreeOk) { couponAllEligible = false; break; }
+            }
+          }
+          appliedCoupon.grantsFreeShipping = couponHasEligible && (!couponRequireAll || couponAllEligible);
+        } else {
+          appliedCoupon.grantsFreeShipping = true;
+        }
       }
-      // Cap discount at subtotal
+      if (!couponHasEligible && couponScoped && appliedCoupon.type !== 'free_shipping') {
+        couponDiscount = 0;
+      }
       if (couponDiscount > subtotal) {
         couponDiscount = subtotal;
       }
