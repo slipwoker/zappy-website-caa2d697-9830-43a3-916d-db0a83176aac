@@ -7873,9 +7873,9 @@ Brand: MARS
 ---
 
 ### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם שוקולד וקרמל | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
-URL: https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-y31xnj
+URL: https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-ay5ti9
 Price: 160.00 ILS
-Availability: In stock
+Availability: Out of stock
 SKU: 5056357912683
 Brand: MARS
 
