@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-26T20:42:40.737Z",
+  "generated_at": "2026-10-26T20:43:35.951Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 78,
@@ -986,7 +986,7 @@
     },
     {
       "id": "187d0be9-aad9-4f95-bce2-dd66f4c1bd35",
-      "slug": "chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-w1yp0a",
+      "slug": "chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-8omxau",
       "name": "‏חטיף חלבון דל סוכר ProPud Protein Bar בטעם פופקורן פריך (Crunchy Popcorn) | 55 גרם | 18 גרם חלבון | 12 יחידות במארז | ProPud",
       "name_translations": {},
       "description": "<p>חטיף החלבון של ProPud (מבית המותג השוודי Njie) בטעם פופקורן פריך הוא חטיף עשיר על בסיס וניל, מפוזר בפיסות תירס קלוי ומלוח פריכות, כולו עטוף בציפוי בטעם שוקולד חלב. חטיף אחד מספק 18 גרם חלבון ללא תוספת סוכר — נשנוש אידיאלי אחרי אימון או בכל רגע שבו מתחשק משהו מתוק-מלוח בלי להתפשר.</p><p></p><p>‏<strong>למה כדאי:</strong></p><p>‏✔ עשיר בחלבון — 18 גרם לחפיסה</p><p>‏✔ ללא תוספת סוכר</p><p>‏✔ ללא שמן דקלים</p><p>‏✔ פיסות תירס קלוי פריכות</p><p>‏✔ ציפוי בטעם שוקולד חלב</p><p></p><p>‏<strong>ערכים תזונתיים (לחפיסה של 55 גרם / ל-100 גרם):</strong></p><p>‏אנרגיה: 246 קק&quot;ל / 441 קק&quot;ל</p><p>‏שומן: 14 גרם / 25 גרם (מתוכו רווי 7.7 גרם / 14 גרם)</p><p>‏פחמימות: 17 גרם / 31 גרם (מתוכן סוכרים 1.6 גרם / 2.9 גרם, רב-כהוליים 13 גרם / 24 גרם)</p><p>‏חלבון: 18 גרם / 32 גרם</p><p>‏מלח: 0.18 גרם / 0.33 גרם</p><p></p><p>‏<strong>רכיבים:</strong></p><p>‏חלבון חלב, ממתיק (מלטיטול), חומר לחות (גליצרול), חמאת קקאו (9.2%), שומן חלב נטול מים, פפטידי קולגן (בקר), אבקת חלב מלא, פיסות תירס מלוח וקלוי (5.4%) [תירס, שמן חמניות, מלח, נוגד חמצון (תמצית רוזמרין)], מים, מאסת קקאו (4.0%), שמן קנולה, ארומה, מלח, מתחלב (לציטין סויה), ממתיקים (אספרטיים, אצסולפיים K). מכיל מקור לפנילאלנין. מכיל סוכרים טבעיים.</p><p></p><p>‏<strong>אלרגנים:</strong></p><p>‏מכיל חלב וסויה. עלול להכיל עקבות של ביצים, שקדים, קשיו, אגוזי לוז, בוטנים, תורמוס וחיטה (גלוטן).</p><p></p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
@@ -1003,13 +1003,13 @@
         "https://proteinstock.co.il/assets/product-1785837432908-5fp32.webp",
         "https://proteinstock.co.il/assets/product-1785837445222-gvr53w.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-w1yp0a",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-propud-protein-bar-btam-pvpkvrn-pryk-crunchy-popcorn-55-grm-18-grm-chlbvn-12-ychydvt-bmarz-propud-8omxau",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-08-09T07:33:07.153Z"
+      "updated_at": "2026-10-26T20:43:01.356Z"
     },
     {
       "id": "adb87be5-ff78-4454-9895-a73caa8e0b0c",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "0981a16e-3146-44fc-b140-111e32fdb513",
-      "slug": "chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-b0obod",
+      "slug": "chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-z9kqki",
       "name": "חטיף חלבון סניקרס דל סוכר בטעם שוקולד, קרמל ובוטנים – קרמי עם בוטנים קראנצ'יים | 57 גרם | מארז 12 יחידות | Mars Hi Protein Low Sugar Snickers",
       "name_translations": {},
       "description": "<p>כל הטעם של סניקרס עם הרבה יותר חלבון</p><p>Mars Hi Protein Low Sugar Snickers מביא את הטעם המוכר והאהוב של סניקרס בגרסה עשירה בחלבון, המיועדת לאנשים שמקפידים על תזונה מאוזנת ואורח חיים פעיל. החטיף משלב שכבת קרמל רכה, בוטנים קראנצ&#39;יים וציפוי שוקולד חלב עשיר, לקבלת חוויית אכילה מפנקת במיוחד.</p><p>בכל חטיף תמצאו 20 גרם חלבון איכותי, המסייעים בהשלמת צריכת החלבון היומית ותומכים בהתאוששות השרירים לאחר פעילות גופנית. בנוסף, החטיף מכיל כ-2 גרם סוכר בלבד, כך שניתן ליהנות מהטעם האייקוני של סניקרס עם כמות סוכר מופחתת.</p><p>החטיף מתאים במיוחד לאחר אימון, בין הארוחות, לפני אימון או כנשנוש במהלך יום עמוס. הוא מעניק פתרון נוח, משביע וטעים למי שמחפש חטיף חלבון איכותי שאפשר לקחת לכל מקום.</p><p>מארז של 12 יחידות מאפשר ליהנות ממלאי זמין בבית, במשרד, ברכב או בתיק האימון, כך שתמיד יהיה פתרון מהיר ועשיר בחלבון בהישג יד.</p><p></p><p>יתרונות המוצר</p><p>• 20 גרם חלבון איכותי בכל חטיף.</p><p>• כ-2 גרם סוכר בלבד.</p><p>• טעם סניקרס המקורי עם שוקולד, קרמל ובוטנים.</p><p>• מרקם קרמי עם בוטנים קראנצ&#39;יים.</p><p>• מתאים לאחר אימון או כנשנוש בין הארוחות.</p><p>• מסייע בהשלמת צריכת החלבון היומית.</p><p>• מארז חסכוני של 12 יחידות.</p><p></p><p>ערכים תזונתיים (ליחידה – 57 גרם)</p><p>אנרגיה: 217 קלוריות</p><p>חלבון: 20 גרם</p><p>פחמימות: 15 גרם</p><p>מתוכן סוכרים: 1.9 גרם</p><p>שומן: 10 גרם</p><p>מתוכו שומן רווי: 4.2 גרם</p><p>מלח: 0.58 גרם</p><p></p><p>רכיבים</p><p>ציפוי שוקולד חלב עם ממתיקים, חלבוני חלב, קולגן הידרוליזט, בוטנים, שכבת קרמל, חלבון מי גבינה, אוליגופרוקטוז, מלטיטול, סורביטול, חומרי טעם וריח, מתחלבים ורכיבים נוספים בהתאם ליצרן. מומלץ לעיין באריזה לקבלת רשימת הרכיבים המלאה והמעודכנת.</p><p>אלרגנים</p><p>מכיל:</p><p>חלב,בוטנים,סויה</p><p>עלול להכיל:</p><p>גלוטן,ביצים,אגוזי עץ</p><p>הוראות אחסון</p><p>יש לאחסן במקום קריר ויבש, הרחק מאור שמש ישיר וממקורות חום.</p><p></p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
@@ -1751,13 +1751,13 @@
         "https://proteinstock.co.il/assets/product-enhanced-1784112306387-b2vb4.webp",
         "https://proteinstock.co.il/assets/product-1784112440590-chv3ib.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-b0obod",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-z9kqki",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-08-09T07:56:48.798Z"
+      "updated_at": "2026-10-26T20:43:24.852Z"
     },
     {
       "id": "d65d90e0-a80b-4f64-8732-a3d6c68b9577",
@@ -1787,7 +1787,7 @@
     },
     {
       "id": "021fd3ba-3cc2-4678-bb2e-4b0a2581c82b",
-      "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-iwj4vt",
+      "slug": "chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-zclkke",
       "name": "חטיף חלבון דל סוכר של המותג מרס בטעם קרמל מלוח - שילוב מתוק-מלוח עם ציפוי שוקולד חלב, מארז 12 יחידות של 57 גרם, 18 גרם חלבון בחטיף | Mars Hi Protein Low Sugar",
       "name_translations": {},
       "description": "<p>קרמל מלוח הוא אחד משילובי הטעמים האהובים בעולם, ועכשיו הוא מגיע בגרסת החלבון של Mars. חטיף Mars Hi Protein Low Sugar בטעם Salted Caramel משלב שכבת קרמל מלוח רכה ועשירה עם ציפוי שוקולד חלב ומרקם נוגט נימוח - בדיוק המשחק המושלם בין מתוק למלוח. וכל זה עם ערכים שמתאימים לאורח חיים ספורטיבי: 18 גרם חלבון, רק כ-2 גרם סוכר ו-196 קלוריות בלבד בכל חטיף. הבחירה המושלמת לאחרי אימון, להפסקת צהריים או לכל רגע שבו מתחשק פינוק אמיתי בלי לפרוץ את המסגרת התזונתית.</p><p></p><p>✔ 18 גרם חלבון בכל חטיף - לתמיכה בבניית שריר והתאוששות</p><p>✔ דל סוכר - רק כ-2 גרם סוכר בחטיף</p><p>✔ 196 קלוריות בלבד ליחידה</p><p>✔ טעם קרמל מלוח - השילוב המכור של מתוק ומלוח בגרסת חלבון</p><p>✔ ציפוי שוקולד חלב אמיתי של Mars</p><p>✔ מארז 12 יחידות של 57 גרם - נוח לתיק האימון, לרכב או למשרד</p><p></p><p>ערכים תזונתיים (לחטיף 57 גרם):</p><p>אנרגיה: 196 קק&quot;ל (819 קילו-ג&#39;אול)</p><p>שומנים: 7.7 גרם, מתוכם חומצות שומן רוויות: 4.6 גרם</p><p>פחמימות: 18 גרם, מתוכן סוכרים: 1.7 גרם</p><p>חלבון: 18 גרם</p><p>מלח: 0.39 גרם</p><p></p><p>רכיבים: שוקולד חלב עם ממתיק (23%) (ממתיק (מלטיטול), חמאת קקאו, אבקת חלב מלא, עיסת קקאו, מתחלב (לציטין סויה), תמצית וניל), חלבון חלב, שכבה בטעם קרמל מלוח (16%) (ממתיק (מלטיטול), חלב מרוכז, חמאת קקאו, מלח, חומר לחות (סורביטול), מתחלב (מונו ודו-גליצרידים של חומצות שומן), תמצית טעם טבעית, צבע (קרמל)), קולגן הידרוליזט, חומר לחות (גליצרול), אוליגופרוקטוז, שומן דקלים, תמצית לתת שעורה, אבקת קקאו מופחתת שומן, תמצית טעם טבעית.</p><p></p><p>אלרגנים: מכיל חלב, סויה ושעורה (גלוטן). עשוי להכיל אגוזים, ביצים ובוטנים. לא מתאים לצמחונים. צריכה מופרזת עלולה לגרום להשפעה משלשלת (מכיל רב-כהלים).</p><p></p><p></p><p>*המידע המופיע באתר בנוגע למרכיבי המוצר וערכיו התזונתיים נמסר לנוחותכם בלבד. ייתכנו טעויות, אי-התאמות או שינויים בעקבות עדכוני יצרן, והנתונים המחייבים הם אלה המופיעים על גבי אריזת המוצר. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</p><p>*תמונות המוצרים המוצגות באתר הן להמחשה בלבד, וייתכנו הבדלים בין המוצרים לבין תמונותיהם.</p>",
@@ -1803,13 +1803,13 @@
         "https://proteinstock.co.il/assets/product-enhanced-1784223821255-6am467.webp",
         "https://proteinstock.co.il/assets/product-1784224959157-i33nqb.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-iwj4vt",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-zclkke",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-08-09T07:58:27.674Z"
+      "updated_at": "2026-10-26T20:42:46.782Z"
     },
     {
       "id": "e382537b-242d-4440-8997-fb827c369a9a",
