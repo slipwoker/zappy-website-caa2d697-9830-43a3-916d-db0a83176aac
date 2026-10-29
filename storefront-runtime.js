@@ -14984,6 +14984,87 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* ZAPPY_CUSTOM_JS_START:050f7534460f */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  if (window.__zappyUnderConstructionReturned) return;
+  window.__zappyUnderConstructionReturned = true;
+
+  function injectPopup() {
+    var overlay = document.createElement('div');
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', 'האתר בהקמה');
+    overlay.id = 'zappy-under-construction-popup';
+    overlay.innerHTML =
+      '<div class="zappy-uc-overlay">' +
+        '<div class="zappy-uc-modal">' +
+          '<button type="button" class="zappy-uc-close" aria-label="סגור">&times;</button>' +
+          '<div class="zappy-uc-emoji">🚧</div>' +
+          '<h2 class="zappy-uc-title">האתר בהקמה</h2>' +
+          '<p class="zappy-uc-text">אנחנו עובדים בימים אלה על בניית האתר ועל חידוש המלאי. בשלב זה עדיין לא ניתן להזמין מוצרים.</p>' +
+          '<p class="zappy-uc-text zappy-uc-text-light">נחזור אליכם בקרוב עם מותגים מובילים במחירי השקה! 💪</p>' +
+          '<button type="button" class="zappy-uc-btn" aria-label="הבנתי">הבנתי, תודה</button>' +
+        '</div>' +
+      '</div>';
+
+    document.body.appendChild(overlay);
+
+    var style = document.createElement('style');
+    style.id = 'zappy-under-construction-style';
+    style.textContent =
+      '.zappy-uc-overlay{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;background:rgba(20,24,31,0.65);padding:20px;backdrop-filter:blur(3px);}' +
+      '.zappy-uc-modal{position:relative;direction:rtl;text-align:center;background:#FBF7F4;color:#4a4a4a;max-width:460px;width:100%;border-radius:16px;padding:36px 28px 30px;box-shadow:0 20px 60px rgba(0,0,0,0.3);font-family:inherit;animation:zappyUcIn .3s ease;}' +
+      '@keyframes zappyUcIn{from{opacity:0;transform:translateY(20px) scale(.97)}to{opacity:1;transform:none}}' +
+      '.zappy-uc-close{position:absolute;top:12px;left:12px;width:32px;height:32px;border:none;border-radius:50%;background:transparent;color:#707070;font-size:26px;line-height:1;cursor:pointer;}' +
+      '.zappy-uc-close:hover{background:rgba(0,0,0,0.06);color:#4a4a4a;}' +
+      '.zappy-uc-emoji{font-size:44px;line-height:1;margin-bottom:12px;}' +
+      '.zappy-uc-title{font-size:24px;font-weight:700;color:#14181F;margin:0 0 12px;}' +
+      '.zappy-uc-text{font-size:16px;line-height:1.6;margin:0 0 12px;color:#4a4a4a;}' +
+      '.zappy-uc-text-light{font-size:14px;color:#707070;margin-bottom:20px;}' +
+      '.zappy-uc-btn{background:#C26A4B;color:#ffffff;border:none;border-radius:8px;padding:14px 28px;font-size:16px;font-weight:600;cursor:pointer;transition:all .2s ease;}' +
+      '.zappy-uc-btn:hover{background:#a95a39;transform:translateY(-1px);}';
+
+    document.head.appendChild(style);
+
+    var closeBtn = overlay.querySelector('.zappy-uc-close');
+    var okBtn = overlay.querySelector('.zappy-uc-btn');
+
+    function closePopup() {
+      overlay.remove();
+      document.body.style.overflow = '';
+    }
+
+    closeBtn.addEventListener('click', closePopup);
+    okBtn.addEventListener('click', closePopup);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay.querySelector('.zappy-uc-overlay')) closePopup();
+    });
+    document.addEventListener('keydown', function onKey(e) {
+      if (e.key === 'Escape') { closePopup(); document.removeEventListener('keydown', onKey); }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectPopup);
+  } else {
+    injectPopup();
+  }
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:050f7534460f */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
