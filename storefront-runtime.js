@@ -15110,6 +15110,60 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:0c7b634e038d */
 
+/* ZAPPY_CUSTOM_JS_START:e8e4c8c4fb58 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  function openProductsSubmenuOnOpen() {
+    if (window.innerWidth > 768) return; // desktop only — do nothing
+    var navMenu = document.getElementById('navMenu');
+    if (!navMenu) return;
+    var productsItem = navMenu.querySelector('.zappy-products-dropdown');
+    if (!productsItem) return;
+    var submenu = productsItem.querySelector('.sub-menu');
+    if (!submenu) return;
+    var toggleBtn = productsItem.querySelector('.mobile-submenu-toggle');
+    if (submenu.classList.contains('mobile-expanded')) return;
+    submenu.classList.add('mobile-expanded');
+    if (toggleBtn) toggleBtn.classList.add('expanded');
+  }
+
+  function hookToggle() {
+    var toggle = document.getElementById('mobileToggle');
+    if (!toggle) return;
+    if (toggle.__zappyProductOpenHooked) return;
+    toggle.__zappyProductOpenHooked = true;
+    toggle.addEventListener('click', function () {
+      // run after the handler toggles the menu (use a microtask/timeout)
+      setTimeout(openProductsSubmenuOnOpen, 0);
+      setTimeout(openProductsSubmenuOnOpen, 100);
+    });
+  }
+
+  function init() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', hookToggle);
+      if (window.addEventListener) window.addEventListener('load', hookToggle);
+    } else {
+      hookToggle();
+    }
+  }
+
+  init();
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:e8e4c8c4fb58 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
