@@ -15110,47 +15110,63 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:0c7b634e038d */
 
-/* ZAPPY_CUSTOM_JS_START:e8e4c8c4fb58 */
+/* ZAPPY_CUSTOM_JS_START:feda53e1c82b */
 (function () {
   function __zappyCustomInit() {
     try {
 (function () {
-  function openProductsSubmenuOnOpen() {
-    if (window.innerWidth > 768) return; // desktop only — do nothing
+  function openProductsSubmenu() {
+    if (window.innerWidth > 768) return; // desktop — do nothing
     var navMenu = document.getElementById('navMenu');
     if (!navMenu) return;
     var productsItem = navMenu.querySelector('.zappy-products-dropdown');
     if (!productsItem) return;
     var submenu = productsItem.querySelector('.sub-menu');
     if (!submenu) return;
+    if (!submenu.classList.contains('mobile-expanded')) {
+      submenu.classList.add('mobile-expanded');
+    }
     var toggleBtn = productsItem.querySelector('.mobile-submenu-toggle');
-    if (submenu.classList.contains('mobile-expanded')) return;
-    submenu.classList.add('mobile-expanded');
-    if (toggleBtn) toggleBtn.classList.add('expanded');
-  }
-
-  function hookToggle() {
-    var toggle = document.getElementById('mobileToggle');
-    if (!toggle) return;
-    if (toggle.__zappyProductOpenHooked) return;
-    toggle.__zappyProductOpenHooked = true;
-    toggle.addEventListener('click', function () {
-      // run after the handler toggles the menu (use a microtask/timeout)
-      setTimeout(openProductsSubmenuOnOpen, 0);
-      setTimeout(openProductsSubmenuOnOpen, 100);
-    });
-  }
-
-  function init() {
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', hookToggle);
-      if (window.addEventListener) window.addEventListener('load', hookToggle);
-    } else {
-      hookToggle();
+    if (toggleBtn && !toggleBtn.classList.contains('expanded')) {
+      toggleBtn.classList.add('expanded');
     }
   }
 
-  init();
+  function attempt() {
+    if (window.innerWidth > 768) return;
+    var navMenu = document.getElementById('navMenu');
+    if (!navMenu || !navMenu.classList.contains('active')) return;
+    openProductsSubmenu();
+  }
+
+  // Use event delegation so cloning the toggle button doesn't break us,
+  // and poll briefly while the menu remains open (script may re-init).
+  function start() {
+    document.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t && (t.id === 'mobileToggle' || (t.closest && t.closest('#mobileToggle')))) {
+        setTimeout(attempt, 10);
+        setTimeout(attempt, 120);
+        setTimeout(attempt, 350);
+      }
+    });
+
+    // Also watch for the menu opening via class change (MutationObserver).
+    var navMenu = document.getElementById('navMenu');
+    if (navMenu && window.MutationObserver) {
+      var obs = new MutationObserver(function () {
+        attempt();
+      });
+      obs.observe(navMenu, { attributes: true, attributeFilter: ['class'] });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start);
+    window.addEventListener('load', start);
+  } else {
+    start();
+  }
 })();
     } catch (e) {
       if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
@@ -15162,7 +15178,7 @@ async function loadRelatedProducts(currentProduct, t) {
     __zappyCustomInit();
   }
 })();
-/* ZAPPY_CUSTOM_JS_END:e8e4c8c4fb58 */
+/* ZAPPY_CUSTOM_JS_END:feda53e1c82b */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
