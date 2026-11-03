@@ -25790,6 +25790,13 @@ main,
 .coupon-section {
   margin: 14px 0 6px;
 }
+
+#cart-drawer .cart-drawer-checkout {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
