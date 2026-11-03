@@ -25786,6 +25786,10 @@ main,
   font-size: clamp(14px, 3.6vw, 17px);
 }
 }
+
+.coupon-section {
+  margin: 14px 0 6px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
