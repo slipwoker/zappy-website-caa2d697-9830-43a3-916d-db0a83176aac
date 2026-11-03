@@ -25797,6 +25797,17 @@ main,
   justify-content: center;
   gap: 8px;
 }
+
+body .zappy-uc-overlay, body #zappy-under-construction-popup, body #zappy-under-construction-style {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  z-index: -1 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
