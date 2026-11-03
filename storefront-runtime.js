@@ -15180,6 +15180,43 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:feda53e1c82b */
 
+/* ZAPPY_CUSTOM_JS_START:cee62bfd86a9 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  if (window.__activeTrailPopupLoaded) { return; }
+  window.__activeTrailPopupLoaded = true;
+
+  var _atpopq = window._atpopq || (window._atpopq = []);
+  window._atpopobj = {};
+  if (!_atpopq.loaded) {
+    var v = Math.floor((Math.random() * 1000000) + 1);
+    var atpopjs = document.createElement('script');
+    atpopjs.type = 'text/javascript';
+    atpopjs.async = true;
+    atpopjs.src = '//cdn-media.web-view.net/popups/lib/v1/loader.min.js?v=' + v;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(atpopjs, s);
+    _atpopq.loaded = true;
+  }
+  _atpopq.push(['UserId', 'x3dfxjsap2s8']);
+  _atpopq.push(['PopupId', 'dfedp2wp']);
+  _atpopq.push(['IsraelCode', '104']);
+  _atpopq.push(['CountryCode', '104']);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:cee62bfd86a9 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
