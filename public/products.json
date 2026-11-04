@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-04T18:14:26.276Z",
+  "generated_at": "2026-11-04T18:18:16.765Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -1201,10 +1201,10 @@
     },
     {
       "id": "6def7c05-31a6-4a4c-a8b0-dfe780489c07",
-      "slug": "marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-kjk8tv",
+      "slug": "marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-4wyjd5",
       "name": "מארז מיקס בא לי לטעום הכל – Warrior Crunch ו-Warrior RAW | 12 חטיפי חלבון דלי סוכר בטעמים שונים",
       "name_translations": {},
-      "description": "<p>💪 <strong>בא לי לטעום הכל!</strong> מארז מיקס של 12 חטיפי חלבון Warrior – שילוב של Warrior Crunch הפריכים ו-Warrior RAW.</p><p></p><p>* הרכב הטעמים במארז משתנה בהתאם למלאי.</p>",
+      "description": "<p><strong>💪 בא לי לטעום הכל!</strong> מארז מיקס של 12 חטיפי חלבון Warrior – שילוב של Warrior Crunch הפריכים ושל Warrior RAW הרכים על בסיס שיבולת שועל. כל החטיפים עם 20 גרם חלבון ודלים בסוכר.</p><p></p><p></p><p></p><p>חטיפי Warrior RAW מכילים ג&#39;לטין ואינם מתאימים לצמחונים ולטבעונים. המוצרים מכילים רב-כהלים – צריכה מופרזת עלולה לגרום להשפעה משלשלת.</p><p><em>* הרכב הטעמים במארז משתנה בהתאם למלאי. המארז כולל 12 יחידות מתוך הטעמים שברשימה.</em></p><p><em>*המידע בנוגע לערכים התזונתיים נמסר לנוחותכם בלבד ונלקח מדפי המוצרים באתר. הנתונים המחייבים הם אלה שעל גבי האריזה. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</em></p><p><em>*התמונות להמחשה בלבד.</em></p>",
       "short_description": "12 חטיפי חלבון Warrior בטעמים שונים – שילוב של Warrior Crunch הפריכים ו-Warrior RAW, 20 גרם חלבון בכל חטיף.",
       "sku": "MIX-WARRIOR-12",
       "brand": "Warrior",
@@ -1213,15 +1213,28 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://proteinstock.co.il/assets/product-1793814591757-akc77.webp"
+        "https://proteinstock.co.il/assets/product-1793814591757-akc77.webp",
+        "https://proteinstock.co.il/assets/product-1793816123181-wm5ojp.webp",
+        "https://proteinstock.co.il/assets/product-1793816131334-3krik.webp",
+        "https://proteinstock.co.il/assets/product-1793816139798-9k8kq.webp",
+        "https://proteinstock.co.il/assets/product-1793816148117-2pli9q.webp",
+        "https://proteinstock.co.il/assets/product-1793816157898-hz7goe.webp",
+        "https://proteinstock.co.il/assets/product-1793816165017-bkbkbm.webp",
+        "https://proteinstock.co.il/assets/product-1793816173911-05ezu7.webp",
+        "https://proteinstock.co.il/assets/product-1793816181075-j2s1bg.webp",
+        "https://proteinstock.co.il/assets/product-1793816189013-hyumss.webp",
+        "https://proteinstock.co.il/assets/product-1793816197164-eiybvr.webp",
+        "https://proteinstock.co.il/assets/product-1793816206127-c3ylio.webp",
+        "https://proteinstock.co.il/assets/product-1793816214106-b8b4o.webp",
+        "https://proteinstock.co.il/assets/product-1793816221957-pc2kqk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-kjk8tv",
+      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-4wyjd5",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T17:50:03.360Z"
+      "updated_at": "2026-11-04T18:17:42.291Z"
     },
     {
       "id": "8c97ae4c-22c1-4ac8-9af2-4d9cfe5cffa2",
