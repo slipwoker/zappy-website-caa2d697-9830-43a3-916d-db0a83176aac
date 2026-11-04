@@ -1620,6 +1620,141 @@ Description: המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+טוען מוצרים...
+
+
+
+
+
+
+
+
+
+
+
+
+
 יעד הפרימיום שלך לתוספי תזונה איכותיים, מותגים מיובאים ושירות מקצועי. אצלנו תמצאו את כל מה שאתם צריכים כדי להגיע לשיא הביצועים.
 
 
@@ -4233,6 +4368,8 @@ Description: מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
 
 
+
+טוען מוצרים...
 
 
 
@@ -7833,13 +7970,13 @@ Brand: MARS
 ---
 
 ### מארז מיקס בא לי לטעום הכל – Snickers, Mars ו-M&M's Hi Protein | 12 חטיפים ועוגיות חלבון בטעמים שונים
-URL: https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-x4y5fr
+URL: https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-mmf6wx
 Price: 170.00 ILS
 Availability: In stock
 SKU: MIX-SNICKERS-MARS-MMS-12
 Brand: Snickers / Mars / M&M's
 
-🍫 בא לי לטעום הכל! מארז מיקס של 12 חטיפים ועוגיות חלבון מהמותגים האהובים – Snickers Hi Protein, Mars Hi Protein ו-M&amp;M&#39;s Hi Protein. * הרכב הטעמים במארז משתנה בהתאם למלאי.
+🍫 בא לי לטעום הכל! מארז מיקס של 12 חטיפים ועוגיות חלבון מהמותגים האהובים – Snickers Hi Protein, Mars Hi Protein ו-M&amp;M&#39;s Hi Protein. הדרך הכי טובה להכיר את כל הטעמים ולמצוא את המועדף עליכם, במארז אחד. * הרכב הטעמים במארז משתנה בהתאם למלאי. המארז כולל 12 יחידות מתוך הטעמים שברשימה. *המידע בנוגע לערכים התזונתיים נמסר לנוחותכם בלבד ונלקח מדפי המוצרים באתר. הנתונים המחייבים הם אלה שעל גבי האריזה. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה. *התמונות להמחשה בלבד.
 
 ---
 

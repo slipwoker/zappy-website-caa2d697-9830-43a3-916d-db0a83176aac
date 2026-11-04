@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-04T17:54:33.824Z",
+  "generated_at": "2026-11-04T18:14:26.276Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -138,10 +138,10 @@
     },
     {
       "id": "34083824-2f3e-43f9-b670-dbe381f2b1fb",
-      "slug": "marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-x4y5fr",
+      "slug": "marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-mmf6wx",
       "name": "מארז מיקס בא לי לטעום הכל – Snickers, Mars ו-M&M's Hi Protein | 12 חטיפים ועוגיות חלבון בטעמים שונים",
       "name_translations": {},
-      "description": "<p>🍫 <strong>בא לי לטעום הכל!</strong> מארז מיקס של 12 חטיפים ועוגיות חלבון מהמותגים האהובים – Snickers Hi Protein, Mars Hi Protein ו-M&amp;M&#39;s Hi Protein.</p><p></p><p>* הרכב הטעמים במארז משתנה בהתאם למלאי.</p>",
+      "description": "<p><strong>🍫 בא לי לטעום הכל!</strong> מארז מיקס של 12 חטיפים ועוגיות חלבון מהמותגים האהובים – Snickers Hi Protein, Mars Hi Protein ו-M&amp;M&#39;s Hi Protein. הדרך הכי טובה להכיר את כל הטעמים ולמצוא את המועדף עליכם, במארז אחד.</p><p></p><p></p><p></p><p><em>* הרכב הטעמים במארז משתנה בהתאם למלאי. המארז כולל 12 יחידות מתוך הטעמים שברשימה.</em></p><p><em>*המידע בנוגע לערכים התזונתיים נמסר לנוחותכם בלבד ונלקח מדפי המוצרים באתר. הנתונים המחייבים הם אלה שעל גבי האריזה. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</em></p><p><em>*התמונות להמחשה בלבד.</em></p>",
       "short_description": "12 חטיפים ועוגיות חלבון של Snickers, Mars ו-M&M's בטעמים שונים במארז אחד – הדרך הכי טעימה לגלות את הטעם האהוב עליכם.",
       "sku": "MIX-SNICKERS-MARS-MMS-12",
       "brand": "Snickers / Mars / M&M's",
@@ -150,15 +150,24 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://proteinstock.co.il/assets/product-1793814425346-ntn51l.webp"
+        "https://proteinstock.co.il/assets/product-1793814425346-ntn51l.webp",
+        "https://proteinstock.co.il/assets/product-1793815920928-fjn7xh.webp",
+        "https://proteinstock.co.il/assets/product-1793815929458-ncv6sl.webp",
+        "https://proteinstock.co.il/assets/product-1793815937423-e66dgj.webp",
+        "https://proteinstock.co.il/assets/product-1793815945248-g3cwjq.webp",
+        "https://proteinstock.co.il/assets/product-1793815954283-yz0b6.webp",
+        "https://proteinstock.co.il/assets/product-1793815961506-jpi4m.webp",
+        "https://proteinstock.co.il/assets/product-1793815972042-hz4gkn.webp",
+        "https://proteinstock.co.il/assets/product-1793815979197-3z48r.webp",
+        "https://proteinstock.co.il/assets/product-1793815986494-at9qub.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-x4y5fr",
+      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-mmf6wx",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T17:47:25.883Z"
+      "updated_at": "2026-11-04T18:13:52.373Z"
     },
     {
       "id": "1957a94e-129e-4ab7-9fe2-12a7b1c406f5",
