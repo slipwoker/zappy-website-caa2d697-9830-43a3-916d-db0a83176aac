@@ -547,15 +547,15 @@ https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high
 - Description: חטיף החלבון שלוקח את בצק העוגיות עם שוקולד הצ'יפס האהוב והופך אותו לחוויה פריכה ורב-שכבתית. ליבת בצק רכה, קריספיז חלבון פריכים וציפוי שוקולד חלב עם קישוט שוקולד לבן — 20 גרם חלבון ורק 2.3 גרם סוכר בכל חטיף.
 - Image: https://proteinstock.co.il/assets/product-1786269097034-gkbrn.webp
 
-### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם באנופי פאי — בננה, טופי, שמנת ושוקולד (Banoffee Pie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior (Copy)
-https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-banvpy-pay-bnnh-tvpy-shmnt-vshvkvld-banoffee-pie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-copy-0vksey
+### מארז מיקס בא לי לטעום הכל – Warrior Crunch ו-Warrior RAW | 12 חטיפי חלבון דלי סוכר בטעמים שונים
+https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-kjk8tv
 - Price: 169.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
-- SKU: 5060424708062-COPY
+- SKU: MIX-WARRIOR-12
 - Brand: Warrior
-- Description: Warrior Crunch — באנופי פאי | חטיף חלבון פריך 64 גרם Warrior לקחו את קינוח הבאנופי פאי הבריטי הקלאסי — בננה, טופי, שמנת ושוקולד — והפכו אותו לחטיף חלבון רב-שכבתי ופריך שנשבר בין השיניים בכל ביס. מתחת לציפוי השוקולד הלבן הקרמי מסתתרות שכבת קרמל טופי גועשת, קריספי חלבון פריכים ופתיתי בננה אמיתית. טעם של פינוק יוקרתי — עם 20 גרם חלבון ורק 2.6 גרם סוכר בכל חטיף. מושלם לפני אימון או אחריו, כחטיף ביניים משביע, או פשוט כשמתחשק משהו מתוק בלי לצאת מהמסלול. למה תאהבו אותו: ✔ 20 גרם חלבון בכל חטיף — כמעט כ…
-- Image: https://proteinstock.co.il/assets/product-1786269470152-kp03nf.webp
+- Description: 12 חטיפי חלבון Warrior בטעמים שונים – שילוב של Warrior Crunch הפריכים ו-Warrior RAW, 20 גרם חלבון בכל חטיף.
+- Image: https://proteinstock.co.il/assets/product-1793814591757-akc77.webp
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם באנופי פאי — בננה, טופי, שמנת ושוקולד (Banoffee Pie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-banvpy-pay-bnnh-tvpy-shmnt-vshvkvld-banoffee-pie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-px79r0
