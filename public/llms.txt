@@ -96,7 +96,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 78**
+**Total active products: 79**
 
 ### חטיף חלבון סניקרס דל סוכר SNICKERS HI PROTEIN LOW SUGAR בטעם אגוזי לוז (Hazelnut) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
 https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fr050l
@@ -147,6 +147,16 @@ https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam
 - Brand: MARS
 - Description: עוגיית חלבון רכה ואפויה בטעם קרמל מלוח — עם שבבי שוקולד חלב וחתיכות קרמל פאדג', ונגיעת מלח שמאזנת את המתיקות. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 232 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך.
 - Image: https://proteinstock.co.il/assets/product-1785841793248-ewbgwm.webp
+
+### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות  (Copy)
+https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-copy-2cslw3
+- Price: 168.00 ILS (sale, was 179.00 ILS)
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: 5056357999301-COPY
+- Brand: M&Ms
+- Description: מארז 12 חטיפי חלבון M&amp;M&#39;s Hi Protein בטעם שוקולד | 15 גרם חלבון בכל חטיף אוהבים את הטעם הקלאסי של M&amp;M&#39;s ? עכשיו אפשר ליהנות ממנו גם בגרסת חלבון מפנקת. מארז 12 חטיפי M&amp;M&#39;s Hi Protein משלב את השוקולד האייקוני עם סוכריות M&amp;M&#39;s הצבעוניות, לצד 15 גרם חלבון איכותי בכל חטיף – שילוב מושלם בין פינוק לערכים תזונתיים. כל חטיף שוקל 51 גרם ומספק 192 קלוריות , מה שהופך אותו לאופציה מצוינת לנשנוש בין הארוחות, לאחר אימון או בכל פעם שמתחשק משהו מתוק ועשיר בחלבון. תערובת החלבונים מ…
+- Image: https://proteinstock.co.il/assets/product-1785841614891-44o6zv.webp
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
 https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-fi44fr
