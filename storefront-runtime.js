@@ -16039,6 +16039,39 @@ async function loadRelatedProducts(currentProduct, t) {
     
 /* ZAPPY_INTEGRATION_END unknown:setup_contact_form_emails */
 
+/* ZAPPY_CUSTOM_JS_START:61259724392d */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  if (!document || !document.head) return;
+  if (document.getElementById('ps-mobile-fixes')) return;
+
+  var css = '.ui-dialog:has(#_atPopupSU){z-index:2147483000!important;position:fixed!important;top:2vh!important;max-height:96vh!important;overflow-y:auto!important;overflow-x:hidden!important;-webkit-overflow-scrolling:touch}' +
+    '.ui-widget-overlay{z-index:2147482999!important}' +
+    '.ui-dialog:has(#_atPopupSU) .p-close-btn{position:absolute!important;top:8px!important;right:8px!important;left:auto!important;z-index:5!important;cursor:pointer;background-color:#fff!important;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.45)}' +
+    '@media (max-width:700px){.ui-dialog:has(#_atPopupSU){width:94vw!important;left:3vw!important;right:auto!important}}' +
+    '@media (max-width:900px){.ps-hero__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.70) 100%);pointer-events:none}' +
+    '.ps-hero__content .ps-hero__subtitle,.ps-hero__content .ps-hero__trust{background:rgba(12,14,22,.72);border-radius:14px;padding:10px 14px}}' +
+    '.ps-hero__title,.ps-hero__subtitle,.ps-hero__trust{text-shadow:0 2px 8px rgba(0,0,0,.85)}';
+
+  var style = document.createElement('style');
+  style.id = 'ps-mobile-fixes';
+  style.appendChild(document.createTextNode(css));
+  document.head.appendChild(style);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:61259724392d */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
