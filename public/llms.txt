@@ -98,6 +98,26 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 80**
 
+### מארז מיקס בא לי לטעום הכל – Snickers, Mars ו-M&M's Hi Protein | 12 חטיפים ועוגיות חלבון בטעמים שונים
+https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-ie2fdb
+- Price: 170.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: MIX-SNICKERS-MARS-MMS-12
+- Brand: Snickers / Mars / M&M's
+- Description: 12 חטיפים ועוגיות חלבון של Snickers, Mars ו-M&M's בטעמים שונים במארז אחד – הדרך הכי טעימה לגלות את הטעם האהוב עליכם.
+- Image: https://proteinstock.co.il/assets/product-1793814425346-ntn51l.webp
+
+### מארז מיקס בא לי לטעום הכל – Warrior Crunch ו-Warrior RAW | 12 חטיפי חלבון דלי סוכר בטעמים שונים
+https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-4wyjd5
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חטיפי חלבון
+- SKU: MIX-WARRIOR-12
+- Brand: Warrior
+- Description: 12 חטיפי חלבון Warrior בטעמים שונים – שילוב של Warrior Crunch הפריכים ו-Warrior RAW, 20 גרם חלבון בכל חטיף.
+- Image: https://proteinstock.co.il/assets/product-1793814591757-akc77.webp
+
 ### חטיף חלבון סניקרס דל סוכר SNICKERS HI PROTEIN LOW SUGAR בטעם אגוזי לוז (Hazelnut) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
 https://proteinstock.co.il/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fr050l
 - Price: 170.00 ILS
@@ -147,16 +167,6 @@ https://proteinstock.co.il/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam
 - Brand: MARS
 - Description: עוגיית חלבון רכה ואפויה בטעם קרמל מלוח — עם שבבי שוקולד חלב וחתיכות קרמל פאדג', ונגיעת מלח שמאזנת את המתיקות. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 232 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך.
 - Image: https://proteinstock.co.il/assets/product-1785841793248-ewbgwm.webp
-
-### מארז מיקס בא לי לטעום הכל – Snickers, Mars ו-M&M's Hi Protein | 12 חטיפים ועוגיות חלבון בטעמים שונים
-https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-mmf6wx
-- Price: 170.00 ILS
-- Availability: In stock
-- Category: חטיפי חלבון
-- SKU: MIX-SNICKERS-MARS-MMS-12
-- Brand: Snickers / Mars / M&M's
-- Description: 12 חטיפים ועוגיות חלבון של Snickers, Mars ו-M&M's בטעמים שונים במארז אחד – הדרך הכי טעימה לגלות את הטעם האהוב עליכם.
-- Image: https://proteinstock.co.il/assets/product-1793814425346-ntn51l.webp
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
 https://proteinstock.co.il/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-fi44fr
@@ -546,16 +556,6 @@ https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high
 - Brand: Warrior 
 - Description: חטיף החלבון שלוקח את בצק העוגיות עם שוקולד הצ'יפס האהוב והופך אותו לחוויה פריכה ורב-שכבתית. ליבת בצק רכה, קריספיז חלבון פריכים וציפוי שוקולד חלב עם קישוט שוקולד לבן — 20 גרם חלבון ורק 2.3 גרם סוכר בכל חטיף.
 - Image: https://proteinstock.co.il/assets/product-1786269097034-gkbrn.webp
-
-### מארז מיקס בא לי לטעום הכל – Warrior Crunch ו-Warrior RAW | 12 חטיפי חלבון דלי סוכר בטעמים שונים
-https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-warrior-crunch-v-warrior-raw-12-chtypy-chlbvn-dly-svkr-btamym-shvnym-4wyjd5
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: חטיפי חלבון
-- SKU: MIX-WARRIOR-12
-- Brand: Warrior
-- Description: 12 חטיפי חלבון Warrior בטעמים שונים – שילוב של Warrior Crunch הפריכים ו-Warrior RAW, 20 גרם חלבון בכל חטיף.
-- Image: https://proteinstock.co.il/assets/product-1793814591757-akc77.webp
 
 ### חטיף חלבון פריך דל סוכר WARRIOR CRUNCH HIGH PROTEIN LOW SUGAR בטעם באנופי פאי — בננה, טופי, שמנת ושוקולד (Banoffee Pie) | 64 גרם | 20 גרם חלבון | 12 יחידות במארז | Warrior
 https://proteinstock.co.il/product/chtyp-chlbvn-pryk-dl-svkr-warrior-crunch-high-protein-low-sugar-btam-banvpy-pay-bnnh-tvpy-shmnt-vshvkvld-banoffee-pie-64-grm-20-grm-chlbvn-12-ychydvt-bmarz-warrior-px79r0
