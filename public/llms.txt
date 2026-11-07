@@ -18,41 +18,40 @@ https://proteinstock.co.il/why-protein-stock
 https://proteinstock.co.il/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
-### Products
+### מוצרים
 https://proteinstock.co.il/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
-### Cart
+### עגלת קניות
 https://proteinstock.co.il/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://proteinstock.co.il/checkout
 תשלום
 
-### Login
+### התחברות
 https://proteinstock.co.il/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://proteinstock.co.il/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://proteinstock.co.il/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://proteinstock.co.il/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
-### Category
+### מוצרים
 https://proteinstock.co.il/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
-### דבר איתנו וקבל ייעוץ על אבקות חלבון — פרוטאין סטוק - PROTEIN STOCK
-https://proteinstock.co.il/contact
-יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
+### Page
+https://proteinstock.co.il/newsletter
 
 ### Page
 https://proteinstock.co.il/articles
@@ -60,7 +59,7 @@ https://proteinstock.co.il/articles
 ### Page
 https://proteinstock.co.il/kmh-chlbvn-mvmlts-ltsrvk-byvm
 
-### קריאטין: מה הוא עושה, כמה לו...
+### Page
 https://proteinstock.co.il/kryatyn-mh-hva-avshh-kmh-lv
 
 ### Page
@@ -74,12 +73,13 @@ https://proteinstock.co.il/transaction-cancellation
 https://proteinstock.co.il/shipping-policy
 משלוח עם שליח עד הבית ב-35 ₪, חינם בהזמנה מעל 500 ₪. אספקה עד 13 ימי עסקים, בדרך כלל 1-3 ימים. איסוף עצמי בראשון לציון בתיאום מראש.
 
-### לעסקים
+### פרוטאין סטוק לעסקים: חדרי כושר וסיטונאים
 https://proteinstock.co.il/business-wholesale
 פרוטאין סטוק - PROTEIN STOCK - פרוטאין סטוק לעסקים: חדרי כושר וסיטונאים
 
-### Page
-https://proteinstock.co.il/newsletter
+### דבר איתנו וקבל ייעוץ על אבקות חלבון — פרוטאין סטוק - PROTEIN STOCK
+https://proteinstock.co.il/contact
+יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
 ## Legal & Policy
 
