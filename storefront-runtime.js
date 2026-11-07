@@ -16072,6 +16072,114 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:61259724392d */
 
+/* ZAPPY_CUSTOM_JS_START:44b651a909c4 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  var AT_USER_ID = 'x3dfxjsap2s8';
+  var AT_POPUP_ID = 'dfedp2wp';
+  var AT_LOADER = 'cdn-media.web-view.net/popups/lib/v1/loader.min.js';
+
+  // Decide ONCE whether the popup should load this visit.
+  function resolve() {
+    try {
+      if (window.location && window.location.pathname && window.location.pathname.indexOf('/newsletter') === 0) {
+        return false;
+      }
+    } catch (e) { /* ignore */ }
+
+    var flagged = false;
+    try {
+      flagged = (sessionStorage.getItem('ps_nl_popup') === '1');
+    } catch (e) {
+      // sessionStorage throws → behave as today (load).
+      return true;
+    }
+
+    if (flagged) {
+      return false;
+    }
+
+    try {
+      sessionStorage.setItem('ps_nl_popup', '1');
+    } catch (e) { /* ignore */ }
+
+    return true;
+  }
+
+  var ALLOWED = resolve();
+
+  function neutralize() {
+    var q = window._atpopq;
+    if (!q || typeof q.push !== 'function') return;
+    var wrapped = [];
+    wrapped.push = function (cmd) {
+      var name = (cmd && cmd[0]) || '';
+      if (name === 'load' || name === 'init' || name === 'userId' || name === 'popupId') {
+        return 0;
+      }
+      return q.push(cmd);
+    };
+    try { window._atpopq = wrapped; } catch (e) {}
+  }
+
+  // Block the queue before ActiveTrail's loader command executes.
+  function intercept() {
+    if (ALLOWED) return;
+
+    neutralize();
+    // Also remove/neutralize any loader script that may exist.
+    try {
+      var nodes = document.querySelectorAll('script[src*="' + AT_LOADER + '"]');
+      for (var i = 0; i < nodes.length; i++) {
+        if (nodes[i].parentNode) nodes[i].parentNode.removeChild(nodes[i]);
+      }
+    } catch (e) {}
+  }
+
+  function load() {
+    if (!ALLOWED) {
+      intercept();
+      return;
+    }
+    // Allowed: ensure the loader is injected once, exactly as ActiveTrail does.
+    try {
+      if (document.querySelector('script[src*="' + AT_LOADER + '"]')) return;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://' + AT_LOADER;
+      s.setAttribute('data-user-id', AT_USER_ID);
+      s.setAttribute('data-popup-id', AT_POPUP_ID);
+      document.head.appendChild(s);
+    } catch (e) {
+      // Fall back to the queue so ActiveTrail can still init if it manages its own loader.
+      try { if (window._atpopq && window._atpopq.push) window._atpopq.push(['load']); } catch (e2) {}
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', load);
+    // Also intercept early in case ActiveTrail's inline loader runs first.
+    document.addEventListener('DOMContentLoaded', intercept);
+  } else {
+    intercept();
+    load();
+  }
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:44b651a909c4 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
