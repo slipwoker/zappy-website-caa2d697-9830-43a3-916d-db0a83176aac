@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T16:06:51.247Z",
+  "generated_at": "2026-11-07T17:48:42.383Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -73,7 +73,7 @@
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T18:20:51.503Z"
+      "updated_at": "2026-11-07T17:48:07.216Z"
     },
     {
       "id": "99a778cf-9162-4a1d-b75d-516405b63ad1",
@@ -257,7 +257,7 @@
         "משקאות חלבון",
         "מעל 20 גרם חלבון"
       ],
-      "updated_at": "2026-11-04T18:18:29.590Z"
+      "updated_at": "2026-11-07T17:48:07.338Z"
     },
     {
       "id": "e0e1e8a4-171c-446c-af04-fec647bc25bc",
@@ -386,7 +386,7 @@
       "categories": [
         "קריאטין ותוספי תזונה"
       ],
-      "updated_at": "2026-11-04T18:18:29.590Z"
+      "updated_at": "2026-11-07T17:48:07.459Z"
     },
     {
       "id": "f5f92b8a-296a-40b2-b0a8-fc44d7391872",
