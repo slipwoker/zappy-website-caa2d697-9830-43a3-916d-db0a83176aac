@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T19:48:12.450Z",
+  "generated_at": "2026-11-08T07:06:29.219Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -544,7 +544,7 @@
       "categories": [
         "משקאות אנרגיה"
       ],
-      "updated_at": "2026-11-05T10:54:10.089Z"
+      "updated_at": "2026-11-08T07:05:54.162Z"
     },
     {
       "id": "54205a80-6ca5-45d1-82fd-9d2ff16d54c6",
