@@ -16180,6 +16180,23 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:44b651a909c4 */
 
+/* ZAPPY_CUSTOM_JS_START:42fbb78b9735 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () { var MAP = { checkout_complete: 'CompletePayment', purchase: 'CompletePayment', checkout_started: 'InitiateCheckout', begin_checkout: 'InitiateCheckout', add_to_cart: 'AddToCart', view_product: 'ViewContent' }; var queue = []; function ready() { return !!(window.ttq && window.__ttqLoaded && typeof window.ttq.track === 'function'); } function flush() { while (ready() && queue.length) { var q = queue.shift(); try { window.ttq.track(q[0], q[1]); } catch (e) {} } } function send(name, a) { var ev = MAP[name]; if (!ev) return; a = a || {}; var p = { value: parseFloat(a.value != null ? a.value : (a.total != null ? a.total : 0)) || 0, currency: String(a.currency || 'ILS').toUpperCase(), content_type: 'product' }; var pid = a.productId || a.product_id; if (pid) p.content_id = String(pid); if (ev === 'CompletePayment') { var id = String(a.orderId || a.order_id || a.transaction_id || a.orderNumber || ''); if (id) { var k = 'ps_tt_order_' + id; try { if (window.sessionStorage.getItem(k)) return; window.sessionStorage.setItem(k, '1'); } catch (e) {} p.order_id = id; } } queue.push([ev, p]); flush(); } function wrap() { var f = window.zappyFireMarketingEvent; if (!f) return false; if (f.__psTikTok) return true; var g = function (name, a) { try { send(name, a); } catch (e) {} return f.apply(this, arguments); }; g.__psTikTok = true; window.zappyFireMarketingEvent = g; return true; } var n = 0; var t = setInterval(function () { n++; var ok = wrap(); flush(); if ((ok && !queue.length && n > 4) || n > 120) clearInterval(t); }, 500); wrap(); })();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:42fbb78b9735 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
@@ -17424,7 +17441,7 @@ async function loadRelatedProducts(currentProduct, t) {
       }
     }
 
-    // /* ZAPPY_NAV_MOBILE_FOLLOWS_HAMBURGER_V5 */
+    // /* ZAPPY_NAV_MOBILE_FOLLOWS_HAMBURGER_V6 */
     function isDesktopNav() {
       var shown = hamburgerShown();
       if (shown === true) return false;
@@ -17453,14 +17470,57 @@ async function loadRelatedProducts(currentProduct, t) {
       } catch (e) {}
     }
 
+    // A phone with no <meta name="viewport"> lays out around 980px and then
+    // scales the page down. min-width:769px is true there, so a desktop-row
+    // rule paints every nav link into one crushed bar. Real desktop windows
+    // still get that row. Phones keep the hamburger.
+    function isPhoneLayout() {
+      try {
+        var nav = window.navigator;
+        var ua = (nav && nav.userAgent) || '';
+        if (/iPhone|iPod|Android.+Mobile|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua)) return true;
+        if (/Mobile/.test(ua) && /CriOS|FxiOS|EdgiOS/.test(ua)) return true;
+        var vv = window.visualViewport;
+        if (vv && typeof vv.scale === 'number' && vv.scale > 0 && vv.scale < 0.85) return true;
+        var screenObj = window.screen;
+        var shortSide = screenObj ? Math.min(screenObj.width || 0, screenObj.height || 0) : 0;
+        if (nav && nav.maxTouchPoints > 0 && shortSide > 0 && shortSide <= 500) return true;
+      } catch (e) {}
+      return false;
+    }
+
+    function ensureViewportMeta() {
+      try {
+        var existing = document.querySelector ? document.querySelector('meta[name="viewport"]') : null;
+        if (existing && String(existing.tagName || '').toLowerCase() === 'meta') return;
+        if (!document.createElement) return;
+        var meta = document.createElement('meta');
+        if (meta.setAttribute) {
+          meta.setAttribute('name', 'viewport');
+          meta.setAttribute('content', 'width=device-width, initial-scale=1');
+        }
+        var head = document.head || document.documentElement;
+        if (!head) return;
+        if (head.insertBefore) head.insertBefore(meta, head.firstChild || null);
+        else if (head.appendChild) head.appendChild(meta);
+      } catch (e) {}
+    }
+
     // A site stylesheet can keep the hamburger up past 768px (proces.co.il
     // uses 991px). That paints a phone icon, the logo, and a hamburger with
-    // the links hidden. Above the phone breakpoint the desktop row stays,
-    // and the More menu takes whatever does not fit.
+    // the links hidden. A desktop window above the phone breakpoint gets the
+    // desktop row, and the More menu takes whatever does not fit.
     function ensureDesktopRowCss() {
       try {
-        if (!document.getElementById || !document.createElement) return;
-        if (document.getElementById('zappy-desktop-nav-row')) return;
+        if (!document.getElementById) return;
+        var existing = document.getElementById('zappy-desktop-nav-row');
+        if (isPhoneLayout()) {
+          if (existing && existing.parentNode && existing.parentNode.removeChild) {
+            existing.parentNode.removeChild(existing);
+          }
+          return;
+        }
+        if (existing || !document.createElement) return;
         var style = document.createElement('style');
         style.id = 'zappy-desktop-nav-row';
         // display:flex alone leaves a 991px drawer (fixed, column, full size)
@@ -17657,6 +17717,7 @@ async function loadRelatedProducts(currentProduct, t) {
     // Arm even when an older V3 already bound the hamburger. That copy
     // returns before this release exists; a second append must still undo
     // the desktop lock.
+    ensureViewportMeta();
     ensureDesktopRowCss();
     ensureDrawerCss();
     bindMobileToggleCapture();
@@ -18436,6 +18497,30 @@ function fixContrast(){
   } catch (e) {}
 })();
 /* END ZAPPY_CONTACT_FORM_PREVENT_DEFAULT */
+
+/* ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1 */
+(function(){
+  var marker = 'ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1';
+  function restore(root) {
+    if (!root || !root.querySelectorAll) return;
+    var labels = root.querySelectorAll('.privacy-consent-label');
+    for (var i = 0; i < labels.length; i++) {
+      var label = labels[i];
+      if (!label || (label.querySelector && label.querySelector('input[type="checkbox"]'))) continue;
+      var input = document.createElement('input');
+      input.type = 'checkbox';
+      input.name = 'privacy_consent';
+      input.className = 'privacy-consent-checkbox';
+      input.required = true;
+      input.setAttribute('data-zappy-consent', marker);
+      if (label.insertBefore) label.insertBefore(input, label.firstChild || null);
+    }
+  }
+  function arm() { restore(document); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', arm);
+  else arm();
+})();
+/* END ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1 */
 
 
 /* ZAPPY_PUBLISHED_GRID_CENTERING_V2 */
