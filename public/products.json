@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-09T09:29:13.298Z",
+  "generated_at": "2026-11-10T13:58:13.739Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -99,7 +99,7 @@
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T18:18:29.590Z"
+      "updated_at": "2026-11-10T13:57:40.249Z"
     },
     {
       "id": "725e5e60-7012-4915-8f70-76a3a53285e2",
@@ -1832,7 +1832,7 @@
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T18:18:29.590Z"
+      "updated_at": "2026-11-10T13:57:40.118Z"
     },
     {
       "id": "0981a16e-3146-44fc-b140-111e32fdb513",
@@ -1883,7 +1883,7 @@
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-04T18:18:29.590Z"
+      "updated_at": "2026-11-10T13:57:40.382Z"
     },
     {
       "id": "021fd3ba-3cc2-4678-bb2e-4b0a2581c82b",
