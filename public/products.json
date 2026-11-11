@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-11T15:35:13.674Z",
+  "generated_at": "2026-11-11T18:46:01.152Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
   "products": [
     {
       "id": "34083824-2f3e-43f9-b670-dbe381f2b1fb",
-      "slug": "marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-ie2fdb",
+      "slug": "marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-fkti9m",
       "name": "מארז מיקס בא לי לטעום הכל – Snickers, Mars ו-M&M's Hi Protein | 12 חטיפים ועוגיות חלבון בטעמים שונים",
       "name_translations": {},
       "description": "<p><strong>🍫 בא לי לטעום הכל!</strong> מארז מיקס של 12 חטיפים ועוגיות חלבון מהמותגים האהובים – Snickers Hi Protein, Mars Hi Protein ו-M&amp;M&#39;s Hi Protein. הדרך הכי טובה להכיר את כל הטעמים ולמצוא את המועדף עליכם, במארז אחד.</p><p>✔ 12 יחידות במארז – חטיפים ועוגיות בטעמים שונים</p><p>✔ 15–20 גרם חלבון בכל יחידה</p><p>✔ מתאים לפני או אחרי אימון, כנשנוש בין הארוחות או כמתנה</p><p><strong>הטעמים שיכולים להיות במארז והערכים של כל אחד (ליחידה)</strong></p><p>✔ <strong>Snickers Hi Protein Low Sugar – שוקולד לבן, בוטנים וקרמל (57 גרם)</strong> – 20 גרם חלבון | 2 גרם סוכר | 218 קלוריות | שומן 10 גרם</p><p>✔ <strong>Snickers Hi Protein Low Sugar – אגוזי לוז (57 גרם)</strong> – 20 גרם חלבון | 2 גרם סוכר | 221 קלוריות | שומן כ-11 גרם</p><p>✔ <strong>Snickers Hi Protein Low Sugar – שוקולד מריר (57 גרם)</strong> – 20 גרם חלבון | 1.1 גרם סוכר | 215 קלוריות | שומן 10 גרם</p><p>✔ <strong>Mars Hi Protein Low Sugar – שוקולד חלב, קרמל ונוגט (57 גרם)</strong> – 18 גרם חלבון | 1.7 גרם סוכר | 189 קלוריות | שומן 7.1 גרם</p><p>✔ <strong>Mars Hi Protein Low Sugar – שוקולד לבן קרמי</strong> – 18 גרם חלבון | 2 גרם סוכר</p><p>✔ <strong>M&amp;M&#39;s Hi Protein – שוקולד (51 גרם)</strong> – 15 גרם חלבון | 15 גרם סוכר | 192 קלוריות | שומן 5.5 גרם</p><p>✔ <strong>עוגיית Mars Hi Protein – קרמל מלוח (60 גרם)</strong> – 15 גרם חלבון | 13 גרם סוכר | 232 קלוריות | שומן 6.9 גרם</p><p>✔ <strong>עוגיית Snickers Hi Protein – שוקולד ובוטנים (60 גרם)</strong> – 15 גרם חלבון | 13 גרם סוכר | 250 קלוריות | שומן 9.6 גרם</p><p>✔ <strong>עוגיית Snickers Hi Protein – שוקולד לבן ובוטנים (60 גרם)</strong> – 15 גרם חלבון | 14 גרם סוכר | 245 קלוריות | שומן 9 גרם</p><p><em>* הרכב הטעמים במארז משתנה בהתאם למלאי. המארז כולל 12 יחידות מתוך הטעמים שברשימה.</em></p><p><em>*המידע בנוגע לערכים התזונתיים נמסר לנוחותכם בלבד ונלקח מדפי המוצרים באתר. הנתונים המחייבים הם אלה שעל גבי האריזה. יש לקרוא את התווית לפני השימוש, במיוחד במקרה של רגישות או אלרגיה.</em></p><p><em>*התמונות להמחשה בלבד.</em></p>",
@@ -32,11 +32,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-ie2fdb",
+      "url": "https://proteinstock.co.il/product/marz-myks-ba-ly-ltavm-hkl-snickers-mars-v-mms-hi-protein-12-chtypym-vavgyvt-chlbvn-btamym-shvnym-fkti9m",
       "categories": [
         "חטיפי חלבון"
       ],
-      "updated_at": "2026-11-11T04:02:40.321Z"
+      "updated_at": "2026-11-11T18:45:24.191Z"
     },
     {
       "id": "6def7c05-31a6-4a4c-a8b0-dfe780489c07",
