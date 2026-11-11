@@ -660,15 +660,15 @@ https://proteinstock.co.il/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-bt
 - Description: חטיף חלבון קטן ומפנק בטעם דונאט שוקולד מבית Muscle Moose — "דינקי" בגודלו אבל עם ליבת נוגט בטעם דונאט, שכבת קרמל, קריספיס וציפוי שוקולד חלב עם סוכריות צבעוניות. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, דל בסוכר (1.7 גרם בלבד) ועשיר בסיבים תזונתיים. נשנוש קומפקטי לכל מקום.
 - Image: https://proteinstock.co.il/assets/product-enhanced-1785051921622-9oe4l.webp
 
-### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד לבן ובוטנים (White Choc & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
-https://proteinstock.co.il/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ie0rsk
-- Price: 160.00 ILS
+### חטיף חלבון מיני Muscle Moose The Dinky בטעם שוקולד (Chocolate) | 35 גרם | 12 יחידות במארז | Muscle Moose
+https://proteinstock.co.il/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-shvkvld-chocolate-35-grm-12-ychydvt-bmarz-muscle-moose-dp9u4r
+- Price: 129.00 ILS
 - Availability: In stock
-- Category: עוגיות חלבון
-- SKU: 5056357999608
-- Brand: SNICKERS
-- Description: עוגיית חלבון רכה ואפויה בטעם שוקולד לבן ובוטנים — עם חתיכות שוקולד לבן קרמי, בוטנים קלויים, חמאת בוטנים וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 245 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך
-- Image: https://proteinstock.co.il/assets/product-1785048908976-ivz87.webp
+- Category: חטיפי חלבון
+- SKU: 5060642590180
+- Brand: Muscle Moose
+- Description: חטיף חלבון קטן ומפנק בטעם שוקולד מבית Muscle Moose — הגרסה הקטנה של סדרת חטיפי החלבון רבי השכבות של המותג. 35 גרם בחטיף, 12 חטיפים במארז. נשנוש קומפקטי לתיק, לעבודה או אחרי אימון.
+- Image: https://proteinstock.co.il/assets/product-1794424244672-gxphk.webp
 
 ### אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם קולה (Cola) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba
 https://proteinstock.co.il/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-qmwnsg
