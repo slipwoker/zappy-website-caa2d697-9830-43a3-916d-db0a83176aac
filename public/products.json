@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T17:50:30.850Z",
+  "generated_at": "2026-11-14T19:20:44.652Z",
   "base_url": "https://proteinstock.co.il",
   "currency": "ILS",
   "count": 80,
@@ -150,7 +150,7 @@
         "משקאות חלבון",
         "מעל 20 גרם חלבון"
       ],
-      "updated_at": "2026-11-11T19:20:56.777Z"
+      "updated_at": "2026-11-14T19:20:05.947Z"
     },
     {
       "id": "76da36e3-0bf5-48c1-99a9-9462a2f8ca2f",
