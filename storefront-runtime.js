@@ -16197,6 +16197,23 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:42fbb78b9735 */
 
+/* ZAPPY_CUSTOM_JS_START:0fa5339c5723 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+!function(){function e(){window.ttq||window.__ttqLoaded||!function(){try{return!(!window.CookieConsent||!window.CookieConsent.acceptedCategory("marketing"))}catch(e){return!1}}()||(!function(e,t,n){e.TiktokAnalyticsObject=n;var o=e[n]=e[n]||[];o.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],o.setAndDefer=function(e,t){e[t]=function(){e.push([t].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<o.methods.length;i++)o.setAndDefer(o,o.methods[i]);o.instance=function(e){for(var t=o._i[e]||[],n=0;n<o.methods.length;n++)o.setAndDefer(t,o.methods[n]);return t},o.load=function(e,i){var a="https://analytics.tiktok.com/i18n/pixel/events.js";o._i=o._i||{},o._i[e]=[],o._i[e]._u=a,o._t=o._t||{},o._t[e]=+new Date,o._o=o._o||{},o._o[e]=i||{};var c=t.createElement("script");c.async=!0,c.src=a+"?sdkid="+e+"&lib="+n;var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(c,r)},o.load("DBCB1TBC77U4J2JQ8DLG"),o.page()}(window,document,"ttq"),window.__ttqLoaded=!0)}setTimeout(e,3e3),["cc:onConsent","cc:onChange","cc:onFirstConsent"].forEach(function(t){window.addEventListener(t,function(){setTimeout(e,1500)})})}();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:0fa5339c5723 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
